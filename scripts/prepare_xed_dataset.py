@@ -6,7 +6,7 @@ import json
 # 1. Load Spanish projections
 rows = []
 
-with open("es-projections(1).tsv", encoding="utf-8") as f:
+with open("es-projections.tsv", encoding="utf-8") as f:
     for line in f:
         line = line.rstrip("\r\n")
 
@@ -23,7 +23,7 @@ print("Spanish labelled rows:", len(es))
 
 # 2. Load English-Spanish alignment pairs
 pairs = pd.read_csv(
-    "pairs-es(1).txt",
+    "pairs-es.txt",
     sep="\t",
     header=None,
     names=[
