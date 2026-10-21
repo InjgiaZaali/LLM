@@ -1,0 +1,7 @@
+{
+  "primary_model": "bigscience/mt0-small",
+  "secondary_model": "bigscience/mt0-base",
+  "language_1": "en",
+  "language_2": "es",
+  "seed": 42
+}
