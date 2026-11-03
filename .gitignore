@@ -1,0 +1,28 @@
+# Python environment and caches
+venv_llm/
+__pycache__/
+*.pyc
+
+# Hugging Face cache, model weights and adapters
+hf_cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Training outputs and checkpoints
+outputs/
+
+# Regenerated data copies
+data/formatted/
+
+# Secrets and tokens
+.env
+*.token
+
+# Logs and editor files
+*.log
+slurm-*.out
+.vscode/
+.ipynb_checkpoints/
