@@ -14,8 +14,9 @@ TRAIN=$2
 SEED=${3:-42}
 DEV=${4:-dev_en}
 
-source /projects/s6866301/setup_env.sh
-cd /projects/s6866301/LLM
+source /scratch/s6866301/setup_env.sh
+export HF_HUB_OFFLINE=1
+cd /scratch/s6866301/LLM
 
 OUT=outputs/${COND}_seed${SEED}
 python src/peft/train_lora.py \
