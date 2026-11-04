@@ -1,0 +1,955 @@
+id	lang	condition	model	seed	gold_labels	pred_labels	raw_output	malformed
+en/1965/59037/5735869.xml.gz::44	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1965/59037/5735869.xml.gz::98	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::169	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::175	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1965/59037/5735869.xml.gz::189	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::250	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::272	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1965/59037/5735869.xml.gz::294	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::330	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::333	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1965/59037/5735869.xml.gz::367	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::370	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::386	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::484	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::521	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::524	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::531	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::532	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1965/59037/5735869.xml.gz::546	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::554	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::573	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1965/59037/5735869.xml.gz::576	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::583	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1965/59037/5735869.xml.gz::603	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::634	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""surprise""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1965/59037/5735869.xml.gz::696	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::701	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1965/59037/5735869.xml.gz::720	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1965/59037/5735869.xml.gz::754	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1965/59037/5735869.xml.gz::763	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::776	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::780	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1965/59037/5735869.xml.gz::851	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::865	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""trust""]"	"[""trust""]"	0
+en/1965/59037/5735869.xml.gz::963	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::1029	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1965/59037/5735869.xml.gz::1031	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""fear"", ""sadness"", ""surprise""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1965/59037/5735869.xml.gz::1052	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1965/59037/5735869.xml.gz::1066	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::1108	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::1110	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100232/4438698.xml.gz::62	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::111	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::131	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::368	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::419	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100232/4438698.xml.gz::433	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100232/4438698.xml.gz::502	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::514	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::571	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::594	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::807	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::870	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::887	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1250	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1375	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1413	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100240/5865478.xml.gz::42	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100240/5865478.xml.gz::62	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100240/5865478.xml.gz::81	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100240/5865478.xml.gz::84	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100240/5865478.xml.gz::90	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100240/5865478.xml.gz::111	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100240/5865478.xml.gz::112	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100240/5865478.xml.gz::196	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100240/5865478.xml.gz::201	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100240/5865478.xml.gz::283	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100240/5865478.xml.gz::334	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100240/5865478.xml.gz::410	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100240/5865478.xml.gz::412	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100240/5865478.xml.gz::420	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100240/5865478.xml.gz::504	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100240/5865478.xml.gz::528	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100240/5865478.xml.gz::538	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100240/5865478.xml.gz::574	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100240/5865478.xml.gz::575	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100240/5865478.xml.gz::623	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100240/5865478.xml.gz::665	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100240/5865478.xml.gz::668	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100240/5865478.xml.gz::719	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100240/5865478.xml.gz::756	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100260/5855803.xml.gz::21	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::34	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::82	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::204	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::205	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100260/5855803.xml.gz::220	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::227	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""fear""]"	"[""anger"", ""fear""]"	0
+en/1990/100260/5855803.xml.gz::238	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::330	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100260/5855803.xml.gz::352	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100260/5855803.xml.gz::377	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::385	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100260/5855803.xml.gz::432	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::456	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::481	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::482	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::517	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100260/5855803.xml.gz::633	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100260/5855803.xml.gz::665	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::672	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100260/5855803.xml.gz::680	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::713	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::717	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::729	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::733	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::766	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::795	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100260/5855803.xml.gz::803	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::837	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100260/5855803.xml.gz::932	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::939	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::940	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::950	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::955	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::979	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::984	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100260/5855803.xml.gz::1034	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::1043	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::1084	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear"", ""surprise""]"	"[""anger"", ""fear""]"	"[""anger"", ""fear""]"	0
+en/1990/100260/5855803.xml.gz::1123	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::1139	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::1161	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::1184	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::1192	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100260/5855803.xml.gz::1217	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::1228	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::93	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100419/3464474.xml.gz::109	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100419/3464474.xml.gz::149	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::207	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100419/3464474.xml.gz::427	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100419/3464474.xml.gz::471	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100419/3464474.xml.gz::483	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100419/3464474.xml.gz::517	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::519	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::566	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::640	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::643	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::655	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::718	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::802	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::837	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::858	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100419/3464474.xml.gz::859	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::891	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::894	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::925	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::930	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::935	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100419/3464474.xml.gz::947	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::1044	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger"", ""fear""]"	"[""anger"", ""fear""]"	0
+en/1990/100419/3464474.xml.gz::1061	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::1085	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100419/3464474.xml.gz::1175	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::1219	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::1243	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::1248	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100419/3464474.xml.gz::1269	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::1273	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::1274	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::1290	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::1291	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100419/3464474.xml.gz::1293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100440/5203875.xml.gz::18	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100440/5203875.xml.gz::34	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100440/5203875.xml.gz::36	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100440/5203875.xml.gz::70	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::95	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::103	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::135	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100440/5203875.xml.gz::164	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::185	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::186	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::187	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::204	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::213	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100440/5203875.xml.gz::243	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100440/5203875.xml.gz::258	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""fear"", ""sadness""]"	"[""fear"", ""sadness""]"	0
+en/1990/100440/5203875.xml.gz::285	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100440/5203875.xml.gz::312	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::348	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::355	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100440/5203875.xml.gz::406	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::419	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100440/5203875.xml.gz::460	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100440/5203875.xml.gz::500	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::557	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100440/5203875.xml.gz::558	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100440/5203875.xml.gz::777	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::787	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100440/5203875.xml.gz::798	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100440/5203875.xml.gz::808	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100440/5203875.xml.gz::850	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::899	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::953	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100440/5203875.xml.gz::1002	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::1028	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100440/5203875.xml.gz::1036	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100440/5203875.xml.gz::1055	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100440/5203875.xml.gz::1099	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::1104	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100440/5203875.xml.gz::1153	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::1179	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100440/5203875.xml.gz::1205	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::1226	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100440/5203875.xml.gz::1248	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100440/5203875.xml.gz::1259	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100440/5203875.xml.gz::1260	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100440/5203875.xml.gz::1270	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100440/5203875.xml.gz::1292	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::1293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::1414	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100440/5203875.xml.gz::1418	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100449/7037913.xml.gz::30	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100449/7037913.xml.gz::121	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100449/7037913.xml.gz::164	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100449/7037913.xml.gz::194	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100449/7037913.xml.gz::207	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust"", ""fear""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100449/7037913.xml.gz::219	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100449/7037913.xml.gz::293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::298	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""surprise""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100449/7037913.xml.gz::301	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100449/7037913.xml.gz::324	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::330	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::335	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100449/7037913.xml.gz::348	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100449/7037913.xml.gz::422	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::430	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::580	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100449/7037913.xml.gz::603	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100449/7037913.xml.gz::630	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100449/7037913.xml.gz::678	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100449/7037913.xml.gz::689	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100449/7037913.xml.gz::722	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100449/7037913.xml.gz::755	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100449/7037913.xml.gz::815	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""sadness""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100449/7037913.xml.gz::821	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust"", ""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1000	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100449/7037913.xml.gz::1014	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100449/7037913.xml.gz::1045	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100449/7037913.xml.gz::1071	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1078	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100449/7037913.xml.gz::1151	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1167	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1178	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100449/7037913.xml.gz::1190	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation"", ""trust""]"	"[""anticipation"", ""trust""]"	0
+en/1990/100449/7037913.xml.gz::1224	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1254	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation"", ""trust""]"	"[""anticipation"", ""trust""]"	0
+en/1990/100449/7037913.xml.gz::1291	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100449/7037913.xml.gz::1305	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100449/7037913.xml.gz::1308	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100449/7037913.xml.gz::1354	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100449/7037913.xml.gz::1426	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1452	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1460	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1464	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100475/6654473.xml.gz::76	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::346	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""joy""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100475/6654473.xml.gz::438	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100475/6654473.xml.gz::543	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::583	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100475/6654473.xml.gz::617	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100475/6654473.xml.gz::758	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::788	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100475/6654473.xml.gz::950	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100475/6654473.xml.gz::1025	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::1040	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100475/6654473.xml.gz::1240	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100475/6654473.xml.gz::1252	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100475/6654473.xml.gz::1410	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::1579	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100475/6654473.xml.gz::1733	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::3	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::49	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100485/5439804.xml.gz::112	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::123	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100485/5439804.xml.gz::137	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100485/5439804.xml.gz::162	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100485/5439804.xml.gz::183	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::186	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100485/5439804.xml.gz::216	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::257	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100485/5439804.xml.gz::265	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::270	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100485/5439804.xml.gz::274	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""trust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100485/5439804.xml.gz::322	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100485/5439804.xml.gz::371	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100485/5439804.xml.gz::413	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::499	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100485/5439804.xml.gz::512	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::515	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::600	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100485/5439804.xml.gz::734	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::819	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100485/5439804.xml.gz::831	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100485/5439804.xml.gz::838	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::841	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100485/5439804.xml.gz::875	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100485/5439804.xml.gz::879	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100530/5988200.xml.gz::47	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::53	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::64	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100530/5988200.xml.gz::82	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::110	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::190	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100530/5988200.xml.gz::191	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::222	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100530/5988200.xml.gz::224	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100530/5988200.xml.gz::249	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100530/5988200.xml.gz::291	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100530/5988200.xml.gz::328	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::370	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100530/5988200.xml.gz::379	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100530/5988200.xml.gz::412	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::431	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100530/5988200.xml.gz::513	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::601	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100530/5988200.xml.gz::678	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::767	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100530/5988200.xml.gz::797	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100530/5988200.xml.gz::854	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100530/5988200.xml.gz::930	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::974	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100530/5988200.xml.gz::1018	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::1025	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100530/5988200.xml.gz::1083	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::1195	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100530/5988200.xml.gz::1246	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::1279	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100530/5988200.xml.gz::1303	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::1322	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::1340	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100530/5988200.xml.gz::1343	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::1394	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::1396	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::1452	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100530/5988200.xml.gz::1470	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100530/5988200.xml.gz::1498	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::1563	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100530/5988200.xml.gz::1642	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100530/5988200.xml.gz::1706	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100530/5988200.xml.gz::1730	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::180	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::205	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""sadness"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::214	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::288	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100602/7034324.xml.gz::541	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::572	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100602/7034324.xml.gz::599	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::611	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::677	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100602/7034324.xml.gz::699	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::712	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::723	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::766	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::788	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::793	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::865	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""sadness""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::930	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::961	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::964	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::966	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100602/7034324.xml.gz::988	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100602/7034324.xml.gz::1001	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::1074	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::1108	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::1154	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1965/59037/5735869.xml.gz::330	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::865	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""trust""]"	"[""trust""]"	0
+en/1965/59037/5735869.xml.gz::963	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1965/59037/5735869.xml.gz::1108	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::462	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100212/6364506.xml.gz::563	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::671	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100212/6364506.xml.gz::720	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::803	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::817	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100212/6364506.xml.gz::859	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100212/6364506.xml.gz::870	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::953	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100212/6364506.xml.gz::1122	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1155	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1178	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100212/6364506.xml.gz::1234	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1248	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100212/6364506.xml.gz::1282	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100212/6364506.xml.gz::1303	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1316	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1348	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1374	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1403	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1469	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1492	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100212/6364506.xml.gz::1493	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1511	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100212/6364506.xml.gz::1517	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100212/6364506.xml.gz::1524	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1526	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1545	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100212/6364506.xml.gz::1556	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100212/6364506.xml.gz::1666	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100212/6364506.xml.gz::462	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100212/6364506.xml.gz::563	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::720	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::817	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100212/6364506.xml.gz::907	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1234	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1303	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1348	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1374	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1469	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1492	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100212/6364506.xml.gz::1493	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1511	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100212/6364506.xml.gz::1517	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100212/6364506.xml.gz::1518	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100212/6364506.xml.gz::1524	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100212/6364506.xml.gz::1526	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100212/6364506.xml.gz::1545	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100212/6364506.xml.gz::1666	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100216/4306033.xml.gz::146	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100216/4306033.xml.gz::176	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::208	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100216/4306033.xml.gz::251	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100216/4306033.xml.gz::254	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100216/4306033.xml.gz::318	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100216/4306033.xml.gz::340	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::572	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100216/4306033.xml.gz::877	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100216/4306033.xml.gz::939	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100216/4306033.xml.gz::967	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100216/4306033.xml.gz::1051	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::1215	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::1221	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100216/4306033.xml.gz::1263	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100216/4306033.xml.gz::146	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100216/4306033.xml.gz::176	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::189	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100216/4306033.xml.gz::208	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100216/4306033.xml.gz::216	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::251	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100216/4306033.xml.gz::254	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100216/4306033.xml.gz::333	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100216/4306033.xml.gz::444	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""fear"", ""sadness""]"	"[""fear"", ""sadness""]"	0
+en/1990/100216/4306033.xml.gz::590	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""fear"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::734	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100216/4306033.xml.gz::1012	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100216/4306033.xml.gz::1016	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100216/4306033.xml.gz::1048	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100216/4306033.xml.gz::1215	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::23	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::129	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::143	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::149	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100224/4171489.xml.gz::315	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::427	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::501	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::661	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::993	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100224/4171489.xml.gz::1022	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1059	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1073	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100224/4171489.xml.gz::1091	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100224/4171489.xml.gz::1114	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1150	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1312	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100224/4171489.xml.gz::1340	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1400	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100224/4171489.xml.gz::1440	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100224/4171489.xml.gz::143	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::315	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::501	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::993	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100224/4171489.xml.gz::1022	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1073	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100224/4171489.xml.gz::1114	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1139	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1150	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1205	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100224/4171489.xml.gz::1312	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100224/4171489.xml.gz::1340	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1400	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100224/4171489.xml.gz::1440	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100224/4171489.xml.gz::129	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::143	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::149	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100224/4171489.xml.gz::1022	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1059	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1060	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1091	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100224/4171489.xml.gz::1139	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1150	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1267	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100224/4171489.xml.gz::1340	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100224/4171489.xml.gz::1400	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100232/4438698.xml.gz::62	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::100	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::131	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::433	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100232/4438698.xml.gz::502	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::514	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::571	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::594	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::807	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100232/4438698.xml.gz::887	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1250	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1375	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100232/4438698.xml.gz::1413	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100240/5865478.xml.gz::196	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100240/5865478.xml.gz::412	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100240/5865478.xml.gz::719	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100240/5865478.xml.gz::756	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100260/5855803.xml.gz::34	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::82	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::220	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::223	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100260/5855803.xml.gz::352	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100260/5855803.xml.gz::377	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::448	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::517	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100260/5855803.xml.gz::713	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::729	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100260/5855803.xml.gz::803	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100260/5855803.xml.gz::913	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::939	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::940	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::1139	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100260/5855803.xml.gz::1174	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100260/5855803.xml.gz::1196	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100260/5855803.xml.gz::1220	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::17	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100395/133488.xml.gz::34	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::67	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::171	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::250	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::372	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::420	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::524	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100395/133488.xml.gz::757	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""surprise""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100395/133488.xml.gz::973	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100395/133488.xml.gz::1015	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::1044	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100395/133488.xml.gz::1063	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100395/133488.xml.gz::1082	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::1095	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::1199	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100395/133488.xml.gz::1219	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100395/133488.xml.gz::1298	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::1469	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::1612	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::1614	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100395/133488.xml.gz::1622	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100395/133488.xml.gz::17	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100395/133488.xml.gz::34	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::67	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::126	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::171	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100395/133488.xml.gz::220	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::250	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::420	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::488	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100395/133488.xml.gz::517	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::524	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100395/133488.xml.gz::548	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::705	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::745	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100395/133488.xml.gz::757	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""surprise""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100395/133488.xml.gz::857	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness"", ""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100395/133488.xml.gz::936	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::973	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100395/133488.xml.gz::1015	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::1056	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::1063	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100395/133488.xml.gz::1082	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::1092	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::1121	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::1199	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100395/133488.xml.gz::1219	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100395/133488.xml.gz::1259	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::1298	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::1450	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100395/133488.xml.gz::1459	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100395/133488.xml.gz::1466	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::1469	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::1518	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::1530	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100395/133488.xml.gz::1543	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100395/133488.xml.gz::1586	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100395/133488.xml.gz::1612	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100395/133488.xml.gz::1614	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100395/133488.xml.gz::1622	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100395/133488.xml.gz::1634	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100395/133488.xml.gz::1652	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::9	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::55	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::167	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::225	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::258	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::338	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100405/4706696.xml.gz::349	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::507	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::532	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::624	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::628	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100405/4706696.xml.gz::708	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::1005	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::1019	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::1036	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100405/4706696.xml.gz::1066	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100405/4706696.xml.gz::1102	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::1139	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100405/4706696.xml.gz::1190	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100405/4706696.xml.gz::1193	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::1230	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::1231	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100405/4706696.xml.gz::1293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100405/4706696.xml.gz::1421	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::1586	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::1591	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100405/4706696.xml.gz::1597	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100405/4706696.xml.gz::1620	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100405/4706696.xml.gz::1656	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100405/4706696.xml.gz::1791	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100405/4706696.xml.gz::1845	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::1920	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::1985	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100405/4706696.xml.gz::2031	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100405/4706696.xml.gz::2033	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""fear"", ""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100405/4706696.xml.gz::2096	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::2124	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::1036	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100405/4706696.xml.gz::1293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100405/4706696.xml.gz::1586	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100405/4706696.xml.gz::1733	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100405/4706696.xml.gz::1845	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::1920	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100405/4706696.xml.gz::2033	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""fear"", ""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100419/3464474.xml.gz::97	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100419/3464474.xml.gz::207	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100419/3464474.xml.gz::237	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::339	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100419/3464474.xml.gz::357	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::517	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::519	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::566	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::655	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::718	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::802	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::994	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100419/3464474.xml.gz::1212	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100419/3464474.xml.gz::1243	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100419/3464474.xml.gz::1248	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100419/3464474.xml.gz::1290	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger"", ""fear""]"	"[""anger"", ""fear""]"	0
+en/1990/100419/3464474.xml.gz::1293	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100419/3464474.xml.gz::1338	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100442/5165018.xml.gz::12	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::13	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100442/5165018.xml.gz::62	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::189	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100442/5165018.xml.gz::234	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100442/5165018.xml.gz::344	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::354	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100442/5165018.xml.gz::419	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::428	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::445	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::474	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100442/5165018.xml.gz::575	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::580	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::590	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::594	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::619	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100442/5165018.xml.gz::636	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::677	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::701	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::825	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::873	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::881	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::899	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::954	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1009	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100442/5165018.xml.gz::1059	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1101	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""sadness"", ""trust""]"	"[""joy"", ""sadness""]"	"[""joy"", ""sadness""]"	0
+en/1990/100442/5165018.xml.gz::1125	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1189	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1214	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100442/5165018.xml.gz::1228	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1235	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1243	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1271	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1275	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1276	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1283	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1297	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1305	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1328	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1379	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100442/5165018.xml.gz::1403	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100442/5165018.xml.gz::1523	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1525	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100442/5165018.xml.gz::1553	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1606	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""sadness""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100442/5165018.xml.gz::1681	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1758	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100442/5165018.xml.gz::1799	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100442/5165018.xml.gz::1816	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1852	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1865	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anticipation"", ""trust""]"	"[""anticipation"", ""trust""]"	0
+en/1990/100442/5165018.xml.gz::1905	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1910	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1937	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1942	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100442/5165018.xml.gz::1996	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""disgust"", ""fear""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1998	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::2073	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::2078	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::2082	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::2083	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100442/5165018.xml.gz::13	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100442/5165018.xml.gz::189	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation"", ""joy""]"	"[""anticipation"", ""joy""]"	0
+en/1990/100442/5165018.xml.gz::234	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100442/5165018.xml.gz::344	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::419	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::428	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::445	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::474	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100442/5165018.xml.gz::575	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::580	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::590	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::594	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::619	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100442/5165018.xml.gz::636	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::701	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1424	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1523	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1525	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100442/5165018.xml.gz::1553	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::1606	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""sadness""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100442/5165018.xml.gz::1758	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100442/5165018.xml.gz::1799	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100442/5165018.xml.gz::1816	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1852	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1865	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anticipation"", ""trust""]"	"[""anticipation"", ""trust""]"	0
+en/1990/100442/5165018.xml.gz::1910	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1937	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::1996	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""disgust"", ""fear""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100442/5165018.xml.gz::1998	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::2073	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100442/5165018.xml.gz::2078	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100442/5165018.xml.gz::2082	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1224	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100449/7037913.xml.gz::1254	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation"", ""trust""]"	"[""anticipation"", ""trust""]"	0
+en/1990/100469/6936851.xml.gz::18	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::29	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100469/6936851.xml.gz::30	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100469/6936851.xml.gz::62	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::139	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100469/6936851.xml.gz::150	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::171	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::259	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::272	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100469/6936851.xml.gz::310	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100469/6936851.xml.gz::347	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100469/6936851.xml.gz::390	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100469/6936851.xml.gz::397	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100469/6936851.xml.gz::402	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger"", ""fear""]"	"[""anger"", ""fear""]"	0
+en/1990/100469/6936851.xml.gz::456	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100469/6936851.xml.gz::459	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100469/6936851.xml.gz::570	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100469/6936851.xml.gz::677	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100469/6936851.xml.gz::718	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100469/6936851.xml.gz::798	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::799	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::803	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear"", ""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100469/6936851.xml.gz::831	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::874	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100469/6936851.xml.gz::906	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::933	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::944	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100469/6936851.xml.gz::989	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100469/6936851.xml.gz::1011	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100469/6936851.xml.gz::1066	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100475/6654473.xml.gz::76	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::438	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100475/6654473.xml.gz::617	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100475/6654473.xml.gz::758	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::1025	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100475/6654473.xml.gz::1252	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100475/6654473.xml.gz::1579	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100485/5439804.xml.gz::49	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100485/5439804.xml.gz::112	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::216	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::515	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100485/5439804.xml.gz::600	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100485/5439804.xml.gz::841	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100502/4704610.xml.gz::93	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::100	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::140	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100502/4704610.xml.gz::154	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::169	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""fear"", ""sadness"", ""trust""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100502/4704610.xml.gz::235	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100502/4704610.xml.gz::278	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100502/4704610.xml.gz::280	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::292	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100502/4704610.xml.gz::324	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100502/4704610.xml.gz::478	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::571	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::708	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100502/4704610.xml.gz::711	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::768	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::795	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::800	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::814	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100502/4704610.xml.gz::842	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100502/4704610.xml.gz::848	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100502/4704610.xml.gz::873	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger"", ""anticipation""]"	"[""anger"", ""anticipation""]"	0
+en/1990/100502/4704610.xml.gz::874	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100502/4704610.xml.gz::883	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear"", ""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100502/4704610.xml.gz::974	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""fear"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::984	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100502/4704610.xml.gz::993	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100502/4704610.xml.gz::1009	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::1010	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::1031	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100502/4704610.xml.gz::1044	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100502/4704610.xml.gz::1085	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100502/4704610.xml.gz::1092	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100502/4704610.xml.gz::1132	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100507/4049754.xml.gz::43	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::195	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100507/4049754.xml.gz::254	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::278	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100507/4049754.xml.gz::283	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::340	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::378	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100507/4049754.xml.gz::459	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::511	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::526	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::546	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::547	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::549	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::594	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::648	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100507/4049754.xml.gz::721	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::758	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::793	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100507/4049754.xml.gz::830	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust"", ""sadness""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100507/4049754.xml.gz::833	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100507/4049754.xml.gz::904	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1023	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1030	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100507/4049754.xml.gz::1046	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100507/4049754.xml.gz::1053	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1218	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1223	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1239	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1338	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1373	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anger"", ""fear""]"	"[""anger"", ""fear""]"	0
+en/1990/100507/4049754.xml.gz::1393	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1394	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1416	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""fear"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1420	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1429	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100507/4049754.xml.gz::1432	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1490	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::1494	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100507/4049754.xml.gz::1565	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1606	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1634	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1669	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100507/4049754.xml.gz::1675	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1719	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1751	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger"", ""sadness""]"	"[""anger"", ""sadness""]"	0
+en/1990/100507/4049754.xml.gz::1846	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::1887	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1902	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100507/4049754.xml.gz::1924	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1957	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100507/4049754.xml.gz::1959	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1966	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1969	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::1990	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::2032	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::2125	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::2145	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100507/4049754.xml.gz::2160	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""joy"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::2174	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100507/4049754.xml.gz::2176	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100514/3930419.xml.gz::37	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100514/3930419.xml.gz::64	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100514/3930419.xml.gz::101	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100514/3930419.xml.gz::131	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100514/3930419.xml.gz::132	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100514/3930419.xml.gz::166	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100514/3930419.xml.gz::169	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""disgust""]"	"[""disgust""]"	0
+en/1990/100514/3930419.xml.gz::198	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100514/3930419.xml.gz::998	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100514/3930419.xml.gz::1071	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100514/3930419.xml.gz::1115	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100514/3930419.xml.gz::1120	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100514/3930419.xml.gz::1125	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::4	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100602/7034324.xml.gz::121	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::180	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::214	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::281	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100602/7034324.xml.gz::288	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100602/7034324.xml.gz::541	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::572	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100602/7034324.xml.gz::599	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::680	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100602/7034324.xml.gz::697	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::699	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::712	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::723	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::766	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::788	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::793	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::865	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""sadness""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::930	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::961	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::964	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""anticipation"", ""fear""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100602/7034324.xml.gz::966	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""surprise""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100602/7034324.xml.gz::988	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""trust""]"	"[""trust""]"	0
+en/1990/100602/7034324.xml.gz::1001	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::1074	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100602/7034324.xml.gz::1108	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100602/7034324.xml.gz::1154	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""sadness""]"	"[""sadness""]"	0
+en/1990/100625/4175940.xml.gz::91	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness"", ""surprise"", ""trust""]"	"[""anger"", ""disgust""]"	"[""anger"", ""disgust""]"	0
+en/1990/100625/4175940.xml.gz::132	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100625/4175940.xml.gz::169	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100625/4175940.xml.gz::198	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100625/4175940.xml.gz::200	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100625/4175940.xml.gz::207	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation"", ""trust""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100625/4175940.xml.gz::209	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100625/4175940.xml.gz::244	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""sadness""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100625/4175940.xml.gz::277	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100625/4175940.xml.gz::324	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""surprise""]"	"[""joy"", ""trust""]"	"[""joy"", ""trust""]"	0
+en/1990/100625/4175940.xml.gz::342	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""sadness""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::532	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""fear"", ""trust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::547	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::554	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::658	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""disgust""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::685	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""fear""]"	"[""fear""]"	0
+en/1990/100625/4175940.xml.gz::689	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100625/4175940.xml.gz::692	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""joy"", ""trust""]"	"[""joy""]"	"[""joy""]"	0
+en/1990/100625/4175940.xml.gz::799	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::831	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
+en/1990/100625/4175940.xml.gz::1075	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::1097	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""surprise""]"	"[""surprise""]"	"[""surprise""]"	0
+en/1990/100625/4175940.xml.gz::1106	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anger"", ""surprise""]"	"[""anger""]"	"[""anger""]"	0
+en/1990/100625/4175940.xml.gz::1144	en	bilingual_1ep	Qwen/Qwen2.5-1.5B-Instruct	43	"[""anticipation""]"	"[""anticipation""]"	"[""anticipation""]"	0
