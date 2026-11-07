@@ -1,7 +1,18 @@
-We selected mT0-small (300M parameters) as our primary model and mT0-base (580M parameters) as our secondary model.
+# Model Selection
 
-Both models belong to the BigScience mT0 family and support multilingual instruction following. Their relatively small sizes make them practical candidates for our computational resources.
+The project uses two pretrained instruction-tuned language models:
 
-The primary model will be used for zero-shot prompting, five-shot prompting, and LoRA fine-tuning. The secondary model will only be used for prompting experiments.
+**Primary model: Qwen2.5-1.5B-Instruct**
+- Approximately 1.5 billion parameters.
+- Used for zero-shot and five-shot prompting.
+- Also used for LoRA/QLoRA fine-tuning.
 
-Using models of different sizes from the same family will allow us to investigate whether model size affects emotion classification performance in English and Spanish.
+**Secondary model: Granite-3.3-2B-Instruct**
+- Approximately 2 billion parameters.
+- Used for zero-shot and five-shot prompting only.
+
+Both models support multilingual tasks, including English and Spanish, and are distributed under Apache 2.0 licenses.
+
+Their relatively small sizes make them suitable for experimentation using available GPU resources.
+
+The project uses random seed 42 for the fixed five-shot demonstration selection. PEFT experiments also include seeds 42, 43, and 44.
