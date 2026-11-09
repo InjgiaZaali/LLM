@@ -163,3 +163,21 @@ Saved predictions include reference labels, parsed predictions, raw model output
 Prompt-Wordings Sensitivity Analysis
 
 To evaluate the effect of prompt wording, we conducted an additional controlled experiment using Qwen2.5-1.5B-Instruct on 200 paired English–Spanish examples sampled from the development set (seed 42). We compared the original zero-shot prompt with a modified instruction explicitly stating that zero, one, or multiple emotion labels could be returned. The model, examples, decoding strategy, and maximum generation length were kept constant.
+### Prompt-wording sensitivity analysis
+
+A controlled prompt-wording sensitivity experiment was conducted using Qwen2.5-1.5B-Instruct on 200 paired English–Spanish development examples (seed 42).
+
+The original and explicit multi-label prompts were compared under identical generation settings.
+
+| Language | Original Micro-F1 | Modified Micro-F1 |
+|---|---:|---:|
+| English | 0.3409 | 0.3363 |
+| Spanish | 0.2869 | 0.2805 |
+
+The original wording achieved slightly higher Micro-F1 in both languages.
+
+- Script: `scripts/prompt_sensitivity_dev.py`
+- Metrics: `results/prompt_sensitivity/qwen_dev_prompt_sensitivity_metrics.csv`
+- Predictions: `results/prompt_sensitivity/qwen_dev_prompt_sensitivity_predictions.csv`
+
+The held-out test set was not used for this sensitivity experiment.
