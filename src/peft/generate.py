@@ -23,20 +23,34 @@ ap.add_argument("--max_examples", type=int, default=0)
 args = ap.parse_args()
 
 
+
 def parse(raw):
-    """Returns (labels, malformed). No synonym mapping."""
+    """Return (predicted_labels, malformed)."""
+
     try:
-        data = json.loads(raw.strip())
-    except Exception:
+        labels = json.loads(raw.strip())
+
+        # The output must be a JSON array.
+        if not isinstance(labels, list):
+            return [], True
+
+        # Every label must be a string.
+        if not all(isinstance(x, str) for x in labels):
+            return [], True
+
+        # Normalize capitalization and whitespace.
+        labels = [x.strip().lower() for x in labels]
+
+        # Reject outputs containing invalid emotions.
+        if not all(x in EMOTIONS for x in labels):
+            return [], True
+
+        # Remove duplicates and preserve order.
+        return list(dict.fromkeys(labels)), False
+
+    except (json.JSONDecodeError, TypeError, AttributeError):
         return [], True
-    if not isinstance(data, list):
-        return [], True
-    seen = []
-    for x in data:
-        x = str(x).strip().lower()
-        if x in EMOTIONS and x not in seen:
-            seen.append(x)
-    return seen, len(seen) == 0
+
 
 
 tok = AutoTokenizer.from_pretrained(args.model)

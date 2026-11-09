@@ -1,6 +1,7 @@
+
 {
-  "primary_model": "bigscience/mt0-small",
-  "secondary_model": "bigscience/mt0-base",
+  "primary_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "secondary_model": "ibm-granite/granite-3.3-2b-instruct",
   "language_1": "en",
   "language_2": "es",
   "seed": 42
