@@ -1,0 +1,18 @@
+# Direct project dependencies, using versions recorded in the Habrok environment.
+# This supplements the original cluster-specific requirements.txt.
+# GPU/PyTorch/CUDA installation may need platform-specific instructions.
+torch==2.7.1
+transformers==5.20.1
+accelerate==1.15.0
+peft==0.21.2
+bitsandbytes==0.50.2
+datasets==5.1.0
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.9.1
+scipy==1.14.1
+pyarrow==19.0.1
+safetensors==0.8.0
+trl==1.16.0
+sentencepiece
+iterative-stratification
