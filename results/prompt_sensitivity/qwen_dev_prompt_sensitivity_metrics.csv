@@ -1,0 +1,5 @@
+language,prompt_variant,examples,sample_seed,model,decoding,max_new_tokens,micro_f1,sample_jaccard,malformed_rate
+english,original,200,42,Qwen/Qwen2.5-1.5B-Instruct,greedy,60,0.3408624229979466,0.2885,0.1
+english,explicit_multilabel,200,42,Qwen/Qwen2.5-1.5B-Instruct,greedy,60,0.336283185840708,0.276,0.085
+spanish,original,200,42,Qwen/Qwen2.5-1.5B-Instruct,greedy,60,0.28688524590163933,0.2480833333333333,0.045
+spanish,explicit_multilabel,200,42,Qwen/Qwen2.5-1.5B-Instruct,greedy,60,0.28045977011494255,0.23125,0.15
