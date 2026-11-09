@@ -1,0 +1,2 @@
+model,language,method,examples,micro_f1,macro_f1,jaccard,micro_precision,micro_recall,hamming_loss,exact_match,malformed_rate
+Qwen2.5-1.5B-Instruct,English,Zero-shot,954,0.34464976364417704,0.30947237753317547,0.28841719077568134,0.40960163432073543,0.29747774480712164,0.19981656184486374,0.19392033542976939,0.13417190775681342
