@@ -144,3 +144,18 @@ All metrics: `predictions/all_metrics_test_summary.csv` and
   single runs in fp16, PEFT used 4-bit QLoRA.
 - Only the epoch count was selected on dev. Rank, alpha and learning rate are
   defaults, and checkpoints were chosen by dev loss, not dev F1.
+
+
+### Prompting outputs and reproducibility
+
+The three Colab notebooks in `scripts/` implement zero-shot and five-shot prompting with Qwen and Granite.
+
+The five fixed training demonstrations are saved in `data/few_shot/qwen_five_shot_examples.tsv`.
+
+- Development predictions: `predictions/prompting/dev/` (954 examples per experiment).
+- Test predictions: `predictions/prompting/test/` (483 examples per experiment).
+- Prompting evaluation metrics: `predictions/`, including `FINAL_LLM_TEST_COMPARISON.csv`.
+
+To reproduce prompting experiments in Google Colab, enable GPU acceleration, install the dependencies listed in the notebooks, and provide the corresponding datasets from `data/processed/`. Five-shot experiments additionally require the fixed examples TSV. The notebooks currently use Google Drive paths under `/content/drive/MyDrive/`, so these paths must be configured before running.
+
+Saved predictions include reference labels, parsed predictions, raw model outputs, and malformed-output flags. Final evaluation uses Micro-F1 and sample-averaged Jaccard as primary metrics.
