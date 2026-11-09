@@ -159,3 +159,7 @@ The five fixed training demonstrations are saved in `data/few_shot/qwen_five_sho
 To reproduce prompting experiments in Google Colab, enable GPU acceleration, install the dependencies listed in the notebooks, and provide the corresponding datasets from `data/processed/`. Five-shot experiments additionally require the fixed examples TSV. The notebooks currently use Google Drive paths under `/content/drive/MyDrive/`, so these paths must be configured before running.
 
 Saved predictions include reference labels, parsed predictions, raw model outputs, and malformed-output flags. Final evaluation uses Micro-F1 and sample-averaged Jaccard as primary metrics.
+
+Prompt-Wordings Sensitivity Analysis
+
+To evaluate the effect of prompt wording, we conducted an additional controlled experiment using Qwen2.5-1.5B-Instruct on 200 paired English–Spanish examples sampled from the development set (seed 42). We compared the original zero-shot prompt with a modified instruction explicitly stating that zero, one, or multiple emotion labels could be returned. The model, examples, decoding strategy, and maximum generation length were kept constant.
