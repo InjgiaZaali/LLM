@@ -1,0 +1,6 @@
+es_text	labels	alignment_id	english_text	emotion_labels
+Dame el mechero.	1	en/1990/100602/7034324.xml.gz::1145	Give me the lighter.	"[""anger""]"
+Ten el suficiente respeto para no mentirme.	1	en/1990/100224/4171489.xml.gz::146	Have enough respect for me not to lie.	"[""anger""]"
+¿Estamos de nuevo en terapia, doctor? Solo eran sueños.  Maidan no existe.	5, 7, 8	en/1990/100260/5855803.xml.gz::71	Wow... you look great.	"[""joy"", ""surprise"", ""trust""]"
+Salimos de una terrible pelea, en la que derrotamos a una pandilla.	1	en/1990/100442/5165018.xml.gz::1718	Come off a rumble, we'd beat the shit out of a gang.	"[""anger""]"
+Este gran edificio será sede de la nueva dirigencia.	2, 5	en/1990/100502/4704610.xml.gz::1029	This magnificent structure will be the seat of leadership for the new Detroit.	"[""anticipation"", ""joy""]"
