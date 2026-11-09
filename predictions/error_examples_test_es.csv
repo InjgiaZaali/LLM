@@ -1,0 +1,484 @@
+alignment_id,gold_labels,english,spanish,bilingual,es_text,english_text,models_disagree,all_wrong
+en/1965/59037/5735869.xml.gz::21,"[""anger"", ""fear""]","[""joy""]","[""anger"", ""disgust""]","[""anger"", ""sadness""]","Bueno, eso acabó con esto.","Well, that broke that up.",True,True
+en/1965/59037/5735869.xml.gz::23,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",Te dije que no me dijeras así.,Told you not to call me that.,False,False
+en/1965/59037/5735869.xml.gz::35,"[""anger""]","[""surprise""]","[""anger""]","[""anger""]",¿Ustedes están ciegos o algo así?,"What, are you guys blind or something?",True,False
+en/1965/59037/5735869.xml.gz::45,"[""anger"", ""anticipation""]","[""anticipation""]","[""anger""]","[""anger""]",Dame el dinero.,Give me the money.,True,True
+en/1965/59037/5735869.xml.gz::100,"[""fear"", ""joy""]","[""anger""]","[""anger""]","[""anger""]",¿No te he dicho que te van a partir la cabeza?,Haven't I told you you're gonna get your melon opened?,False,True
+en/1965/59037/5735869.xml.gz::101,"[""surprise""]","[""joy""]","[""anger""]","[""joy""]",Fue el único juego que encontré en el que nadie me debía nada.,It was the only game I could find where I wasn't holding markers on somebody.,True,True
+en/1965/59037/5735869.xml.gz::112,"[""anticipation"", ""fear""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Kid tendrá que jugar con él.,The Kid will have to play him.,False,True
+en/1965/59037/5735869.xml.gz::237,"[""joy""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Resulta que Melba me cae bien.,I happen to like Melba.,True,False
+en/1965/59037/5735869.xml.gz::284,"[""anticipation""]","[""joy""]","[""joy""]","[""joy""]",Eso es lo maravilloso.,But that's what's so marvelous.,False,True
+en/1965/59037/5735869.xml.gz::392,"[""anticipation"", ""trust""]","[""joy""]","[""joy""]","[""joy""]",Gracias por el entretenimiento.,"Thanks for the entertainment, gentlemen.",False,True
+en/1965/59037/5735869.xml.gz::397,"[""joy"", ""trust""]","[""joy""]","[""joy""]","[""joy""]","Gracias por el privilegio, señor.","Thank you for the privilege, sir.",False,True
+en/1965/59037/5735869.xml.gz::399,"[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]","Es un placer conocer a quien entienda que para el verdadero jugador el dinero no es fin, sino herramienta, como el idioma es al pensamiento.","A pleasure to meet someone who understands that to the true gambler... money is never an end in itself but simply a tool, as language is to thought.",False,False
+en/1965/59037/5735869.xml.gz::535,"[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]","Esa chica significa más para mí que todo el mundo, Shooter.","That little gal means more to me than the whole wide world, Shooter.",False,False
+en/1965/59037/5735869.xml.gz::540,"[""trust""]","[""trust""]","[""joy""]","[""trust""]","Sí, Melba es una buena chica.","Yeah, she's a nice girl, Melba.",True,False
+en/1965/59037/5735869.xml.gz::561,"[""disgust"", ""fear"", ""joy""]","[""fear""]","[""fear""]","[""fear""]",Está listo para una caída.,He's ready for a fall.,False,True
+en/1965/59037/5735869.xml.gz::628,"[""anger"", ""fear""]","[""fear""]","[""anger""]","[""anger""]",Cálmate.,Relax.,True,True
+en/1965/59037/5735869.xml.gz::718,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Escuché una historia sobre una piedra de los deseos en algún lugar en la ribera del Mississippi.,There was a story I heard... about a wishing stone somewhere on the bank of the Mississippi.,False,False
+en/1965/59037/5735869.xml.gz::759,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",No me la muestre.,Don't show it to me.,False,False
+en/1965/59037/5735869.xml.gz::916,"[""anger""]","[""sadness""]","[""sadness""]","[""sadness""]",Y yo no puedo comenzar.,And I can't get started.,False,True
+en/1965/59037/5735869.xml.gz::952,"[""joy""]","[""joy""]","[""joy""]","[""joy""]","Bueno, eso es muy dulce.","Well, that's pretty sweet.",False,False
+en/1965/59037/5735869.xml.gz::978,"[""trust""]","[""joy""]","[""anger""]","[""anger""]",Jota al rey.,Jack to the king.,True,True
+en/1965/59037/5735869.xml.gz::1068,"[""sadness""]","[""disgust""]","[""anger"", ""disgust""]","[""anger""]",Pierdes la sensación de las cartas cuando tienes tanta acción un día y otro.,You lose the feel of the cards when you have so much action... day in and day out.,True,True
+en/1965/59037/5735869.xml.gz::1162,"[""trust""]","[""sadness""]","[""anger""]","[""sadness""]",No puedo superar tres sietes.,I can't beat three sevens.,True,True
+en/1990/100232/4438698.xml.gz::269,"[""fear"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",¿Por qué no nos disparan?,Why aren't they firing?,False,True
+en/1990/100232/4438698.xml.gz::731,"[""anticipation""]","[""surprise""]","[""disgust""]","[""anger""]",Yo soy media beduina.,I happen to be half-rag myself.,True,True
+en/1990/100232/4438698.xml.gz::744,"[""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",- Podrías llevarla.,That's fine.,False,True
+en/1990/100232/4438698.xml.gz::821,"[""surprise""]","[""fear""]","[""anger"", ""disgust""]","[""fear""]",Dos personas fueron detenidas.,Two men believed responsible for the attack were captured.,True,True
+en/1990/100232/4438698.xml.gz::893,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",- Llámalo como quieras.,"You can call it an immigration if you want to, Jim.",False,False
+en/1990/100232/4438698.xml.gz::915,"[""fear"", ""surprise""]","[""fear""]","[""anger"", ""fear""]","[""anger""]","A las personas en la calle, si hay problemas, entren a la casa.","All right, for those people on the street, if there's any trouble, collapse on the house.",True,True
+en/1990/100232/4438698.xml.gz::940,"[""anger""]","[""disgust""]","[""anger""]","[""anger"", ""disgust""]",Odio volar Y más odio saltar.,I hate jumping out of a perfectly good airplane.,True,False
+en/1990/100232/4438698.xml.gz::1006,"[""anger"", ""anticipation"", ""fear"", ""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Tendrás problemas?,Is he gonna be a problem?,False,True
+en/1990/100232/4438698.xml.gz::1142,"[""anticipation"", ""fear"", ""trust""]","[""anticipation""]","[""anger""]","[""anger""]",- Yo...,-You should...,True,True
+en/1990/100240/5865478.xml.gz::70,"[""anger"", ""anticipation""]","[""anger""]","[""anger""]","[""anger""]",- Déjalo.,- Give it back.,False,True
+en/1990/100240/5865478.xml.gz::80,"[""fear""]","[""fear""]","[""fear""]","[""fear""]",Estamos en grave peligro.,We are in great danger.,False,False
+en/1990/100240/5865478.xml.gz::157,"[""surprise""]","[""surprise""]","[""anger""]","[""anger""]",- Ya me di cuenta.,- I can see that!,True,False
+en/1990/100240/5865478.xml.gz::233,"[""joy""]","[""joy""]","[""anger""]","[""anger""]",¡Bastián!,Bastian!,True,False
+en/1990/100240/5865478.xml.gz::355,"[""anger"", ""anticipation""]","[""anticipation""]","[""anger""]","[""joy""]",Y a ti también.,And so will you.,True,True
+en/1990/100240/5865478.xml.gz::491,"[""anger""]","[""anticipation"", ""joy""]","[""anger""]","[""anger""]",¡Es tu hechizo y tú lo puedes deshacer!,You made the spell and you can undo it!,True,False
+en/1990/100240/5865478.xml.gz::557,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Enseguida regreso.,I'll be right back.,False,False
+en/1990/100240/5865478.xml.gz::734,"[""anticipation"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Amigos?,Friends?,False,True
+en/1990/100260/5855803.xml.gz::62,"[""sadness"", ""surprise""]","[""sadness""]","[""anger""]","[""joy""]",Mi amor. Deberías estar dormido.,"Sweety, you're supposed to be beddy-byes!",True,True
+en/1990/100260/5855803.xml.gz::96,"[""disgust"", ""sadness""]","[""fear""]","[""fear""]","[""fear""]","El asesinato es muy, pero que muy real.","Murder is very, very real.",False,True
+en/1990/100260/5855803.xml.gz::208,"[""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¡Tienes que verme!,You have to see me!,False,True
+en/1990/100260/5855803.xml.gz::333,"[""anticipation""]","[""anticipation"", ""fear""]","[""anticipation"", ""joy""]","[""anticipation"", ""fear""]","Así que tal vez la muerte no sea el fin, doctor...","So maybe death isn't the end, Doc.",True,True
+en/1990/100260/5855803.xml.gz::381,"[""anger"", ""disgust""]","[""anger""]","[""anger""]","[""anger""]","Si me golpeas otra vez, te arranco la cara.",You hit me again and I'm gonna rip your face off.,False,True
+en/1990/100260/5855803.xml.gz::415,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",Pero valió la pena.,But it was worth it.,False,False
+en/1990/100260/5855803.xml.gz::452,"[""fear""]","[""anger""]","[""anger""]","[""anger"", ""fear""]","- ¡Babette, no!","- Babette, no!",True,True
+en/1990/100260/5855803.xml.gz::493,"[""anger""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Necesito saber.,I need to know.,False,True
+en/1990/100260/5855803.xml.gz::743,"[""anger"", ""fear""]","[""fear""]","[""fear""]","[""fear""]",¡Te arrancarán la cabeza y defecarán en tu cuello!,They'll rip off your head and shit down your neck!,False,True
+en/1990/100260/5855803.xml.gz::750,"[""surprise""]","[""anger""]","[""anger""]","[""anger""]",¡No puedes bajar!,You can't go down there!,False,True
+en/1990/100260/5855803.xml.gz::892,"[""anticipation""]","[""anger""]","[""anger""]","[""anger""]",Estamos aquí para patear culos.,- We're here to kick some major league butt.,False,True
+en/1990/100260/5855803.xml.gz::893,"[""disgust""]","[""anticipation""]","[""anger""]","[""anger""]",- Estamos aquí para explorar sin participar.,"- We're here to scout, not engage.",True,True
+en/1990/100260/5855803.xml.gz::899,"[""joy"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Salvarnos cavando otras.,Save us digging new ones.,False,True
+en/1990/100260/5855803.xml.gz::901,"[""disgust"", ""surprise""]","[""disgust""]","[""anger""]","[""disgust""]",¿Quién querría vivir en un cementerio?,Who would want to live in a graveyard?,True,True
+en/1990/100260/5855803.xml.gz::1107,"[""anger"", ""trust""]","[""anger""]","[""anger""]","[""anger""]",Fuera.,Get out.,False,True
+en/1990/100260/5855803.xml.gz::1178,"[""anger"", ""sadness""]","[""fear""]","[""fear""]","[""anger""]",Has destruido nuestro refugio.,You have destroyed our refuge.,True,True
+en/1990/100260/5855803.xml.gz::1195,"[""anticipation""]","[""anger""]","[""anger""]","[""anger""]","Te convirtieron, tu podrías hacer lo mismo conmigo.","They made you one of them, you can do the same for me.",False,True
+en/1990/100419/3464474.xml.gz::2,"[""disgust"", ""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]",Mi nacimiento no fue una bendicion,Apparently my birth was not considered a blessed event.,False,True
+en/1990/100419/3464474.xml.gz::20,"[""surprise""]","[""surprise""]","[""surprise""]","[""surprise""]",Que extraño perro,What a strange-looking dogl,False,False
+en/1990/100419/3464474.xml.gz::22,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",Esto luce bien,This looks good.,False,False
+en/1990/100419/3464474.xml.gz::245,"[""joy""]","[""surprise""]","[""anger""]","[""anger""]",- ¡Es un varon!,- It's a boy!,True,True
+en/1990/100419/3464474.xml.gz::527,"[""anger"", ""anticipation""]","[""surprise""]","[""anger""]","[""anticipation""]",¿Que es esa sorpresa que me haces venir?,What's this big surprise you dragged me over here for?,True,True
+en/1990/100419/3464474.xml.gz::541,"[""sadness"", ""surprise""]","[""sadness""]","[""joy""]","[""joy""]","No, papá, adoptamos.","No, Dad, we adopted.",True,True
+en/1990/100419/3464474.xml.gz::606,"[""anger""]","[""anger""]","[""anger""]","[""anger""]","Alcaide, si no se deja de interrumpir, tendra que irse.","Warden, if you don't stop, I'll have to ask you to leave.",False,False
+en/1990/100419/3464474.xml.gz::760,"[""anticipation""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]",- Contemos historias de fantasmas. - Comamos malvadiscos.,- Let's roast marshmallows.,False,True
+en/1990/100419/3464474.xml.gz::1047,"[""joy"", ""sadness""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]",Te dire lo que haremos: Algo que nunca nadie a hecho por el,Something that no one's ever done for him before.,False,True
+en/1990/100419/3464474.xml.gz::1066,"[""trust""]","[""trust""]","[""trust""]","[""anger"", ""fear""]","Confia en mi, no te llevaremos al orfanato.",We're not gonna take you back to the orphanage.,True,False
+en/1990/100419/3464474.xml.gz::1096,"[""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]",Yo se que nada puede cambiar haber perdido los ahorros de tu vida.,Nothing can make up for the loss of your life savings...,False,False
+en/1990/100419/3464474.xml.gz::1109,"[""surprise""]","[""anger""]","[""anger""]","[""anger"", ""sadness""]","Soy yo idiota, fui yo que te envio las cartas.",I sent you all those letters.,True,True
+en/1990/100419/3464474.xml.gz::1165,"[""joy""]","[""joy""]","[""joy""]","[""joy""]","¡Buenos dias, amanecer!",Good morning!,False,False
+en/1990/100419/3464474.xml.gz::1174,"[""anger"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",¡No soy una bombom que puedas hacer lo que quieras!,I'm not a bimbo you can tie up and do what you want with!,False,True
+en/1990/100419/3464474.xml.gz::1223,"[""joy"", ""trust""]","[""joy""]","[""joy""]","[""joy""]",- Bien,Good.,False,True
+en/1990/100419/3464474.xml.gz::1260,"[""anger"", ""anticipation""]","[""anger""]","[""anger""]","[""anger""]",Ahora dejalo ir,Let him go!,False,True
+en/1990/100419/3464474.xml.gz::1286,"[""surprise""]","[""anger""]","[""anger""]","[""anger""]",¡Alto ahi!,Hold it!,False,True
+en/1990/100440/5203875.xml.gz::62,"[""anticipation""]","[""joy""]","[""joy""]","[""joy""]",-Muy guapo.,-Very handsome.,False,True
+en/1990/100440/5203875.xml.gz::83,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",¡Nosotros somos felices!,We are happy!,False,False
+en/1990/100440/5203875.xml.gz::85,"[""anger"", ""disgust"", ""fear""]","[""fear""]","[""anticipation"", ""joy""]","[""fear""]",Jeanne...,Jeanne ...,True,True
+en/1990/100440/5203875.xml.gz::157,"[""anger"", ""joy""]","[""anger""]","[""anger""]","[""anger""]",Podéis Hacerlo mejor.,You can Do better.,False,True
+en/1990/100440/5203875.xml.gz::182,"[""anger""]","[""surprise""]","[""anger""]","[""anger""]",¿Por qué os reís?,Why are you laughing?,True,False
+en/1990/100440/5203875.xml.gz::238,"[""fear""]","[""anger""]","[""anger""]","[""anger""]",-No desearás a la mujer de tu prójimo.,-Not covet thy neighbor's wife.,False,True
+en/1990/100440/5203875.xml.gz::304,"[""joy"", ""surprise"", ""trust""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Creo que mi cocinero ha sabido adivinar lo que os agrada.,I think my cook has managed guess what I like.,True,True
+en/1990/100440/5203875.xml.gz::352,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",¿Por qué no me crees?,Why not believe me?,False,False
+en/1990/100440/5203875.xml.gz::383,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Os podemos ofrecer algo?,Are you able to offer something?,False,False
+en/1990/100440/5203875.xml.gz::462,"[""surprise""]","[""surprise""]","[""anger""]","[""anger""]",¿Qué clase de misión es?,What kind of mission?,True,False
+en/1990/100440/5203875.xml.gz::534,"[""anticipation"", ""fear""]","[""anger""]","[""anger""]","[""anger""]",¿Qué esperáis de mi?,What do you expect of me?,False,True
+en/1990/100440/5203875.xml.gz::715,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",Yo lo llamaría... desquite.,I would call ... revenge.,False,False
+en/1990/100440/5203875.xml.gz::772,"[""sadness"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",No soy tu caballo.,I am not your horse.,False,True
+en/1990/100440/5203875.xml.gz::913,"[""anticipation"", ""surprise""]","[""fear""]","[""fear""]","[""anticipation""]","Cuando Francia nos invada, ¿cuál será la ayuda de España?","When we invade France, What will the help of Spain?",True,True
+en/1990/100440/5203875.xml.gz::1001,"[""fear"", ""sadness"", ""trust""]","[""trust""]","[""anger"", ""anticipation""]","[""trust""]","Señor, el alcanfor es la única cura conocida.","Lord, camphor is the only known cure.",True,True
+en/1990/100440/5203875.xml.gz::1213,"[""fear""]","[""anger""]","[""anger""]","[""anger""]",Soy su presa.,I'm his prey.,False,True
+en/1990/100440/5203875.xml.gz::1263,"[""anger""]","[""anger""]","[""anger""]","[""fear""]",¡Deteneos!,Stop!,True,False
+en/1990/100440/5203875.xml.gz::1405,"[""anger""]","[""fear""]","[""anger""]","[""surprise""]","Dios mío, ¿por qué ahora?","My God, why now?",True,False
+en/1990/100449/7037913.xml.gz::13,"[""anticipation""]","[""anticipation"", ""trust""]","[""anticipation""]","[""trust""]","Sí, claro.","Say, that's right.",True,False
+en/1990/100449/7037913.xml.gz::105,"[""anger""]","[""surprise""]","[""anger""]","[""surprise""]",¡Rayos!,Damn!,True,False
+en/1990/100449/7037913.xml.gz::108,"[""fear""]","[""surprise""]","[""anticipation""]","[""anticipation""]",- ¿Mamá?,- Mom?,True,True
+en/1990/100449/7037913.xml.gz::367,"[""anticipation""]","[""surprise""]","[""anticipation""]","[""anticipation""]",Ayer me enteré de algo.,I found something out yesterday.,True,False
+en/1990/100449/7037913.xml.gz::376,"[""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Sobre todo si traemos una fortuna en los postizos.,Especially with a fortune in our falsies.,False,True
+en/1990/100449/7037913.xml.gz::394,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",¡No nos dijiste que querías sistema de oscilación hidráulica!,"You never said a goddamn word about a ""tilting hydraulic body.""",False,False
+en/1990/100449/7037913.xml.gz::458,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Van a poner otro letrero.,Will you be putting up a new sign?,False,False
+en/1990/100449/7037913.xml.gz::707,"[""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Pero compramos una casa en Woodstock.,"We bought a farmhouse, near Woodstock.",False,True
+en/1990/100449/7037913.xml.gz::744,"[""sadness""]","[""fear""]","[""anger"", ""disgust""]","[""fear""]",- Hubo mucha confusión.,- It was utter chaos.,True,True
+en/1990/100449/7037913.xml.gz::778,"[""fear""]","[""fear""]","[""fear""]","[""anger"", ""fear""]",No quiero ir a la cárcel.,"Grimm, I cannot go to prison.",True,False
+en/1990/100449/7037913.xml.gz::811,"[""anticipation""]","[""anticipation""]","[""anger""]","[""anticipation""]",- ¿De qué quiere hablar?,- What's on your mind tonight?,True,False
+en/1990/100449/7037913.xml.gz::856,"[""fear""]","[""fear""]","[""anger""]","[""anger""]",¡Deténgase!,Stop!,True,False
+en/1990/100449/7037913.xml.gz::861,"[""anger"", ""anticipation""]","[""joy""]","[""surprise""]","[""anger""]",Párese.,Stop!,True,True
+en/1990/100449/7037913.xml.gz::1042,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",- Perfecto.,- Great.,False,False
+en/1990/100449/7037913.xml.gz::1043,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",Qué buena suerte.,We're on a roll.,False,False
+en/1990/100449/7037913.xml.gz::1120,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Puedo preguntarle algo?,May I ask you a question?,False,False
+en/1990/100449/7037913.xml.gz::1130,"[""anger""]","[""fear""]","[""fear""]","[""fear""]",Recuéstate.,Sit back.,False,True
+en/1990/100449/7037913.xml.gz::1175,"[""anticipation"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Has oído hablar de él.,You remember this guy.,False,True
+en/1990/100449/7037913.xml.gz::1240,"[""sadness""]","[""fear""]","[""fear""]","[""joy""]",Ya pasó todo el peligro.,We're home free.,True,True
+en/1990/100449/7037913.xml.gz::1293,"[""fear""]","[""sadness""]","[""anger"", ""disgust""]","[""anger""]",Ya perdimos tiempo en el autobús.,"The thing is, Loomis, we lost a little time.",True,True
+en/1990/100449/7037913.xml.gz::1368,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Nos vemos adentro?,Am I gonna see you in there?,False,False
+en/1990/100449/7037913.xml.gz::1372,"[""anger"", ""disgust""]","[""anticipation"", ""surprise""]","[""anger""]","[""anger""]","¡Oye, payaso!","Hey, clown!",True,True
+en/1990/100449/7037913.xml.gz::1403,"[""anger""]","[""joy""]","[""anticipation""]","[""anticipation""]",- ¡Estoy pensando en el bebé!,"- Grimm, I'm thinking of the baby!",True,True
+en/1990/100449/7037913.xml.gz::1440,"[""surprise""]","[""anticipation""]","[""anger""]","[""anticipation""]",Ud. ha de ser de por aquí.,"Oh, you must be from around here.",True,True
+en/1990/100475/6654473.xml.gz::348,"[""anticipation"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Dame sólo una señal.,Just give me a sign.,False,True
+en/1990/100475/6654473.xml.gz::643,"[""surprise""]","[""anticipation"", ""joy""]","[""anger""]","[""anger"", ""anticipation""]",- Yo sabía!,"Yeah, I knew it!",True,True
+en/1990/100475/6654473.xml.gz::1038,"[""anticipation""]","[""anticipation""]","[""anger""]","[""anger""]","Concéntrese, ahora.",You wanna concentrate now.,True,False
+en/1990/100475/6654473.xml.gz::1056,"[""anger""]","[""anger""]","[""anger""]","[""anticipation""]","- Disculpen, estoy a la busca de un hombre...","Excuse me, I'm looking for a man.",True,False
+en/1990/100475/6654473.xml.gz::1381,"[""anger"", ""disgust"", ""sadness"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",Ya basta de agua.,Enough with the water.,False,True
+en/1990/100475/6654473.xml.gz::1535,"[""disgust""]","[""joy""]","[""joy""]","[""joy""]","Buenas mamas, claro!","Nice tits, sure,",False,True
+en/1990/100475/6654473.xml.gz::1658,"[""surprise""]","[""surprise""]","[""surprise""]","[""surprise""]",- Que movimiento de levitación!,What a levitation move!,False,False
+en/1990/100475/6654473.xml.gz::1766,"[""surprise""]","[""disgust""]","[""sadness""]","[""anger""]",No creo.,I don't believe it!,True,True
+en/1990/100485/5439804.xml.gz::48,"[""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]",Y ha sido un honor servir con ustedes.,It's been an honor to serve with you.,False,True
+en/1990/100485/5439804.xml.gz::111,"[""anger""]","[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation"", ""joy""]","Vamos, Podría ser tu padre.","Come on, I'm old enough to be your father.",True,True
+en/1990/100485/5439804.xml.gz::154,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Este año llevaremos esas armas a Italia... para que las ajusten adecuadamente.,Sometime this year we'll take those guns to Italy and have them fitted properly.,False,False
+en/1990/100485/5439804.xml.gz::233,"[""anticipation"", ""joy"", ""surprise""]","[""joy""]","[""joy""]","[""joy""]",Qué gracioso.,"Oh, that's funny.",False,True
+en/1990/100485/5439804.xml.gz::317,"[""anger""]","[""anger""]","[""anger""]","[""anger"", ""anticipation""]",- No. Sé hacer limonada.,"-No, I know how to make lemonade.",True,False
+en/1990/100485/5439804.xml.gz::388,"[""anger"", ""trust""]","[""anger""]","[""anger""]","[""anger""]",-¿No puedes seguirle la corriente?,-Can't you humor him?,False,True
+en/1990/100485/5439804.xml.gz::474,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Voy a ir a Barranquilla y a Caracas por unos días.,"I'm going down to Barranquilla, then Caracas for a few days.",False,False
+en/1990/100485/5439804.xml.gz::494,"[""anticipation"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Besame.,Kiss me.,False,True
+en/1990/100485/5439804.xml.gz::535,"[""joy"", ""trust""]","[""anticipation""]","[""anger""]","[""anticipation""]","¿Sabes, compadre?","You know, compadre?",True,True
+en/1990/100485/5439804.xml.gz::542,"[""fear""]","[""fear""]","[""fear""]","[""fear""]",De otra manera... nunca saldrás vivo de México.,Otherwise you'll never get out of Mexico alive.,False,False
+en/1990/100485/5439804.xml.gz::579,"[""trust""]","[""trust""]","[""anger""]","[""anger"", ""anticipation""]","- Sí, lo estoy.","-Yeah, yeah. I'm fine.",True,False
+en/1990/100485/5439804.xml.gz::614,"[""disgust""]","[""anticipation""]","[""anger""]","[""anger""]",No hay que mezclar los placeres.,Wouldn't wanna mix your pleasures.,True,True
+en/1990/100485/5439804.xml.gz::793,"[""joy""]","[""joy""]","[""joy""]","[""joy""]","Sí, eso estaría bien.","Yeah, that would be good.",False,False
+en/1990/100485/5439804.xml.gz::806,"[""trust""]","[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]",Sí. Conocemos el lugar.,"Yeah, we know the place.",True,True
+en/1990/100485/5439804.xml.gz::883,"[""joy"", ""trust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","Eres un loco hijo de puta, Cochran, pero estamos contigo.","You're a crazy son of a bitch, Cochran, but we're with you.",False,True
+en/1990/100530/5988200.xml.gz::101,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",- Empecemos por la carta.,- Let's begin with the letter.,False,False
+en/1990/100530/5988200.xml.gz::170,"[""anger""]","[""fear""]","[""fear""]","[""fear""]","¿Han trasladado la embajada, o me ha secuestrado?","Have they moved the embassy, or are you hijacking me?",False,True
+en/1990/100530/5988200.xml.gz::263,"[""joy"", ""trust""]","[""trust""]","[""joy""]","[""trust""]",Por eso les quiero.,That's why I love them.,True,True
+en/1990/100530/5988200.xml.gz::302,"[""surprise""]","[""joy"", ""trust""]","[""joy""]","[""joy""]","Dante, amigo.","Ah, Dante, old chum.",True,True
+en/1990/100530/5988200.xml.gz::406,"[""anger"", ""anticipation"", ""disgust""]","[""anger""]","[""anger""]","[""anger""]",Darles una patada en los huevos cada vez que se pongan de rodillas.,Kick 'em in the balls every time they get to their knees.,False,True
+en/1990/100530/5988200.xml.gz::572,"[""anger"", ""disgust""]","[""anger""]","[""anger""]","[""anger""]",Estas preguntas personales no son oportunas.,Such personal questions are not appropriate.,False,True
+en/1990/100530/5988200.xml.gz::616,"[""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Venga a cenar conmigo.,Have dinner with me.,False,True
+en/1990/100530/5988200.xml.gz::664,"[""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Aún falta un mes para la feria del libro.,You're a month early for the book fair.,False,True
+en/1990/100530/5988200.xml.gz::688,"[""anticipation""]","[""joy""]","[""joy""]","[""joy""]",Muchísimo.,Deeply.,False,True
+en/1990/100530/5988200.xml.gz::747,"[""anger"", ""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Qué te ha dicho que me digas?,What did he tell you to tell me?,False,True
+en/1990/100530/5988200.xml.gz::770,"[""surprise""]","[""anger""]","[""anger""]","[""anger""]",Hablaste por él.,You spoke for him.,False,True
+en/1990/100530/5988200.xml.gz::1052,"[""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]",Es usted todo un héroe.,You're the hero of the hour.,False,True
+en/1990/100530/5988200.xml.gz::1053,"[""joy""]","[""anticipation""]","[""joy""]","[""joy""]",La estrella.,You're a star.,True,False
+en/1990/100530/5988200.xml.gz::1123,"[""sadness""]","[""anger""]","[""anger""]","[""anger""]",A algunas personas no les gustan mis metáforas.,Some people don't like my metaphors.,False,True
+en/1990/100530/5988200.xml.gz::1243,"[""trust""]","[""anger""]","[""anger""]","[""anger""]",No aceptará sobornos ni amenazas.,He won't be bribed or threatened.,False,True
+en/1990/100530/5988200.xml.gz::1252,"[""surprise""]","[""anticipation""]","[""anger"", ""disgust""]","[""anticipation""]",: Barley:,Barley?,True,True
+en/1990/100530/5988200.xml.gz::1432,"[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",- Te quiero.,- I love you.,True,False
+en/1990/100530/5988200.xml.gz::1465,"[""surprise""]","[""anger""]","[""anger""]","[""anger""]","No lo retirarías si fueras soviético, ¿verdad?","You wouldn't close him down if you were Sov, would you?",False,True
+en/1990/100530/5988200.xml.gz::1494,"[""surprise""]","[""surprise""]","[""anger""]","[""surprise""]",- ¿Por qué conduce él?,- Why is he driving?,True,False
+en/1990/100530/5988200.xml.gz::1496,"[""disgust""]","[""anger""]","[""anger""]","[""anger""]",Es un machista.,He's a male chauvinist.,False,True
+en/1990/100530/5988200.xml.gz::1591,"[""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Tres, con una de propina.","Three, for luck.",False,True
+en/1990/100530/5988200.xml.gz::1711,"[""fear""]","[""sadness""]","[""sadness""]","[""sadness""]",No puedo salvar a Yakov.,I can't save Yakov.,False,True
+en/1990/100530/5988200.xml.gz::1745,"[""trust""]","[""joy""]","[""joy""]","[""anticipation""]","Buena suerte, Barley.","Good luck, Barley.",True,True
+en/1990/100602/7034324.xml.gz::230,"[""fear"", ""surprise""]","[""surprise""]","[""surprise""]","[""surprise""]",¿Qué pasa aquí'?,"What the hell is going on out there, George?",False,True
+en/1990/100602/7034324.xml.gz::375,"[""disgust""]","[""anticipation""]","[""anger"", ""disgust""]","[""trust""]","- Allí. Henry Park, el Sr. Ordenador.","That's Henry park,",True,True
+en/1990/100602/7034324.xml.gz::470,"[""sadness"", ""trust""]","[""joy""]","[""anticipation""]","[""joy""]",Sé cuanto lo deseabas.,I know what it meant to you.,True,True
+en/1990/100602/7034324.xml.gz::604,"[""sadness""]","[""anger"", ""disgust""]","[""anger""]","[""sadness""]",¡Debí hacerlo mejor!,If only I'd done a better job.,True,False
+en/1990/100602/7034324.xml.gz::612,"[""sadness""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",- Ojalá supere estos momentos.,You go ahead and let the grieving process happen.,False,True
+en/1990/100602/7034324.xml.gz::713,"[""anger""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger""]",¡Y a los Nicks para que comprueben... que encestas en la papelera!,"Hell, we could bring in the whole god damn New York Knicks just to make sure your trash hits the basket!",True,False
+en/1990/100602/7034324.xml.gz::767,"[""trust""]","[""joy""]","[""joy""]","[""joy""]","Bob, Bob el grande.","Bob, Bob man.",False,True
+en/1990/100602/7034324.xml.gz::812,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",- ¡Genial!,Good.,False,False
+en/1990/100602/7034324.xml.gz::820,"[""fear"", ""trust""]","[""trust""]","[""trust""]","[""trust""]","Sí, conozco las normas.","Yeah, yeah, I'm aware of the regulations.",False,True
+en/1965/59037/5735869.xml.gz::101,"[""surprise""]","[""joy""]","[""anger""]","[""joy""]",Fue el ûnico juego que encontré en el que nadie me debía nada.,It was the only game I could find where I wasn't holding markers on somebody.,True,True
+en/1965/59037/5735869.xml.gz::561,"[""disgust"", ""fear"", ""joy""]","[""fear""]","[""fear""]","[""fear""]",Estâ listo para una caída.,He's ready for a fall.,False,True
+en/1965/59037/5735869.xml.gz::628,"[""anger"", ""fear""]","[""joy""]","[""fear""]","[""anger""]",Câlmate.,Relax.,True,True
+en/1990/100212/6364506.xml.gz::474,"[""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]","Mi esposa, que Dios la tenga en la Gloria murió hace tres años exactamente.","My wife, God rest her soul, died 3 years ago to the day.",False,False
+en/1990/100212/6364506.xml.gz::565,"[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Vamos a beber algo.,I'm going to take you and buy you a drink.,False,True
+en/1990/100212/6364506.xml.gz::668,"[""joy"", ""trust""]","[""joy""]","[""joy""]","[""joy""]",Todo es tan limpio.,Everything's so clean.,False,True
+en/1990/100212/6364506.xml.gz::683,"[""disgust""]","[""disgust""]","[""anger""]","[""anger""]",Cretinos.,Creeps.,True,False
+en/1990/100212/6364506.xml.gz::733,"[""anger""]","[""anticipation""]","[""anticipation""]","[""anger""]",Tenía usted una órden para inspeccionar el portaequipaje?,Did you have a warrant to search his trunk?,True,False
+en/1990/100212/6364506.xml.gz::749,"[""anger""]","[""anticipation""]","[""anger"", ""disgust""]","[""joy""]",Si alguna vez tiene sentido del humor.,If you ever had a sense of humor.,True,True
+en/1990/100212/6364506.xml.gz::847,"[""sadness""]","[""anger""]","[""anger""]","[""anger""]",Algo diferente. Gaetano.  -No me interesa.,"Vinnie, I'm not interested in this.",False,True
+en/1990/100212/6364506.xml.gz::862,"[""joy"", ""trust""]","[""joy""]","[""joy""]","[""joy""]",Te ves estupendo.,You look beautiful.,False,True
+en/1990/100212/6364506.xml.gz::927,"[""anger""]","[""surprise""]","[""surprise""]","[""surprise""]",Qué haces por aqui?,What are you doing here?,False,True
+en/1990/100212/6364506.xml.gz::1215,"[""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Si quisieras acompañarme...,If you'd like to come with me.,False,True
+en/1990/100212/6364506.xml.gz::1255,"[""surprise"", ""trust""]","[""joy""]","[""joy""]","[""joy""]",Veo que es divertido.,I see that it's funny.,False,True
+en/1990/100212/6364506.xml.gz::1284,"[""anticipation"", ""joy""]","[""anticipation""]","[""anger""]","[""anger""]","Bueno, si no despertamos a los niños.","Well, if it won't wake up the kids.",True,True
+en/1990/100212/6364506.xml.gz::1287,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",Buen dia!,Good morning!,False,False
+en/1990/100212/6364506.xml.gz::1362,"[""anticipation""]","[""surprise""]","[""anticipation""]","[""anticipation""]",Que consiguieron?,"All right, guys, what do you got?",True,False
+en/1990/100212/6364506.xml.gz::1540,"[""anger"", ""disgust"", ""sadness""]","[""anger""]","[""anger""]","[""anger""]",Estoy furioso contigo!,I'm so pissed at you!,False,True
+en/1990/100212/6364506.xml.gz::1553,"[""anger"", ""sadness""]","[""sadness""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","Eso fue un impedimento en mi carrera, es la verdad.","It doomed me forever to middle management, and that's the truth.",True,True
+en/1990/100212/6364506.xml.gz::1669,"[""anger"", ""joy""]","[""joy""]","[""joy""]","[""joy""]",Muy lindo.,Very nice.,False,True
+en/1990/100212/6364506.xml.gz::598,"[""anger""]","[""anger""]","[""anger""]","[""anger""]","No lo digas así, me lastimas los oídos si lo dices de ese modo.",Because it hurts my ears when you do it.,False,False
+en/1990/100212/6364506.xml.gz::733,"[""anger""]","[""anticipation""]","[""anger""]","[""anger""]",¿Tenía usted una orden para inspeccionar el portaequipaje?,Did you have a warrant to search his trunk?,True,False
+en/1990/100212/6364506.xml.gz::847,"[""sadness""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Algo diferente. Gaetano.,"Vinnie, I'm not interested in this.",False,True
+en/1990/100212/6364506.xml.gz::927,"[""anger""]","[""surprise""]","[""surprise""]","[""surprise""]",¿Qué haces por aquí?,What are you doing here?,False,True
+en/1990/100212/6364506.xml.gz::1177,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",- Hola. - Hola.,Hi.,False,False
+en/1990/100212/6364506.xml.gz::1287,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",¡Buen día!,Good morning!,False,False
+en/1990/100212/6364506.xml.gz::1362,"[""anticipation""]","[""anticipation"", ""joy""]","[""anger""]","[""anticipation"", ""joy""]","Bien, muchachos, ¿qué consiguieron?","All right, guys, what do you got?",True,True
+en/1990/100212/6364506.xml.gz::1540,"[""anger"", ""disgust"", ""sadness""]","[""anger""]","[""anger""]","[""anger""]",¡Estoy furioso contigo!,I'm so pissed at you!,False,True
+en/1990/100216/4306033.xml.gz::55,"[""trust""]","[""joy""]","[""joy""]","[""joy""]",Estupendo.,The best!,False,True
+en/1990/100216/4306033.xml.gz::524,"[""surprise""]","[""trust""]","[""trust""]","[""trust""]",Lo comprendo perfectamente.,I understand perfectly.,False,True
+en/1990/100216/4306033.xml.gz::924,"[""sadness"", ""surprise""]","[""anticipation""]","[""anticipation""]","[""anger""]",¡Conteste!,Fail!,True,True
+en/1990/100216/4306033.xml.gz::1002,"[""anger""]","[""sadness""]","[""anger""]","[""anger""]",Ella me odia.,She hates me.,True,False
+en/1990/100216/4306033.xml.gz::1279,"[""disgust""]","[""sadness""]","[""sadness""]","[""sadness""]",Pero la mañana siguiente a la muerte de Madame Inglethorp yo cerré su maletín.,But I had locked the briefcase of the Lady Inglethorp in the morning following to her death.,False,True
+en/1990/100216/4306033.xml.gz::77,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",Es muy hermosa.,Lovely woman.,False,False
+en/1990/100216/4306033.xml.gz::861,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",Ahí no estoy de acuerdo con usted.,- There I disagree with you.,False,False
+en/1990/100216/4306033.xml.gz::994,"[""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]","Bueno, supongo que se le olvidó. O nunca pensó que podría morir.",I suppose that she forgot or he did not think that it might die.,False,False
+en/1990/100216/4306033.xml.gz::1279,"[""disgust""]","[""sadness""]","[""sadness""]","[""sadness""]","Pero la mañana siguiente a la muerte de madame Inglethorp, yo cerré su maletín.",But I had locked the briefcase of the Lady Inglethorp in the morning following to her death.,False,True
+en/1990/100224/4171489.xml.gz::160,"[""joy"", ""trust""]","[""sadness""]","[""sadness""]","[""sadness""]","Aunque éramos cercanos, Aunque me traicionaste,  Y confié en ti,","Even though we were close, even though you betrayed me, and I trusted you,",False,True
+en/1990/100224/4171489.xml.gz::359,"[""surprise""]","[""joy""]","[""joy""]","[""joy""]",¿No es usted agradable?,- Aren't you pleasant.,False,True
+en/1990/100224/4171489.xml.gz::539,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",Que tengan un buen viaje amigos.,- You folks have a nice trip.,False,False
+en/1990/100224/4171489.xml.gz::643,"[""fear""]","[""anticipation""]","[""anticipation""]","[""fear""]","No podemos esperar, ellos la encontrarán.",I don't think we can hold out that long before they find her.,True,False
+en/1990/100224/4171489.xml.gz::819,"[""fear"", ""sadness""]","[""anger""]","[""anticipation""]","[""anger""]",Se supone que diga algo.,- You're supposed to say something.,True,True
+en/1990/100224/4171489.xml.gz::820,"[""surprise""]","[""surprise""]","[""surprise""]","[""surprise""]",Cómo qué?,- Like what?,False,False
+en/1990/100224/4171489.xml.gz::891,"[""anticipation""]","[""sadness""]","[""sadness""]","[""sadness""]",Pero no me he estado sintiendo bien últimamente.,"Listen, I-I know you're gonna think this is real dumb of me, but, uh, I haven't been feeling very good lately, and, uh...",False,True
+en/1990/100224/4171489.xml.gz::1027,"[""anticipation"", ""disgust"", ""joy"", ""trust""]","[""joy""]","[""joy""]","[""anticipation""]",Realmente voy a disfrutar esto.,- I'm really gonna enjoy this.,True,True
+en/1990/100224/4171489.xml.gz::1144,"[""anger"", ""disgust""]","[""fear""]","[""fear""]","[""anticipation""]",Te dejaré a solas por un momento.,I'm gonna leave you alone for a little while.,True,True
+en/1990/100224/4171489.xml.gz::1215,"[""anger"", ""fear""]","[""anticipation""]","[""anger"", ""disgust""]","[""anticipation""]","Esto significa, um... Si dices algo de esto,","It means, um... if you say anything about this,",True,True
+en/1990/100224/4171489.xml.gz::1380,"[""anticipation""]","[""anticipation""]","[""anger""]","[""anger""]",Hágalo así mismo.,Do it right away.,True,False
+en/1990/100224/4171489.xml.gz::137,"[""anger""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","ahora, tú no entiendes, Leo. entiendo.","- Now, you-you don't understand, Leo.",False,True
+en/1990/100224/4171489.xml.gz::359,"[""surprise""]","[""disgust""]","[""disgust""]","[""disgust""]",no es usted agradable?,- Aren't you pleasant.,False,True
+en/1990/100224/4171489.xml.gz::366,"[""trust""]","[""joy"", ""trust""]","[""joy""]","[""anticipation"", ""joy""]",nosotros podemos protegerla.,We can protect you.,True,True
+en/1990/100224/4171489.xml.gz::643,"[""fear""]","[""anticipation""]","[""anticipation""]","[""fear""]","no podemos esperar, ellos la encontrarán.",I don't think we can hold out that long before they find her.,True,False
+en/1990/100224/4171489.xml.gz::819,"[""fear"", ""sadness""]","[""anticipation""]","[""anticipation""]","[""anger""]",se supone que diga algo.,- You're supposed to say something.,True,True
+en/1990/100224/4171489.xml.gz::1027,"[""anticipation"", ""disgust"", ""joy"", ""trust""]","[""joy""]","[""joy""]","[""anticipation""]",realmente voy a disfrutar esto.,- I'm really gonna enjoy this.,True,True
+en/1990/100224/4171489.xml.gz::1144,"[""anger"", ""disgust""]","[""anticipation""]","[""fear""]","[""anticipation""]",te dejaré a solas por un momento.,I'm gonna leave you alone for a little while.,True,True
+en/1990/100224/4171489.xml.gz::1282,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",le gustaría verme?,Would you like to see me?,False,False
+en/1990/100224/4171489.xml.gz::1297,"[""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",le di mi compartimento con asientos normales.,I gave him my compartment.,False,True
+en/1990/100224/4171489.xml.gz::1380,"[""anticipation""]","[""anticipation""]","[""anger""]","[""anger""]",hágalo así mismo.,Do it right away.,True,False
+en/1990/100224/4171489.xml.gz::1455,"[""joy""]","[""anticipation""]","[""anger""]","[""joy""]",si.,Yes.,True,False
+en/1990/100224/4171489.xml.gz::820,"[""surprise""]","[""surprise""]","[""surprise""]","[""surprise""]",Cómo ¿qué?,- Like what?,False,False
+en/1990/100224/4171489.xml.gz::1215,"[""anger"", ""fear""]","[""anger""]","[""anger""]","[""anger""]","Si dices algo de esto,","It means, um... if you say anything about this,",False,True
+en/1990/100224/4171489.xml.gz::1297,"[""joy""]","[""anger""]","[""anger"", ""disgust""]","[""anger""]",Le di mi compartimento porque sólo quedaban asientos.,I gave him my compartment.,True,True
+en/1990/100224/4171489.xml.gz::1380,"[""anticipation""]","[""anticipation""]","[""anger""]","[""anger""]",Hágalo así.,Do it right away.,True,False
+en/1990/100232/4438698.xml.gz::269,"[""fear"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",Por que no nos disparan ?,Why aren't they firing?,False,True
+en/1990/100232/4438698.xml.gz::716,"[""joy"", ""trust""]","[""joy""]","[""joy""]","[""joy""]",- Un gusto.,-Pleased to meet you.,False,True
+en/1990/100232/4438698.xml.gz::744,"[""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",- Podrias llevarla.,That's fine.,False,True
+en/1990/100232/4438698.xml.gz::893,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",- LLamalo como quieras.,"You can call it an immigration if you want to, Jim.",False,False
+en/1990/100232/4438698.xml.gz::940,"[""anger""]","[""disgust""]","[""anger""]","[""anger"", ""disgust""]",Odio volar Y mas odio saltar.,I hate jumping out of a perfectly good airplane.,True,False
+en/1990/100232/4438698.xml.gz::976,"[""fear""]","[""anger""]","[""anger""]","[""anger""]",Mierda !,"Oh, shit!",False,True
+en/1990/100232/4438698.xml.gz::1006,"[""anger"", ""anticipation"", ""fear"", ""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Tendras problemas?,Is he gonna be a problem?,False,True
+en/1990/100232/4438698.xml.gz::1356,"[""sadness"", ""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",- Vamos!,He can't get a clear shot!,False,True
+en/1990/100260/5855803.xml.gz::96,"[""disgust"", ""sadness""]","[""trust""]","[""anticipation""]","[""trust""]",Te ayudaran.,"Murder is very, very real.",True,True
+en/1990/100260/5855803.xml.gz::333,"[""anticipation""]","[""anger"", ""anticipation""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","- No, en serio. - Si me pegas, te arranco la cara.","So maybe death isn't the end, Doc.",True,True
+en/1990/100260/5855803.xml.gz::743,"[""anger"", ""fear""]","[""joy""]","[""joy""]","[""anticipation"", ""joy""]",Nos encanta. ¿Que es ese olor?,They'll rip off your head and shit down your neck!,True,True
+en/1990/100260/5855803.xml.gz::750,"[""surprise""]","[""fear""]","[""fear""]","[""fear""]",¡Te arrancaran la cabeza y defecaran en tu cuello!,You can't go down there!,False,True
+en/1990/100260/5855803.xml.gz::892,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Cuando lleguen, busquen en el cementerio.",- We're here to kick some major league butt.,False,False
+en/1990/100260/5855803.xml.gz::893,"[""disgust""]","[""anger""]","[""anger""]","[""anger""]","Si ven algo con mas de dos ojos, echenme un grito.","- We're here to scout, not engage.",False,True
+en/1990/100260/5855803.xml.gz::901,"[""disgust"", ""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","¿Que opina, doctor?",Who would want to live in a graveyard?,False,True
+en/1990/100260/5855803.xml.gz::1103,"[""anger"", ""fear""]","[""fear""]","[""anticipation""]","[""anticipation""]",¿Cual salida es segura?,Don't!,True,True
+en/1990/100260/5855803.xml.gz::1195,"[""anticipation""]","[""anger""]","[""anger""]","[""anger""]",Ya no eres Boone.,"They made you one of them, you can do the same for me.",False,True
+en/1990/100395/133488.xml.gz::54,"[""sadness""]","[""anger""]","[""anger""]","[""anger""]","Me odias, ¿no? No, qué raro.",I hate myself for not using cutaways.,False,True
+en/1990/100395/133488.xml.gz::75,"[""trust""]","[""anger""]","[""anger""]","[""anger""]","Si jodes la peli, te mato.",You know what I'm talking about and so does everybody on this set.,False,True
+en/1990/100395/133488.xml.gz::160,"[""trust""]","[""fear""]","[""fear""]","[""fear""]","De lo contrario, habría muerto.","Oh, well, sure.",False,True
+en/1990/100395/133488.xml.gz::225,"[""sadness""]","[""sadness""]","[""sadness""]","[""joy""]","Bart, mi madre.","Sorry, boys.",True,False
+en/1990/100395/133488.xml.gz::271,"[""disgust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Se supone que empiezas esa nueva película.,-Instant gratification takes too long.,False,True
+en/1990/100395/133488.xml.gz::333,"[""joy""]","[""surprise""]","[""anger""]","[""anticipation""]",¿Qué puedo decir?,I remember when I was 1 5 years old.,True,True
+en/1990/100395/133488.xml.gz::525,"[""disgust""]","[""anger""]","[""anger""]","[""anger""]",No me contradigas.,I don't want to see them.,False,True
+en/1990/100395/133488.xml.gz::848,"[""sadness"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Vas a ir a la reunión?,"Well, I suppose I should thank you.",False,True
+en/1990/100395/133488.xml.gz::887,"[""joy""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]",¿Y si te digo que no pasó nada? ¿Nada de qué?,Did anybody ever tell you that you smell like the future?,False,True
+en/1990/100395/133488.xml.gz::1009,"[""disgust"", ""joy"", ""trust""]","[""joy"", ""trust""]","[""joy""]","[""joy"", ""trust""]",Eres lo más real que he conocido en lo abstracto.,You sound like a rug salesman.,True,True
+en/1990/100395/133488.xml.gz::1103,"[""anger""]","[""anticipation"", ""trust""]","[""anticipation""]","[""anticipation"", ""joy""]",Eso creo. ¿Le conoces?,Asking who I sleep with isn't personal anymore?,True,True
+en/1990/100395/133488.xml.gz::1138,"[""anticipation""]","[""fear""]","[""fear""]","[""fear""]","Por un momento, me has asustado.",So if you can just enjoy yourself with him like he's enjoying himself with you....,False,True
+en/1990/100395/133488.xml.gz::1208,"[""joy"", ""surprise""]","[""surprise""]","[""anticipation""]","[""anticipation""]",¿A quién? Evelyn.,That's not competitive.,True,True
+en/1990/100395/133488.xml.gz::1328,"[""trust""]","[""sadness""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]",Te produciré un álbum. Dejo esta profesión.,My drinking does not interfere with my work.,True,True
+en/1990/100395/133488.xml.gz::1522,"[""disgust""]","[""joy"", ""trust""]","[""surprise""]","[""surprise""]",¿Está bien? - ¿Quién es?  - Soy su hija.,"If I thought I made you feel like that, I'd kill myself.",True,True
+en/1990/100395/133488.xml.gz::1525,"[""fear"", ""sadness""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger""]","Mire, la hemos denunciado por conducir bebida.",I suppose she means well.,True,True
+en/1990/100395/133488.xml.gz::1632,"[""anticipation""]","[""anticipation"", ""joy""]","[""anger""]","[""anger"", ""anticipation""]",Y que lo digas. El abrigo.,We could go see Valley of the Dolls.,True,True
+en/1990/100395/133488.xml.gz::54,"[""sadness""]","[""anger""]","[""anger""]","[""anger""]",Me odio a mí mismo por rodar un plano tan largo.,I hate myself for not using cutaways.,False,True
+en/1990/100395/133488.xml.gz::75,"[""trust""]","[""anger""]","[""anger""]","[""anger"", ""disgust""]","Ya sabes a qué me refiero, lo saben todos.",You know what I'm talking about and so does everybody on this set.,True,True
+en/1990/100395/133488.xml.gz::160,"[""trust""]","[""joy""]","[""anticipation"", ""joy""]","[""joy""]","Bueno. Sí, claro.","Oh, well, sure.",True,True
+en/1990/100395/133488.xml.gz::167,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Debo hacerle unas preguntas.,I'd like to ask a few questions.,False,False
+en/1990/100395/133488.xml.gz::225,"[""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]",Perdonad.,"Sorry, boys.",False,False
+en/1990/100395/133488.xml.gz::443,"[""anger""]","[""sadness""]","[""sadness""]","[""sadness""]",Te dejamos.,We're gonna leave you.,False,True
+en/1990/100395/133488.xml.gz::525,"[""disgust""]","[""anger""]","[""anger""]","[""anger""]",No quiero verles.,I don't want to see them.,False,True
+en/1990/100395/133488.xml.gz::559,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Muy, muy pronto.","Very, very soon.",False,False
+en/1990/100395/133488.xml.gz::698,"[""trust""]","[""joy""]","[""joy""]","[""joy""]","Sólo tienes que disfrutarlo más, eso es todo.","You know, just have more fun with it, that's all.",False,True
+en/1990/100395/133488.xml.gz::848,"[""sadness"", ""trust""]","[""joy""]","[""joy""]","[""joy""]",Supongo que debería darte las gracias.,"Well, I suppose I should thank you.",False,True
+en/1990/100395/133488.xml.gz::887,"[""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Te han dicho alguna vez que hueles a futuro?,Did anybody ever tell you that you smell like the future?,False,True
+en/1990/100395/133488.xml.gz::945,"[""sadness"", ""surprise""]","[""sadness""]","[""anger""]","[""anger""]",No tengo aventuras pasajeras.,I don't have casual affairs.,True,True
+en/1990/100395/133488.xml.gz::971,"[""anticipation"", ""joy""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Creo que te quiero.,I think I love you.,True,True
+en/1990/100395/133488.xml.gz::985,"[""trust""]","[""joy"", ""trust""]","[""joy""]","[""joy"", ""trust""]",Lo haces bastante bien.,You're doing pretty well.,True,True
+en/1990/100395/133488.xml.gz::1016,"[""joy"", ""trust""]","[""sadness""]","[""anger""]","[""sadness""]",He venido para no preocuparte.,I came home because I didn't want to worry you.,True,True
+en/1990/100395/133488.xml.gz::1021,"[""anger"", ""sadness"", ""trust""]","[""sadness""]","[""trust""]","[""anger""]",Se supone que te cuido.,I'm supposed to be taking care of you.,True,True
+en/1990/100395/133488.xml.gz::1049,"[""disgust""]","[""anger""]","[""anger""]","[""anger""]",Qué más da.,Whatever.,False,True
+en/1990/100395/133488.xml.gz::1103,"[""anger""]","[""anticipation""]","[""anger""]","[""anger""]",¿No es personal con quién me acuesto?,Asking who I sleep with isn't personal anymore?,True,False
+en/1990/100395/133488.xml.gz::1138,"[""anticipation""]","[""trust""]","[""joy""]","[""anticipation"", ""joy""]","Si puedes, pásatelo bien con él... Es lo que hago yo.",So if you can just enjoy yourself with him like he's enjoying himself with you....,True,True
+en/1990/100395/133488.xml.gz::1271,"[""anger"", ""fear""]","[""anger""]","[""anger""]","[""anger""]","¿O sea, que no tengo dinero?","Meaning what, that I have no money?",False,True
+en/1990/100395/133488.xml.gz::1328,"[""trust""]","[""anger""]","[""anger""]","[""anger""]",La bebida no afecta a mi trabajo.,My drinking does not interfere with my work.,False,True
+en/1990/100395/133488.xml.gz::1491,"[""fear""]","[""fear""]","[""fear""]","[""fear""]",Está asustada más que nada.,She's more frightened than anything.,False,False
+en/1990/100395/133488.xml.gz::1496,"[""sadness""]","[""sadness""]","[""fear""]","[""anger""]",La tenías preocupada.,She was worried about you.,True,False
+en/1990/100395/133488.xml.gz::1520,"[""anger""]","[""anticipation"", ""joy""]","[""anger""]","[""anger""]",¡Necesitas una zurra como las que le daba a tu madre!,You need a good pop on the butt like I used to give your mother!,True,False
+en/1990/100395/133488.xml.gz::1522,"[""disgust""]","[""sadness""]","[""anger""]","[""anger"", ""sadness""]","Si supiera que te sientes así, me suicidaría.","If I thought I made you feel like that, I'd kill myself.",True,True
+en/1990/100395/133488.xml.gz::1525,"[""fear"", ""sadness""]","[""trust""]","[""trust""]","[""trust""]",Tiene buena intención.,I suppose she means well.,False,True
+en/1990/100395/133488.xml.gz::1633,"[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",El destino nos ha unido.,We can say fate brought us together.,True,False
+en/1990/100405/4706696.xml.gz::94,"[""fear""]","[""anger""]","[""anger""]","[""anger""]",No debes conducir.,I don't think you should drive.,False,True
+en/1990/100405/4706696.xml.gz::297,"[""anticipation""]","[""surprise""]","[""surprise""]","[""surprise""]",¡Alucino:,Doesn't it blow your mind?,False,True
+en/1990/100405/4706696.xml.gz::305,"[""surprise""]","[""anticipation""]","[""anger""]","[""anticipation""]",¿Por qué no te gustan los coches?,"So, how is it you know so little about cars?",True,True
+en/1990/100405/4706696.xml.gz::377,"[""anticipation""]","[""anger""]","[""anger"", ""disgust""]","[""anger""]","Anda, ponte esto.",Why don't you put this on?,True,True
+en/1990/100405/4706696.xml.gz::391,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Envíe champán y fresas, por favor.",Could you send up champagne and strawberries?,False,False
+en/1990/100405/4706696.xml.gz::572,"[""joy"", ""surprise""]","[""surprise""]","[""anger""]","[""surprise""]",¡No he visto este episodio!,"You know, I never saw this episode.",True,True
+en/1990/100405/4706696.xml.gz::619,"[""anticipation""]","[""joy""]","[""anticipation"", ""joy""]","[""anticipation""]",Me tomé la libertad de pedir el menú entero.,I took the liberty of ordering everything.,True,False
+en/1990/100405/4706696.xml.gz::1013,"[""anticipation"", ""fear""]","[""fear""]","[""fear""]","[""fear""]",No. Tengo un pequeño problema.,I've got a little problem.,False,True
+en/1990/100405/4706696.xml.gz::1045,"[""surprise""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Es una joven fascinante.,"Intriguing young lady, Miss Vivian.",True,True
+en/1990/100405/4706696.xml.gz::1332,"[""trust""]","[""trust""]","[""trust""]","[""trust""]",Tenías razón con lo de Morse.,You were right.,False,False
+en/1990/100405/4706696.xml.gz::1416,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",¡Bravo!,Well done!,False,False
+en/1990/100405/4706696.xml.gz::1467,"[""surprise""]","[""surprise""]","[""anger""]","[""surprise""]",¿De dónde la sacaste?,Wherever did you find her?,True,False
+en/1990/100405/4706696.xml.gz::1670,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Llegaremos en 50 min.,We should be there in about 50 minutes.,False,False
+en/1990/100405/4706696.xml.gz::1801,"[""anticipation"", ""fear""]","[""anticipation""]","[""anticipation""]","[""anger""]",Páseme el teléfono.,- Let me talk to her.,True,True
+en/1990/100405/4706696.xml.gz::1834,"[""joy""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Estás muy guapa.,You look really good.,True,False
+en/1990/100405/4706696.xml.gz::1879,"[""anger""]","[""anticipation"", ""joy""]","[""anger"", ""disgust""]","[""anticipation"", ""joy""]","A lo mejor podríais ir a vivir juntos, comprar diamantes, y un caballo...","Maybe you guys could like you know, get a house and buy some diamonds and a horse.",True,True
+en/1990/100405/4706696.xml.gz::1898,"[""disgust""]","[""anger""]","[""anger""]","[""anger"", ""anticipation""]",He reconsiderado mi postura sobre su oferta.,I've reconsidered my position on your acquisition offer.,True,True
+en/1990/100405/4706696.xml.gz::2111,"[""anticipation"", ""surprise""]","[""anticipation"", ""fear""]","[""anticipation""]","[""anticipation"", ""fear""]",¿Crees que tengo futuro?,You think I got potential?,True,True
+en/1990/100405/4706696.xml.gz::2119,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿A qué hora viene el bus?,What time's your bus?,False,False
+en/1990/100405/4706696.xml.gz::2160,"[""anticipation""]","[""anticipation"", ""fear""]","[""anticipation"", ""joy""]","[""anticipation""]",¿Y qué pasa después? Se sube a la torre y la salva...,"So, what happened after he climbed up the tower and rescued her?",True,False
+en/1990/100405/4706696.xml.gz::2163,"[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",¿Cuál es tu sueño?,What's your dream?,False,True
+en/1990/100405/4706696.xml.gz::1354,"[""anger""]","[""anticipation""]","[""anger""]","[""anger""]",Te lo he dejado en bandeja.,I'm handing it to you.,True,False
+en/1990/100405/4706696.xml.gz::1670,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Llegaremos en 50 minutos.,We should be there in about 50 minutes.,False,False
+en/1990/100405/4706696.xml.gz::1801,"[""anticipation"", ""fear""]","[""anger""]","[""anger""]","[""anger""]",- Páseme el teléfono.,- Let me talk to her.,False,True
+en/1990/100405/4706696.xml.gz::1879,"[""anger""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]","[""anticipation""]","A lo mejor podrían... .. ir a vivir juntos, comprar diamantes, y un caballo...","Maybe you guys could like you know, get a house and buy some diamonds and a horse.",True,True
+en/1990/100405/4706696.xml.gz::1999,"[""anger"", ""disgust"", ""sadness""]","[""fear""]","[""fear""]","[""fear""]",- ¡No quiero hacerte daño!,You want to hurt me?,False,True
+en/1990/100419/3464474.xml.gz::22,"[""joy""]","[""joy""]","[""anger""]","[""anger""]",Solo bromeaba ¡No las monjas!,This looks good.,True,False
+en/1990/100419/3464474.xml.gz::541,"[""sadness"", ""surprise""]","[""surprise""]","[""anger""]","[""anticipation""]",- ¿Como esta mi nieto? - ¿Gorda?,"No, Dad, we adopted.",True,True
+en/1990/100419/3464474.xml.gz::1174,"[""anger"", ""surprise""]","[""trust""]","[""anger"", ""disgust""]","[""joy""]",Si tu tienes un hijo como Junior La mujeres caerian ante ti.,I'm not a bimbo you can tie up and do what you want with!,True,True
+en/1990/100419/3464474.xml.gz::1260,"[""anger"", ""anticipation""]","[""anger""]","[""anger""]","[""anger""]",Tu no...,Let him go!,False,True
+en/1990/100419/3464474.xml.gz::1286,"[""surprise""]","[""joy""]","[""joy""]","[""joy""]","Bueno, la broma termino.",Hold it!,False,True
+en/1990/100442/5165018.xml.gz::32,"[""anticipation"", ""trust""]","[""fear""]","[""anger""]","[""fear""]",Por Dios.,Jesus.,True,True
+en/1990/100442/5165018.xml.gz::78,"[""anger""]","[""anger""]","[""anger"", ""disgust""]","[""anger""]","Si viola la ley y yo me entero, pagará por ello.","If he breaks the law and it crosses this desk, he pays for it.",True,False
+en/1990/100442/5165018.xml.gz::190,"[""anticipation"", ""joy""]","[""surprise""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]",Mike nos contaba que tiene cojones.,Mike was just telling us what cojones he got.,True,True
+en/1990/100442/5165018.xml.gz::203,"[""anger"", ""disgust""]","[""joy""]","[""anger""]","[""anger""]",Odia a todo el mundo.,He hates everybody.,True,True
+en/1990/100442/5165018.xml.gz::211,"[""surprise""]","[""anger""]","[""anger""]","[""anticipation""]","¿No es así, teniente?","Right, Lieutenant?",True,True
+en/1990/100442/5165018.xml.gz::299,"[""fear""]","[""joy""]","[""anticipation""]","[""anticipation""]","- Déjennos a solas, muchachos.","- Fellas, we gotta be alone.",True,True
+en/1990/100442/5165018.xml.gz::353,"[""sadness""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Aún no hemos comido.,We haven't eaten yet.,False,True
+en/1990/100442/5165018.xml.gz::458,"[""joy"", ""sadness""]","[""anticipation""]","[""anger""]","[""anticipation"", ""joy""]","Los tiempos cambiaron, ¿no?","Times have changed, haven't they?",True,True
+en/1990/100442/5165018.xml.gz::618,"[""anticipation""]","[""anger"", ""anticipation""]","[""anger"", ""anticipation""]","[""anticipation"", ""joy""]","¡Creo que eso lo debo saber yo y tú debes averiguarlo, detective Valentín!","I guess that's for me to know and you to find out, Detective Valentin!",True,True
+en/1990/100442/5165018.xml.gz::639,"[""anger"", ""fear""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger""]","Mientras ustedes dos se felicitan, mejor que se den cuenta de que metieron a Brennan en esto.","While you two pricks are congratulating yourselves, you better realize maybe you put Brennan's neck in it.",True,True
+en/1990/100442/5165018.xml.gz::662,"[""disgust"", ""surprise""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger""]","Una vez, se paró frente a una bala destinada a mí la tomó con la izquierda y se la metió por el culo a un rufián.",He stepped in front of a bullet for me once caught it in his left hand and shoved it up the punk's ass.,True,True
+en/1990/100442/5165018.xml.gz::689,"[""trust""]","[""fear""]","[""fear""]","[""fear""]",Hay algo que me preocupa.,I'm sitting on something.,False,True
+en/1990/100442/5165018.xml.gz::737,"[""anger""]","[""anticipation""]","[""anger""]","[""anger""]","Flo, si quisiera algo más, llamaría a Sylvester.","Flo, if I wanted anything else, I'd call Sylvester here.",True,False
+en/1990/100442/5165018.xml.gz::793,"[""disgust""]","[""disgust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","¡Era un negro sucio, un esclavo!","Was a nigger, was a dinge, was a coon!",True,False
+en/1990/100442/5165018.xml.gz::823,"[""sadness""]","[""fear""]","[""sadness""]","[""sadness""]","Nancy, no quiero irme así.","Nancy, I don't want to leave like this.",True,False
+en/1990/100442/5165018.xml.gz::1061,"[""fear""]","[""fear""]","[""anger"", ""fear""]","[""anger""]",El maldito me asusta.,This fucking guy's scaring me.,True,False
+en/1990/100442/5165018.xml.gz::1089,"[""anticipation"", ""fear""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","En el Club Montauk, a las 9:00 p.m.","The Montauk Club, 9:00 pm.",False,True
+en/1990/100442/5165018.xml.gz::1163,"[""trust""]","[""trust""]","[""trust""]","[""trust""]","- No me quejo, eres confiable...","- No complaints, you're reliable-",False,False
+en/1990/100442/5165018.xml.gz::1165,"[""fear""]","[""anger""]","[""anger""]","[""anger""]",Esos dos matones que trajiste de Miami. ¿Por qué?,These two shooters you just brought up from Miami.,False,True
+en/1990/100442/5165018.xml.gz::1203,"[""fear""]","[""anger""]","[""anger""]","[""anticipation""]",¿Por qué quieres verme?,What do you want to see me about?,True,True
+en/1990/100442/5165018.xml.gz::1265,"[""disgust""]","[""anger""]","[""anger"", ""disgust""]","[""anger""]",Piensas que le creeré a un marica soplón.,You think I'm gonna team up with some faggot stool-pigeon.,True,True
+en/1990/100442/5165018.xml.gz::1273,"[""trust""]","[""anger"", ""anticipation""]","[""anger""]","[""anger"", ""anticipation""]",- Soy el único que puede...,- l'm the one who can-,True,True
+en/1990/100442/5165018.xml.gz::1278,"[""fear"", ""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]",No puedo ir ante el jurado de acusación sin él.,I can't go to the grand jury without him.,False,True
+en/1990/100442/5165018.xml.gz::1324,"[""trust""]","[""joy"", ""trust""]","[""anger"", ""disgust""]","[""anger"", ""anticipation""]","Ellos son ellos, yo sigo siendo yo.","They're them, I'm still me.",True,True
+en/1990/100442/5165018.xml.gz::1338,"[""fear"", ""trust""]","[""fear""]","[""anticipation""]","[""fear""]","Cuídense todos, ¿entendieron?","Y'all take care now, you hear?",True,True
+en/1990/100442/5165018.xml.gz::1374,"[""sadness""]","[""joy""]","[""joy""]","[""joy""]","Un chico pobre que triunfó, ex policía.","Poor boy who made it, ex-cop.",False,True
+en/1990/100442/5165018.xml.gz::1488,"[""surprise""]","[""anticipation""]","[""anger""]","[""anger""]",Vaya cartel que tienes en la puerta.,That's some sign you got on the door out there.,True,True
+en/1990/100442/5165018.xml.gz::1502,"[""surprise""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Tú también te ves muy bien ahí arriba.,You look pretty good up there yourself.,True,True
+en/1990/100442/5165018.xml.gz::1583,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",¿Qué te parece toda la maldita ciudad si no haces lo que te digo?,"How about that whole fucking city, if you don't do what I say?",False,False
+en/1990/100442/5165018.xml.gz::1757,"[""anticipation"", ""fear"", ""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Quizás te esté esperando.,He might even be expecting you.,False,True
+en/1990/100442/5165018.xml.gz::1785,"[""joy""]","[""joy""]","[""joy""]","[""joy""]",Está enamorado.,He's in love.,False,False
+en/1990/100442/5165018.xml.gz::1810,"[""disgust"", ""sadness""]","[""anger""]","[""anger""]","[""sadness""]","lgual, no sirve de nada.",It's no use anyway.,True,True
+en/1990/100442/5165018.xml.gz::1822,"[""anger"", ""joy""]","[""anger""]","[""anger""]","[""anger""]",Quiero a ese maldito de Texador.,Now I want that fucking Texador.,False,True
+en/1990/100442/5165018.xml.gz::2028,"[""anger""]","[""joy""]","[""anger""]","[""anger""]",Mira lo que has hecho.,Look at what you've done.,True,False
+en/1990/100442/5165018.xml.gz::2063,"[""disgust""]","[""fear""]","[""fear""]","[""fear""]",Desaparecerá.,Disappear.,False,True
+en/1990/100442/5165018.xml.gz::2112,"[""joy""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Son todos amigos míos.,They're all friends of mine.,True,False
+en/1990/100442/5165018.xml.gz::2131,"[""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]","Yo no puedo, y Dios sabe que el departamento tampoco puede.","I can't, and God knows the department can't.",False,False
+en/1990/100442/5165018.xml.gz::2170,"[""anticipation"", ""trust""]","[""anticipation"", ""trust""]","[""anticipation"", ""trust""]","[""anticipation"", ""trust""]",Me sentaré a tu lado hasta que estés lista.,I'll sit by your side until you're ready.,False,False
+en/1990/100442/5165018.xml.gz::78,"[""anger""]","[""anger""]","[""anger"", ""disgust""]","[""anger""]","Si viola la ley y pasa por esta oficina, pagará por ello.","If he breaks the law and it crosses this desk, he pays for it.",True,False
+en/1990/100442/5165018.xml.gz::190,"[""anticipation"", ""joy""]","[""anger""]","[""anger""]","[""anger""]",Mike nos estaba contando que qué cojones había tenido.,Mike was just telling us what cojones he got.,False,True
+en/1990/100442/5165018.xml.gz::203,"[""anger"", ""disgust""]","[""disgust""]","[""anger""]","[""anger""]",Él odia a todos.,He hates everybody.,True,True
+en/1990/100442/5165018.xml.gz::211,"[""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","¿Verdad, teniente?","Right, Lieutenant?",False,True
+en/1990/100442/5165018.xml.gz::299,"[""fear""]","[""fear""]","[""fear""]","[""fear""]",- Tenemos que quedarnos solos.,"- Fellas, we gotta be alone.",False,False
+en/1990/100442/5165018.xml.gz::458,"[""joy"", ""sadness""]","[""anticipation"", ""surprise""]","[""anger""]","[""anticipation"", ""joy""]","Los tiempos han cambiado, ¿no?","Times have changed, haven't they?",True,True
+en/1990/100442/5165018.xml.gz::618,"[""anticipation""]","[""anticipation"", ""trust""]","[""anticipation"", ""joy""]","[""anticipation""]",Es algo que yo debo saber y que tú debes averiguar.,"I guess that's for me to know and you to find out, Detective Valentin!",True,False
+en/1990/100442/5165018.xml.gz::639,"[""anger"", ""fear""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger""]","A pesar de que ustedes dos se felicitan mutuamente, deben entender que han puesto a Brennan en apuros.","While you two pricks are congratulating yourselves, you better realize maybe you put Brennan's neck in it.",True,True
+en/1990/100442/5165018.xml.gz::662,"[""disgust"", ""surprise""]","[""disgust""]","[""anger"", ""disgust""]","[""anger""]","Una vez se puso frente a una bala que me dispararon, la cogió en la mano izquierda y se la metió al tipo en el culo.",He stepped in front of a bullet for me once caught it in his left hand and shoved it up the punk's ass.,True,True
+en/1990/100442/5165018.xml.gz::689,"[""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Tengo algo para revelar.,I'm sitting on something.,False,True
+en/1990/100442/5165018.xml.gz::737,"[""anger""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Si quisiera algo más, llamaría a Sylvester.","Flo, if I wanted anything else, I'd call Sylvester here.",False,True
+en/1990/100442/5165018.xml.gz::793,"[""disgust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","¡Era un negro, un carbón, un mono!","Was a nigger, was a dinge, was a coon!",False,True
+en/1990/100442/5165018.xml.gz::1488,"[""surprise""]","[""surprise""]","[""anger""]","[""surprise""]",Oye qué letrero tienes ahí en la puerta.,That's some sign you got on the door out there.,True,False
+en/1990/100442/5165018.xml.gz::1502,"[""surprise""]","[""joy""]","[""joy""]","[""joy""]",También tú te ves muy bien allí.,You look pretty good up there yourself.,False,True
+en/1990/100442/5165018.xml.gz::1583,"[""anger""]","[""anger"", ""disgust""]","[""anger""]","[""anger""]",Qué será de toda esta ciudad si no haces lo que yo digo.,"How about that whole fucking city, if you don't do what I say?",True,False
+en/1990/100442/5165018.xml.gz::1757,"[""anticipation"", ""fear"", ""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Incluso puede que te esté esperando. ¿Sabes eso?,He might even be expecting you.,False,True
+en/1990/100442/5165018.xml.gz::1810,"[""disgust"", ""sadness""]","[""sadness""]","[""sadness""]","[""sadness""]",De todos modos será inútil.,It's no use anyway.,False,True
+en/1990/100442/5165018.xml.gz::1822,"[""anger"", ""joy""]","[""anger""]","[""anger""]","[""anger""]",Ahora quiero a ese maldito Texador.,Now I want that fucking Texador.,False,True
+en/1990/100442/5165018.xml.gz::2112,"[""joy""]","[""joy"", ""trust""]","[""joy""]","[""joy""]",Todos son amigos míos.,They're all friends of mine.,True,False
+en/1990/100442/5165018.xml.gz::2131,"[""sadness""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""sadness""]",Yo no puedo y Dios sabe que el Departamento no puede.,"I can't, and God knows the department can't.",True,False
+en/1990/100442/5165018.xml.gz::2170,"[""anticipation"", ""trust""]","[""anticipation"", ""trust""]","[""anticipation"", ""trust""]","[""anticipation""]",Estaré sentado a tu lado hasta que estés lista.,I'll sit by your side until you're ready.,True,False
+en/1990/100449/7037913.xml.gz::1130,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",Recuéstate. - Grimm no me dijo nada.,Sit back.,False,False
+en/1990/100449/7037913.xml.gz::1403,"[""anger""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",- ¡Estoy pensando en el bebé! - Tendrá tres años cuando salgas.,"- Grimm, I'm thinking of the baby!",False,True
+en/1990/100469/6936851.xml.gz::44,"[""anger"", ""anticipation"", ""surprise""]","[""surprise""]","[""surprise""]","[""anticipation""]",- ¿Qué es un ángel?,What's an angel?,True,True
+en/1990/100469/6936851.xml.gz::106,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","¿Qué estás leyendo, papá?","What you readin' there, Pa?",False,False
+en/1990/100469/6936851.xml.gz::386,"[""disgust""]","[""sadness""]","[""anger""]","[""anger""]",A mi marido no le llame...,Don't you call my husband...,True,True
+en/1990/100469/6936851.xml.gz::415,"[""surprise""]","[""anger""]","[""anger""]","[""anger""]",¡Otra vez los rumores!,All that gossip!,False,True
+en/1990/100469/6936851.xml.gz::494,"[""anger"", ""disgust""]","[""anticipation""]","[""anger"", ""disgust""]","[""joy""]",Pero el pelo continúa creciendo.,But hair just keeps on sprouting.,True,False
+en/1990/100469/6936851.xml.gz::680,"[""anticipation""]","[""anticipation""]","[""surprise""]","[""anticipation""]",¿Qué crees que es?,- What do you make of that?,True,False
+en/1990/100469/6936851.xml.gz::717,"[""sadness""]","[""fear""]","[""fear""]","[""fear""]",La guerra en Londres.,The war in London.,False,True
+en/1990/100469/6936851.xml.gz::740,"[""anger""]","[""joy""]","[""joy""]","[""joy""]",Un gran resplandor...,"God, it was bright.",False,True
+en/1990/100469/6936851.xml.gz::820,"[""anger"", ""fear""]","[""anticipation""]","[""anticipation""]","[""anger""]",- ¡Traémelo!,Bring him to me!,True,True
+en/1990/100469/6936851.xml.gz::894,"[""sadness"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",- ¡Noo!,- No!,False,True
+en/1990/100469/6936851.xml.gz::922,"[""anger"", ""fear"", ""sadness""]","[""fear""]","[""fear""]","[""fear""]",¿Quién está matando a los niños?,What's killing the children?,False,True
+en/1990/100469/6936851.xml.gz::986,"[""fear"", ""sadness""]","[""fear""]","[""fear""]","[""anger""]",¡No me dejes!,Don't leave me!,True,True
+en/1990/100469/6936851.xml.gz::987,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",¡No puedes irte!,You can't go!,False,False
+en/1990/100475/6654473.xml.gz::348,"[""anticipation"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anger""]",Dáme sólo una señal.,Just give me a sign.,True,True
+en/1990/100475/6654473.xml.gz::473,"[""anticipation"", ""joy"", ""sadness""]","[""joy""]","[""joy""]","[""joy""]","- Dale, papá.",Hi.,False,True
+en/1990/100475/6654473.xml.gz::643,"[""surprise""]","[""anticipation"", ""joy""]","[""anger""]","[""anger"", ""anticipation""]",- ¿Yo lo sabía!,"Yeah, I knew it!",True,True
+en/1990/100475/6654473.xml.gz::1319,"[""anger""]","[""anger""]","[""anger"", ""disgust""]","[""anger""]",- ¡Yo te expulso de vuelta para el infierno! - ¡Para el infierno!,I cast thee back to hell.,True,False
+en/1990/100475/6654473.xml.gz::1535,"[""disgust""]","[""joy""]","[""joy""]","[""joy""]","¡Buenas mamás, claro!","Nice tits, sure,",False,True
+en/1990/100475/6654473.xml.gz::1658,"[""surprise""]","[""surprise""]","[""surprise""]","[""surprise""]",- ¡Qué movimiento de levitación!,What a levitation move!,False,False
+en/1990/100485/5439804.xml.gz::48,"[""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]",Y ha sido un honor servir con vosotros.,It's been an honor to serve with you.,False,True
+en/1990/100485/5439804.xml.gz::111,"[""anger""]","[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]","Vamos, podría ser tu padre.","Come on, I'm old enough to be your father.",True,True
+en/1990/100485/5439804.xml.gz::317,"[""anger""]","[""anger""]","[""anger""]","[""anger"", ""disgust""]","- No, sé cómo hacer limonada.","-No, I know how to make lemonade.",True,False
+en/1990/100485/5439804.xml.gz::474,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Me voy a Barranquilla, luego unos días a Caracas.","I'm going down to Barranquilla, then Caracas for a few days.",False,False
+en/1990/100485/5439804.xml.gz::494,"[""anticipation"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Bésame.,Kiss me.,False,True
+en/1990/100502/4704610.xml.gz::7,"[""anger"", ""surprise""]","[""fear""]","[""anger"", ""disgust""]","[""anger""]",Los ecologistas hablan de un desastre.,Environmentalists call it a disaster.,True,True
+en/1990/100502/4704610.xml.gz::38,"[""anger""]","[""anger""]","[""anger""]","[""anger""]","- ¡ Las mataré, perras!",- I'll kill you bitches!,False,False
+en/1990/100502/4704610.xml.gz::61,"[""joy""]","[""joy""]","[""anger""]","[""anger""]",¡ Le dimos!,We got him!,True,False
+en/1990/100502/4704610.xml.gz::68,"[""fear""]","[""anger""]","[""anger""]","[""anger""]",¡Malditos policías!,Fucking cops!,False,True
+en/1990/100502/4704610.xml.gz::87,"[""anger"", ""disgust""]","[""anger""]","[""anger""]","[""anger""]","¿No matas niños, estúpido?","Can't shoot a kid, can you, fucker?",False,True
+en/1990/100502/4704610.xml.gz::146,"[""anticipation"", ""joy"", ""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Listo.,That'll do it.,False,True
+en/1990/100502/4704610.xml.gz::303,"[""anticipation"", ""disgust""]","[""anticipation""]","[""anticipation""]","[""anticipation"", ""joy""]","Mejor que esta vez tenga algo, oficial.","Better have something to give me this time, officer.",True,True
+en/1990/100502/4704610.xml.gz::337,"[""anger"", ""anticipation""]","[""fear""]","[""fear""]","[""anticipation""]",¿Dónde está Caín?,Where is Cain?,True,True
+en/1990/100502/4704610.xml.gz::487,"[""anticipation""]","[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]",Creo que es un buen lugar para iniciar la búsqueda.,"Now, I really think this is a good place to start looking.",True,False
+en/1990/100502/4704610.xml.gz::543,"[""anticipation""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]",Es hora de actualizarlo y quisiera oír vuestras opiniones.,It's time to update the program and I would like to hear from each one of you.,False,True
+en/1990/100502/4704610.xml.gz::696,"[""anger""]","[""anger""]","[""anger""]","[""anger""]","¡Vete al diablo, imbécil!","Go fuck a refrigerator, pecker neck!",False,False
+en/1990/100502/4704610.xml.gz::706,"[""sadness""]","[""anger""]","[""anger""]","[""anger""]",Debe estar enloqueciendo.,He must be going out of his mind.,False,True
+en/1990/100502/4704610.xml.gz::750,"[""joy""]","[""joy"", ""trust""]","[""joy""]","[""joy""]","Gracias, Frank.","Thank you, Frank.",True,False
+en/1990/100502/4704610.xml.gz::827,"[""sadness""]","[""fear""]","[""sadness""]","[""sadness""]",Perdimos el paciente.,I'm afraid we lost our patient.,True,False
+en/1990/100502/4704610.xml.gz::847,"[""anger"", ""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Llegó el momento.,Showtime.,False,True
+en/1990/100502/4704610.xml.gz::855,"[""anticipation"", ""joy""]","[""joy""]","[""joy""]","[""joy""]",- Excelente.,- Excellent.,False,True
+en/1990/100502/4704610.xml.gz::970,"[""anger""]","[""joy""]","[""anger""]","[""anger""]","Déjenos en paz y el que la quiera, la tendrá.",So leave us alone and anybody who wants it gets it.,True,False
+en/1990/100502/4704610.xml.gz::1050,"[""anger""]","[""sadness""]","[""anger""]","[""anger""]",No sea nostálgico.,Don't be nostalgic.,True,False
+en/1990/100502/4704610.xml.gz::1066,"[""anticipation""]","[""anger"", ""surprise""]","[""anger""]","[""anger""]",¡Maníacos! - ¿Qué pasa?,- What's the matter?,True,True
+en/1990/100502/4704610.xml.gz::1101,"[""fear""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Quién sabe.,- Christ knows.,False,True
+en/1990/100502/4704610.xml.gz::1119,"[""fear""]","[""fear""]","[""fear""]","[""anger""]",Debo regresar.,I gotta get back.,True,False
+en/1990/100507/4049754.xml.gz::40,"[""disgust""]","[""anticipation"", ""joy""]","[""anger""]","[""joy""]",¡Con todo lo que tienes!,Everything you've got!,True,True
+en/1990/100507/4049754.xml.gz::188,"[""anticipation""]","[""anger""]","[""anger""]","[""anger""]",¿Dónde has aprendido a decir esas cosas?,Where'd you learn to talk dirty like that?,False,True
+en/1990/100507/4049754.xml.gz::224,"[""trust""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",Yo sé algo de francés.,I know some French talk.,False,True
+en/1990/100507/4049754.xml.gz::287,"[""disgust""]","[""anger"", ""disgust""]","[""anger""]","[""anger""]","Paulie, ¿sabes lo que has hecho?","Paulie, do you know what you did?",True,True
+en/1990/100507/4049754.xml.gz::331,"[""anticipation"", ""joy""]","[""anticipation""]","[""anger""]","[""anger""]",¿Recuerdas esos anuncios que hiciste?,Remember those commercials you did?,True,True
+en/1990/100507/4049754.xml.gz::345,"[""anger""]","[""anger""]","[""anger""]","[""anger"", ""disgust""]",- ¡Yo no cargo con la culpa por todo esto!,I'm not taking the heat for all this.,True,False
+en/1990/100507/4049754.xml.gz::538,"[""surprise""]","[""anticipation"", ""joy""]","[""anticipation""]","[""anger"", ""anticipation""]","- Es la juventud, Rocky.",This kid's taking this too good.,True,True
+en/1990/100507/4049754.xml.gz::603,"[""sadness""]","[""anger""]","[""anger""]","[""anger""]",- Se llama deterioro urbano.,- It's called urban blight.,False,True
+en/1990/100507/4049754.xml.gz::978,"[""trust""]","[""anticipation""]","[""anger""]","[""anger""]",Ya sabes.,You know how it is.,True,True
+en/1990/100507/4049754.xml.gz::1041,"[""anticipation"", ""joy""]","[""joy""]","[""joy""]","[""anticipation"", ""joy""]",Te va a encantar cómo cocina Adrian.,You're really gonna like the way Adrian cooks.,True,False
+en/1990/100507/4049754.xml.gz::1340,"[""anticipation""]","[""joy""]","[""joy"", ""trust""]","[""joy""]","Cualquiera que tenga dos puños y un buen latido de corazón, puede.","Tommy, anybody who's got two fists and a good heartbeat, they got a chance.",True,True
+en/1990/100507/4049754.xml.gz::1480,"[""sadness"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",- ¿Cómo sabes qué quiero?,- How do you know what I want?,False,True
+en/1990/100507/4049754.xml.gz::1508,"[""trust""]","[""trust""]","[""anticipation"", ""trust""]","[""anticipation""]",Quieres que tú y Tommy estéis unidos.,You want you and Tommy to be tight.,True,False
+en/1990/100507/4049754.xml.gz::1520,"[""anticipation""]","[""fear""]","[""anger""]","[""anger"", ""sadness""]",Tommy necesitaba mi ayuda.,Tommy needed my help.,True,True
+en/1990/100507/4049754.xml.gz::1648,"[""anger"", ""sadness""]","[""joy"", ""trust""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]",Duke me ha dado la oportunidad de ir a por el título.,"- Duke gave me my title shot, you didn't.",True,True
+en/1990/100507/4049754.xml.gz::1699,"[""trust""]","[""joy"", ""trust""]","[""joy""]","[""joy"", ""trust""]","Venciste a todos esos boxeadores con el corazón, no con músculos.","All those fighters you beat, you beat 'em with heart, not muscle.",True,True
+en/1990/100507/4049754.xml.gz::1738,"[""anticipation"", ""joy""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]","[""anticipation"", ""joy""]",A lo mejor también seré más listo algún día.,"OK, so maybe I'll wise up someday too.",False,False
+en/1990/100507/4049754.xml.gz::1784,"[""anger"", ""disgust""]","[""anger"", ""sadness""]","[""anger""]","[""anger"", ""sadness""]",No se merece que te estreses.,He ain't worth the stress.,True,True
+en/1990/100507/4049754.xml.gz::1793,"[""surprise""]","[""joy""]","[""joy""]","[""joy""]",Parece que está en muy buena forma.,"- Looks like he's in great shape, don't he?",False,True
+en/1990/100507/4049754.xml.gz::1797,"[""trust""]","[""fear""]","[""fear""]","[""anticipation""]",Está nervioso.,"He's nervous, you know?",True,True
+en/1990/100507/4049754.xml.gz::1833,"[""surprise""]","[""anticipation""]","[""joy""]","[""joy""]",Uno.,One!,True,True
+en/1990/100507/4049754.xml.gz::2036,"[""surprise""]","[""anger""]","[""anger""]","[""anger""]",¿Creías que estaba en esto por el dinero?,"You thought I was in this for the money, Tommy?",False,True
+en/1990/100514/3930419.xml.gz::41,"[""anger"", ""disgust"", ""surprise""]","[""anger""]","[""anger""]","[""anger""]",¿Por que te torturas asi?,Why are you doing this to yourself?,False,True
+en/1990/100514/3930419.xml.gz::48,"[""anticipation""]","[""anticipation""]","[""anticipation""]","[""anticipation""]",En marcha.,"-Let's get rolling, man.",False,False
+en/1990/100514/3930419.xml.gz::95,"[""anger"", ""disgust""]","[""joy""]","[""anticipation""]","[""anticipation""]",¡Nos vemos!,"Later, you fucker!",True,True
+en/1990/100514/3930419.xml.gz::127,"[""joy""]","[""joy""]","[""joy""]","[""joy""]","Hola, David.","-Hello, David.",False,False
+en/1990/100514/3930419.xml.gz::129,"[""sadness"", ""surprise""]","[""disgust""]","[""anger""]","[""anger""]",-Esa era tu nueva pareja.,"-Nick, that was your new partner.",True,True
+en/1990/100514/3930419.xml.gz::160,"[""surprise""]","[""anticipation""]","[""anger""]","[""anticipation""]",-Conque para eso son.,-So that's what those things are for.,True,True
+en/1990/100514/3930419.xml.gz::222,"[""anger"", ""disgust""]","[""disgust""]","[""anger""]","[""anger""]",-Quitenle el trasero al tipo.,Guy ought to have his ass removed.,True,True
+en/1990/100514/3930419.xml.gz::1002,"[""anger""]","[""fear""]","[""fear""]","[""anger""]",No se estan moviendo.,They aren't moving.,True,False
+en/1990/100514/3930419.xml.gz::1031,"[""anger"", ""disgust""]","[""sadness""]","[""sadness""]","[""sadness""]",Infeliz.,Lousy bitch.,False,True
+en/1990/100514/3930419.xml.gz::1064,"[""anticipation"", ""sadness"", ""trust""]","[""trust""]","[""trust""]","[""trust""]",Un verdadero hombre cumple sus promesas.,A man's gotta live up to his word.,False,True
+en/1990/100602/7034324.xml.gz::230,"[""fear"", ""surprise""]","[""surprise""]","[""anger""]","[""surprise""]","¿Qué pasó, George?","What the hell is going on out there, George?",True,True
+en/1990/100602/7034324.xml.gz::348,"[""joy""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Con un poco de navegación, mucha comida...",Good.,False,True
+en/1990/100602/7034324.xml.gz::375,"[""disgust""]","[""trust""]","[""anger"", ""disgust""]","[""trust""]",Henry Park.,"That's Henry park,",True,True
+en/1990/100602/7034324.xml.gz::470,"[""sadness"", ""trust""]","[""sadness""]","[""sadness""]","[""joy"", ""trust""]",Sé cuanto significaba para ti.,I know what it meant to you.,True,True
+en/1990/100602/7034324.xml.gz::604,"[""sadness""]","[""sadness""]","[""anger""]","[""sadness""]",Si lo hubiera hecho mejor...,If only I'd done a better job.,True,False
+en/1990/100602/7034324.xml.gz::612,"[""sadness""]","[""trust""]","[""anger"", ""disgust""]","[""anger""]",- Siga con su duelo. - Gracias,You go ahead and let the grieving process happen.,True,True
+en/1990/100602/7034324.xml.gz::713,"[""anger""]","[""anger""]","[""anger""]","[""anger""]",Por qué no traes a todos los Nick's de Nueva York solo para asegurarte que sabes de Basquetball...,"Hell, we could bring in the whole god damn New York Knicks just to make sure your trash hits the basket!",False,False
+en/1990/100602/7034324.xml.gz::767,"[""trust""]","[""anticipation""]","[""anger""]","[""anger""]","Bob, Bob","Bob, Bob man.",True,True
+en/1990/100602/7034324.xml.gz::820,"[""fear"", ""trust""]","[""fear""]","[""anticipation""]","[""anger"", ""disgust""]",Estoy al tanto de las normas...,"Yeah, yeah, I'm aware of the regulations.",True,True
+en/1990/100602/7034324.xml.gz::1149,"[""anticipation"", ""joy""]","[""joy"", ""trust""]","[""joy"", ""trust""]","[""joy"", ""trust""]",Stella era una mujer maravillosa... muy leal.,"She was a terrific girl, Stella.",False,True
+en/1990/100625/4175940.xml.gz::58,"[""fear"", ""surprise""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]","Dejadme salir. ¡He sido acusado erróneamente! ¡Dejadme salir, he sido acusado erróneamente!",You made a mistake I'm not Bing Chow!,False,True
+en/1990/100625/4175940.xml.gz::62,"[""sadness""]","[""surprise""]","[""anger""]","[""anger""]","Mi nombre es Ning, no Bing Chow. Un anciano quizá pregunte como...","A man, just like you, fated to being imprisoned",True,True
+en/1990/100625/4175940.xml.gz::69,"[""anger""]","[""anger""]","[""anger""]","[""anger"", ""disgust""]","Cuando escribía de historia, ellos decían que satirizaba el presente.","If I analyze military strategy, they say I'm planning a rebellion",True,False
+en/1990/100625/4175940.xml.gz::150,"[""anger"", ""disgust"", ""fear""]","[""fear"", ""trust""]","[""anger"", ""disgust""]","[""anger"", ""disgust""]",Mantén siempre este fardo contigo. ¡Una vez estés fuera de aquí nunca vuelvas!,Once you're out of here never come back!,True,True
+en/1990/100625/4175940.xml.gz::205,"[""surprise""]","[""anticipation""]","[""anticipation""]","[""anticipation""]","Amigo, necesitas un lugar para pasar la noche.",A good thing my reactions are so fast,False,True
+en/1990/100625/4175940.xml.gz::427,"[""fear""]","[""joy""]","[""joy""]","[""joy""]",¡Ya entiendo!,Don't joke with me,False,True
+en/1990/100625/4175940.xml.gz::778,"[""anger"", ""disgust"", ""sadness""]","[""joy""]","[""trust""]","[""trust""]",¡No te preocupes por mí!,I told you that swords are too dangerous!,True,True
+en/1990/100625/4175940.xml.gz::948,"[""anger"", ""disgust"", ""fear""]","[""sadness""]","[""sadness""]","[""sadness""]",No lo puedo mantener.,The bastard Hu betrayed us,False,True
+en/1990/100625/4175940.xml.gz::1058,"[""sadness""]","[""surprise""]","[""anger""]","[""surprise""]",¿Cómo puedo haberme olvidado de Yen?,If we could be like this forever it would be great,True,True
