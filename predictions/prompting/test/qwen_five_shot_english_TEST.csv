@@ -1,0 +1,484 @@
+row_index,sentence,actual,predicted,raw_output,malformed
+0,"Well, that broke that up.","[""anger"", ""fear""]","[""disgust""]","[""disgust""]",False
+1,Told you not to call me that.,"[""anger""]","[""disgust""]","[""disgust""]",False
+2,"What, are you guys blind or something?","[""anger""]","[""disgust""]","[""disgust""]",False
+3,Give me the money.,"[""anger"", ""anticipation""]","[""anger""]","[""anger""]",False
+4,Haven't I told you you're gonna get your melon opened?,"[""fear"", ""joy""]","[""anger""]","[""anger""]",False
+5,It was the only game I could find where I wasn't holding markers on somebody.,"[""surprise""]","[""sadness""]","[""sadness""]",False
+6,The Kid will have to play him.,"[""anticipation"", ""fear""]","[""disgust""]","[""disgust""]",False
+7,I happen to like Melba.,"[""joy""]","[""joy""]","[""joy""]",False
+8,But that's what's so marvelous.,"[""anticipation""]","[""joy""]","[""joy""]",False
+9,"Thanks for the entertainment, gentlemen.","[""anticipation"", ""trust""]","[""joy""]","[""joy""]",False
+10,"Thank you for the privilege, sir.","[""joy"", ""trust""]","[""trust""]","[""trust""]",False
+11,"A pleasure to meet someone who understands that to the true gambler... money is never an end in itself but simply a tool, as language is to thought.","[""joy"", ""trust""]","[""joy""]","[""joy""]",False
+12,"That little gal means more to me than the whole wide world, Shooter.","[""joy"", ""trust""]",[],"[""love""]",True
+13,"Yeah, she's a nice girl, Melba.","[""trust""]","[""trust""]","[""trust""]",False
+14,He's ready for a fall.,"[""disgust"", ""fear"", ""joy""]","[""fear""]","[""fear""]",False
+15,Relax.,"[""anger"", ""fear""]",[],"[""calm""]",True
+16,There was a story I heard... about a wishing stone somewhere on the bank of the Mississippi.,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+17,Don't show it to me.,"[""anger""]","[""fear""]","[""fear""]",False
+18,And I can't get started.,"[""anger""]","[""sadness""]","[""sadness""]",False
+19,"Well, that's pretty sweet.","[""joy""]","[""joy""]","[""joy""]",False
+20,Jack to the king.,"[""trust""]","[""anger""]","[""anger""]",False
+21,You lose the feel of the cards when you have so much action... day in and day out.,"[""sadness""]","[""disgust""]","[""disgust""]",False
+22,I can't beat three sevens.,"[""trust""]","[""disgust""]","[""disgust""]",False
+23,Why aren't they firing?,"[""fear"", ""surprise""]","[""anger""]","[""anger""]",False
+24,I happen to be half-rag myself.,"[""anticipation""]","[""disgust""]","[""disgust""]",False
+25,That's fine.,"[""trust""]","[""joy""]","[""joy""]",False
+26,Two men believed responsible for the attack were captured.,"[""surprise""]","[""sadness""]","[""sadness""]",False
+27,"You can call it an immigration if you want to, Jim.","[""anger""]","[""disgust""]","[""disgust""]",False
+28,"All right, for those people on the street, if there's any trouble, collapse on the house.","[""fear"", ""surprise""]","[""fear""]","[""fear""]",False
+29,I hate jumping out of a perfectly good airplane.,"[""anger""]","[""anger""]","[""anger""]",False
+30,Is he gonna be a problem?,"[""anger"", ""anticipation"", ""fear"", ""surprise""]","[""fear""]","[""fear""]",False
+31,-You should...,"[""anticipation"", ""fear"", ""trust""]","[""anger""]","[""anger""]",False
+32,- Give it back.,"[""anger"", ""anticipation""]","[""anger""]","[""anger""]",False
+33,We are in great danger.,"[""fear""]","[""fear""]","[""fear""]",False
+34,- I can see that!,"[""surprise""]",[],"[""excitement""]",True
+35,Bastian!,"[""joy""]",[],"[""excitement""]",True
+36,And so will you.,"[""anger"", ""anticipation""]","[""joy""]","[""joy""]",False
+37,You made the spell and you can undo it!,"[""anger""]","[""joy""]","[""joy""]",False
+38,I'll be right back.,"[""anticipation""]","[""fear""]","[""fear""]",False
+39,Friends?,"[""anticipation"", ""trust""]",[],"[""friendship""]",True
+40,"Sweety, you're supposed to be beddy-byes!","[""sadness"", ""surprise""]","[""disgust""]","[""disgust""]",False
+41,"Murder is very, very real.","[""disgust"", ""sadness""]","[""disgust""]","[""disgust""]",False
+42,You have to see me!,"[""joy""]",[],"[""excitement""]",True
+43,"So maybe death isn't the end, Doc.","[""anticipation""]","[""sadness""]","[""sadness""]",False
+44,You hit me again and I'm gonna rip your face off.,"[""anger"", ""disgust""]","[""fear""]","[""fear""]",False
+45,But it was worth it.,"[""joy""]","[""joy""]","[""joy""]",False
+46,"- Babette, no!","[""fear""]","[""fear""]","[""fear""]",False
+47,I need to know.,"[""anger""]","[""fear""]","[""fear""]",False
+48,They'll rip off your head and shit down your neck!,"[""anger"", ""fear""]","[""fear""]","[""fear""]",False
+49,You can't go down there!,"[""surprise""]","[""fear""]","[""fear""]",False
+50,- We're here to kick some major league butt.,"[""anticipation""]","[""anger""]","[""anger""]",False
+51,"- We're here to scout, not engage.","[""disgust""]","[""anger""]","[""anger""]",False
+52,Save us digging new ones.,"[""joy"", ""trust""]","[""anger""]","[""anger""]",False
+53,Who would want to live in a graveyard?,"[""disgust"", ""surprise""]","[""sadness""]","[""sadness""]",False
+54,Get out.,"[""anger"", ""trust""]","[""anger""]","[""anger""]",False
+55,You have destroyed our refuge.,"[""anger"", ""sadness""]","[""anger""]","[""anger""]",False
+56,"They made you one of them, you can do the same for me.","[""anticipation""]","[""anger""]","[""anger""]",False
+57,Apparently my birth was not considered a blessed event.,"[""disgust"", ""sadness""]","[""sadness""]","[""sadness""]",False
+58,What a strange-looking dogl,"[""surprise""]","[""disgust""]","[""disgust""]",False
+59,This looks good.,"[""joy""]","[""joy""]","[""joy""]",False
+60,- It's a boy!,"[""joy""]","[""joy""]","[""joy""]",False
+61,What's this big surprise you dragged me over here for?,"[""anger"", ""anticipation""]","[""surprise""]","[""surprise""]",False
+62,"No, Dad, we adopted.","[""sadness"", ""surprise""]","[""sadness""]","[""sadness""]",False
+63,"Warden, if you don't stop, I'll have to ask you to leave.","[""anger""]","[""fear""]","[""fear""]",False
+64,- Let's roast marshmallows.,"[""anticipation""]","[""joy""]","[""joy""]",False
+65,Something that no one's ever done for him before.,"[""joy"", ""sadness""]",[],"[""excitement""]",True
+66,We're not gonna take you back to the orphanage.,"[""trust""]","[""sadness""]","[""sadness""]",False
+67,Nothing can make up for the loss of your life savings...,"[""sadness""]","[""sadness""]","[""sadness""]",False
+68,I sent you all those letters.,"[""surprise""]","[""sadness""]","[""sadness""]",False
+69,Good morning!,"[""joy""]","[""joy""]","[""joy""]",False
+70,I'm not a bimbo you can tie up and do what you want with!,"[""anger"", ""surprise""]","[""anger""]","[""anger""]",False
+71,Good.,"[""joy"", ""trust""]","[""joy""]","[""joy""]",False
+72,Let him go!,"[""anger"", ""anticipation""]","[""anger""]","[""anger""]",False
+73,Hold it!,"[""surprise""]","[""fear""]","[""fear""]",False
+74,-Very handsome.,"[""anticipation""]","[""joy""]","[""joy""]",False
+75,We are happy!,"[""joy""]","[""joy""]","[""joy""]",False
+76,Jeanne ...,"[""anger"", ""disgust"", ""fear""]","[""sadness""]","[""sadness""]",False
+77,You can Do better.,"[""anger"", ""joy""]","[""anger""]","[""anger""]",False
+78,Why are you laughing?,"[""anger""]",[],"[""laughter""]",True
+79,-Not covet thy neighbor's wife.,"[""fear""]","[""disgust""]","[""disgust""]",False
+80,I think my cook has managed guess what I like.,"[""joy"", ""surprise"", ""trust""]","[""joy""]","[""joy""]",False
+81,Why not believe me?,"[""anger""]","[""trust""]","[""trust""]",False
+82,Are you able to offer something?,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+83,What kind of mission?,"[""surprise""]","[""anticipation""]","[""anticipation""]",False
+84,What do you expect of me?,"[""anticipation"", ""fear""]","[""anger""]","[""anger""]",False
+85,I would call ... revenge.,"[""anger""]","[""anger""]","[""anger""]",False
+86,I am not your horse.,"[""sadness"", ""surprise""]","[""disgust""]","[""disgust""]",False
+87,"When we invade France, What will the help of Spain?","[""anticipation"", ""surprise""]","[""anger""]","[""anger""]",False
+88,"Lord, camphor is the only known cure.","[""fear"", ""sadness"", ""trust""]","[""disgust""]","[""disgust""]",False
+89,I'm his prey.,"[""fear""]","[""fear""]","[""fear""]",False
+90,Stop!,"[""anger""]","[""fear""]","[""fear""]",False
+91,"My God, why now?","[""anger""]","[""surprise""]","[""surprise""]",False
+92,"Say, that's right.","[""anticipation""]","[""joy""]","[""joy""]",False
+93,Damn!,"[""anger""]","[""anger""]","[""anger""]",False
+94,- Mom?,"[""fear""]","[""sadness""]","[""sadness""]",False
+95,I found something out yesterday.,"[""anticipation""]",[],"[""excitement""]",True
+96,Especially with a fortune in our falsies.,"[""joy""]","[""disgust""]","[""disgust""]",False
+97,"You never said a goddamn word about a ""tilting hydraulic body.""","[""anger""]","[""disgust""]","[""disgust""]",False
+98,Will you be putting up a new sign?,"[""anticipation""]",[],"[""question""]",True
+99,"We bought a farmhouse, near Woodstock.","[""joy""]","[""joy""]","[""joy""]",False
+100,- It was utter chaos.,"[""sadness""]","[""disgust""]","[""disgust""]",False
+101,"Grimm, I cannot go to prison.","[""fear""]","[""sadness""]","[""sadness""]",False
+102,- What's on your mind tonight?,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+103,Stop!,"[""fear""]","[""fear""]","[""fear""]",False
+104,Stop!,"[""anger"", ""anticipation""]","[""fear""]","[""fear""]",False
+105,- Great.,"[""joy""]","[""joy""]","[""joy""]",False
+106,We're on a roll.,"[""joy""]","[""joy""]","[""joy""]",False
+107,May I ask you a question?,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+108,Sit back.,"[""anger""]","[""anticipation""]","[""anticipation""]",False
+109,You remember this guy.,"[""anticipation"", ""trust""]","[""trust""]","[""trust""]",False
+110,We're home free.,"[""sadness""]","[""joy""]","[""joy""]",False
+111,"The thing is, Loomis, we lost a little time.","[""fear""]","[""disgust""]","[""disgust""]",False
+112,Am I gonna see you in there?,"[""anticipation""]","[""fear""]","[""fear""]",False
+113,"Hey, clown!","[""anger"", ""disgust""]","[""disgust""]","[""disgust""]",False
+114,"- Grimm, I'm thinking of the baby!","[""anger""]","[""joy""]","[""joy""]",False
+115,"Oh, you must be from around here.","[""surprise""]","[""joy""]","[""joy""]",False
+116,Just give me a sign.,"[""anticipation"", ""trust""]",[],"[""expectation""]",True
+117,"Yeah, I knew it!","[""surprise""]","[""joy""]","[""joy""]",False
+118,You wanna concentrate now.,"[""anticipation""]",[],"[""focus""]",True
+119,"Excuse me, I'm looking for a man.","[""anger""]","[""fear""]","[""fear""]",False
+120,Enough with the water.,"[""anger"", ""disgust"", ""sadness"", ""surprise""]","[""disgust""]","[""disgust""]",False
+121,"Nice tits, sure,","[""disgust""]","[""disgust""]","[""disgust""]",False
+122,What a levitation move!,"[""surprise""]","[""joy""]","[""joy""]",False
+123,I don't believe it!,"[""surprise""]","[""surprise""]","[""surprise""]",False
+124,It's been an honor to serve with you.,"[""trust""]","[""trust""]","[""trust""]",False
+125,"Come on, I'm old enough to be your father.","[""anger""]","[""joy""]","[""joy""]",False
+126,Sometime this year we'll take those guns to Italy and have them fitted properly.,"[""anticipation""]","[""anger""]","[""anger""]",False
+127,"Oh, that's funny.","[""anticipation"", ""joy"", ""surprise""]",[],"[""laughter""]",True
+128,"-No, I know how to make lemonade.","[""anger""]","[""joy""]","[""joy""]",False
+129,-Can't you humor him?,"[""anger"", ""trust""]","[""disgust""]","[""disgust""]",False
+130,"I'm going down to Barranquilla, then Caracas for a few days.","[""anticipation""]","[""sadness""]","[""sadness""]",False
+131,Kiss me.,"[""anticipation"", ""trust""]",[],"[""love""]",True
+132,"You know, compadre?","[""joy"", ""trust""]","[""trust""]","[""trust""]",False
+133,Otherwise you'll never get out of Mexico alive.,"[""fear""]","[""fear""]","[""fear""]",False
+134,"-Yeah, yeah. I'm fine.","[""trust""]","[""disgust""]","[""disgust""]",False
+135,Wouldn't wanna mix your pleasures.,"[""disgust""]","[""disgust""]","[""disgust""]",False
+136,"Yeah, that would be good.","[""joy""]","[""joy""]","[""joy""]",False
+137,"Yeah, we know the place.","[""trust""]","[""trust""]","[""trust""]",False
+138,"You're a crazy son of a bitch, Cochran, but we're with you.","[""joy"", ""trust""]","[""anger""]","[""anger""]",False
+139,- Let's begin with the letter.,"[""anticipation""]","[""joy""]","[""joy""]",False
+140,"Have they moved the embassy, or are you hijacking me?","[""anger""]","[""anger""]","[""anger""]",False
+141,That's why I love them.,"[""joy"", ""trust""]","[""joy""]","[""joy""]",False
+142,"Ah, Dante, old chum.","[""surprise""]","[""joy""]","[""joy""]",False
+143,Kick 'em in the balls every time they get to their knees.,"[""anger"", ""anticipation"", ""disgust""]","[""anger""]","[""anger""]",False
+144,Such personal questions are not appropriate.,"[""anger"", ""disgust""]","[""disgust""]","[""disgust""]",False
+145,Have dinner with me.,"[""trust""]","[""joy""]","[""joy""]",False
+146,You're a month early for the book fair.,"[""surprise""]","[""disgust""]","[""disgust""]",False
+147,Deeply.,"[""anticipation""]","[""sadness""]","[""sadness""]",False
+148,What did he tell you to tell me?,"[""anger"", ""anticipation""]","[""disgust""]","[""disgust""]",False
+149,You spoke for him.,"[""surprise""]","[""trust""]","[""trust""]",False
+150,You're the hero of the hour.,"[""trust""]","[""joy""]","[""joy""]",False
+151,You're a star.,"[""joy""]","[""joy""]","[""joy""]",False
+152,Some people don't like my metaphors.,"[""sadness""]","[""disgust""]","[""disgust""]",False
+153,He won't be bribed or threatened.,"[""trust""]","[""trust""]","[""trust""]",False
+154,Barley?,"[""surprise""]","[""disgust""]","[""disgust""]",False
+155,- I love you.,"[""joy"", ""trust""]","[""joy""]","[""joy""]",False
+156,"You wouldn't close him down if you were Sov, would you?","[""surprise""]","[""disgust""]","[""disgust""]",False
+157,- Why is he driving?,"[""surprise""]","[""anger""]","[""anger""]",False
+158,He's a male chauvinist.,"[""disgust""]","[""disgust""]","[""disgust""]",False
+159,"Three, for luck.","[""trust""]",[],"[""luck""]",True
+160,I can't save Yakov.,"[""fear""]","[""sadness""]","[""sadness""]",False
+161,"Good luck, Barley.","[""trust""]","[""joy""]","[""joy""]",False
+162,"What the hell is going on out there, George?","[""fear"", ""surprise""]","[""fear""]","[""fear""]",False
+163,"That's Henry park,","[""disgust""]","[""joy""]","[""joy""]",False
+164,I know what it meant to you.,"[""sadness"", ""trust""]","[""sadness""]","[""sadness""]",False
+165,If only I'd done a better job.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+166,You go ahead and let the grieving process happen.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+167,"Hell, we could bring in the whole god damn New York Knicks just to make sure your trash hits the basket!","[""anger""]","[""anger""]","[""anger""]",False
+168,"Bob, Bob man.","[""trust""]","[""disgust""]","[""disgust""]",False
+169,Good.,"[""joy""]","[""joy""]","[""joy""]",False
+170,"Yeah, yeah, I'm aware of the regulations.","[""fear"", ""trust""]","[""disgust""]","[""disgust""]",False
+171,It was the only game I could find where I wasn't holding markers on somebody.,"[""surprise""]","[""sadness""]","[""sadness""]",False
+172,He's ready for a fall.,"[""disgust"", ""fear"", ""joy""]","[""fear""]","[""fear""]",False
+173,Relax.,"[""anger"", ""fear""]",[],"[""calm""]",True
+174,"My wife, God rest her soul, died 3 years ago to the day.","[""sadness""]","[""sadness""]","[""sadness""]",False
+175,I'm going to take you and buy you a drink.,"[""anticipation"", ""joy""]","[""joy""]","[""joy""]",False
+176,Everything's so clean.,"[""joy"", ""trust""]","[""joy""]","[""joy""]",False
+177,Creeps.,"[""disgust""]","[""disgust""]","[""disgust""]",False
+178,Did you have a warrant to search his trunk?,"[""anger""]","[""disgust""]","[""disgust""]",False
+179,If you ever had a sense of humor.,"[""anger""]",[],"[""laughter""]",True
+180,"Vinnie, I'm not interested in this.","[""sadness""]","[""sadness""]","[""sadness""]",False
+181,You look beautiful.,"[""joy"", ""trust""]","[""joy""]","[""joy""]",False
+182,What are you doing here?,"[""anger""]","[""fear""]","[""fear""]",False
+183,If you'd like to come with me.,"[""trust""]","[""trust""]","[""trust""]",False
+184,I see that it's funny.,"[""surprise"", ""trust""]",[],"[""laughter""]",True
+185,"Well, if it won't wake up the kids.","[""anticipation"", ""joy""]","[""disgust""]","[""disgust""]",False
+186,Good morning!,"[""joy""]","[""joy""]","[""joy""]",False
+187,"All right, guys, what do you got?","[""anticipation""]","[""joy""]","[""joy""]",False
+188,I'm so pissed at you!,"[""anger"", ""disgust"", ""sadness""]","[""anger""]","[""anger""]",False
+189,"It doomed me forever to middle management, and that's the truth.","[""anger"", ""sadness""]","[""sadness""]","[""sadness""]",False
+190,Very nice.,"[""anger"", ""joy""]","[""joy""]","[""joy""]",False
+191,Because it hurts my ears when you do it.,"[""anger""]","[""disgust""]","[""disgust""]",False
+192,Did you have a warrant to search his trunk?,"[""anger""]","[""disgust""]","[""disgust""]",False
+193,"Vinnie, I'm not interested in this.","[""sadness""]","[""sadness""]","[""sadness""]",False
+194,What are you doing here?,"[""anger""]","[""fear""]","[""fear""]",False
+195,Hi.,"[""joy""]","[""joy""]","[""joy""]",False
+196,Good morning!,"[""joy""]","[""joy""]","[""joy""]",False
+197,"All right, guys, what do you got?","[""anticipation""]","[""joy""]","[""joy""]",False
+198,I'm so pissed at you!,"[""anger"", ""disgust"", ""sadness""]","[""anger""]","[""anger""]",False
+199,The best!,"[""trust""]","[""joy""]","[""joy""]",False
+200,I understand perfectly.,"[""surprise""]","[""trust""]","[""trust""]",False
+201,Fail!,"[""sadness"", ""surprise""]","[""anger""]","[""anger""]",False
+202,She hates me.,"[""anger""]","[""anger""]","[""anger""]",False
+203,But I had locked the briefcase of the Lady Inglethorp in the morning following to her death.,"[""disgust""]","[""sadness""]","[""sadness""]",False
+204,Lovely woman.,"[""joy""]","[""joy""]","[""joy""]",False
+205,- There I disagree with you.,"[""anger""]",[],"[""disagreement""]",True
+206,I suppose that she forgot or he did not think that it might die.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+207,But I had locked the briefcase of the Lady Inglethorp in the morning following to her death.,"[""disgust""]","[""sadness""]","[""sadness""]",False
+208,"Even though we were close, even though you betrayed me, and I trusted you,","[""joy"", ""trust""]","[""sadness"", ""disgust""]","[""sadness"", ""disgust""]",False
+209,- Aren't you pleasant.,"[""surprise""]","[""disgust""]","[""disgust""]",False
+210,- You folks have a nice trip.,"[""joy""]","[""trust""]","[""trust""]",False
+211,I don't think we can hold out that long before they find her.,"[""fear""]","[""fear""]","[""fear""]",False
+212,- You're supposed to say something.,"[""fear"", ""sadness""]","[""disgust""]","[""disgust""]",False
+213,- Like what?,"[""surprise""]","[""anticipation""]","[""anticipation""]",False
+214,"Listen, I-I know you're gonna think this is real dumb of me, but, uh, I haven't been feeling very good lately, and, uh...","[""anticipation""]","[""sadness""]","[""sadness""]",False
+215,- I'm really gonna enjoy this.,"[""anticipation"", ""disgust"", ""joy"", ""trust""]","[""joy""]","[""joy""]",False
+216,I'm gonna leave you alone for a little while.,"[""anger"", ""disgust""]","[""fear""]","[""fear""]",False
+217,"It means, um... if you say anything about this,","[""anger"", ""fear""]","[""disgust""]","[""disgust""]",False
+218,Do it right away.,"[""anticipation""]","[""fear""]","[""fear""]",False
+219,"- Now, you-you don't understand, Leo.","[""anger""]","[""disgust""]","[""disgust""]",False
+220,- Aren't you pleasant.,"[""surprise""]","[""disgust""]","[""disgust""]",False
+221,We can protect you.,"[""trust""]","[""trust""]","[""trust""]",False
+222,I don't think we can hold out that long before they find her.,"[""fear""]","[""fear""]","[""fear""]",False
+223,- You're supposed to say something.,"[""fear"", ""sadness""]","[""disgust""]","[""disgust""]",False
+224,- I'm really gonna enjoy this.,"[""anticipation"", ""disgust"", ""joy"", ""trust""]","[""joy""]","[""joy""]",False
+225,I'm gonna leave you alone for a little while.,"[""anger"", ""disgust""]","[""fear""]","[""fear""]",False
+226,Would you like to see me?,"[""anticipation""]","[""joy""]","[""joy""]",False
+227,I gave him my compartment.,"[""joy""]","[""sadness""]","[""sadness""]",False
+228,Do it right away.,"[""anticipation""]","[""fear""]","[""fear""]",False
+229,Yes.,"[""joy""]","[""trust""]","[""trust""]",False
+230,- Like what?,"[""surprise""]","[""anticipation""]","[""anticipation""]",False
+231,"It means, um... if you say anything about this,","[""anger"", ""fear""]","[""disgust""]","[""disgust""]",False
+232,I gave him my compartment.,"[""joy""]","[""sadness""]","[""sadness""]",False
+233,Do it right away.,"[""anticipation""]","[""fear""]","[""fear""]",False
+234,Why aren't they firing?,"[""fear"", ""surprise""]","[""anger""]","[""anger""]",False
+235,-Pleased to meet you.,"[""joy"", ""trust""]","[""trust""]","[""trust""]",False
+236,That's fine.,"[""trust""]","[""joy""]","[""joy""]",False
+237,"You can call it an immigration if you want to, Jim.","[""anger""]","[""disgust""]","[""disgust""]",False
+238,I hate jumping out of a perfectly good airplane.,"[""anger""]","[""anger""]","[""anger""]",False
+239,"Oh, shit!","[""fear""]","[""fear""]","[""fear""]",False
+240,Is he gonna be a problem?,"[""anger"", ""anticipation"", ""fear"", ""surprise""]","[""fear""]","[""fear""]",False
+241,He can't get a clear shot!,"[""sadness"", ""surprise""]","[""fear""]","[""fear""]",False
+242,"Murder is very, very real.","[""disgust"", ""sadness""]","[""disgust""]","[""disgust""]",False
+243,"So maybe death isn't the end, Doc.","[""anticipation""]","[""sadness""]","[""sadness""]",False
+244,They'll rip off your head and shit down your neck!,"[""anger"", ""fear""]","[""fear""]","[""fear""]",False
+245,You can't go down there!,"[""surprise""]","[""fear""]","[""fear""]",False
+246,- We're here to kick some major league butt.,"[""anticipation""]","[""anger""]","[""anger""]",False
+247,"- We're here to scout, not engage.","[""disgust""]","[""anger""]","[""anger""]",False
+248,Who would want to live in a graveyard?,"[""disgust"", ""surprise""]","[""sadness""]","[""sadness""]",False
+249,Don't!,"[""anger"", ""fear""]","[""fear""]","[""fear""]",False
+250,"They made you one of them, you can do the same for me.","[""anticipation""]","[""anger""]","[""anger""]",False
+251,I hate myself for not using cutaways.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+252,You know what I'm talking about and so does everybody on this set.,"[""trust""]","[""trust""]","[""trust""]",False
+253,"Oh, well, sure.","[""trust""]","[""joy""]","[""joy""]",False
+254,"Sorry, boys.","[""sadness""]","[""sadness""]","[""sadness""]",False
+255,-Instant gratification takes too long.,"[""disgust""]","[""disgust""]","[""disgust""]",False
+256,I remember when I was 1 5 years old.,"[""joy""]","[""sadness""]","[""sadness""]",False
+257,I don't want to see them.,"[""disgust""]","[""sadness""]","[""sadness""]",False
+258,"Well, I suppose I should thank you.","[""sadness"", ""trust""]","[""joy""]","[""joy""]",False
+259,Did anybody ever tell you that you smell like the future?,"[""joy""]","[""disgust""]","[""disgust""]",False
+260,You sound like a rug salesman.,"[""disgust"", ""joy"", ""trust""]","[""disgust""]","[""disgust""]",False
+261,Asking who I sleep with isn't personal anymore?,"[""anger""]","[""disgust""]","[""disgust""]",False
+262,So if you can just enjoy yourself with him like he's enjoying himself with you....,"[""anticipation""]","[""disgust""]","[""disgust""]",False
+263,That's not competitive.,"[""joy"", ""surprise""]","[""disgust""]","[""disgust""]",False
+264,My drinking does not interfere with my work.,"[""trust""]","[""trust""]","[""trust""]",False
+265,"If I thought I made you feel like that, I'd kill myself.","[""disgust""]","[""sadness""]","[""sadness""]",False
+266,I suppose she means well.,"[""fear"", ""sadness""]","[""trust""]","[""trust""]",False
+267,We could go see Valley of the Dolls.,"[""anticipation""]",[],"[""excitement""]",True
+268,I hate myself for not using cutaways.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+269,You know what I'm talking about and so does everybody on this set.,"[""trust""]","[""trust""]","[""trust""]",False
+270,"Oh, well, sure.","[""trust""]","[""joy""]","[""joy""]",False
+271,I'd like to ask a few questions.,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+272,"Sorry, boys.","[""sadness""]","[""sadness""]","[""sadness""]",False
+273,We're gonna leave you.,"[""anger""]","[""sadness""]","[""sadness""]",False
+274,I don't want to see them.,"[""disgust""]","[""sadness""]","[""sadness""]",False
+275,"Very, very soon.","[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+276,"You know, just have more fun with it, that's all.","[""trust""]","[""joy""]","[""joy""]",False
+277,"Well, I suppose I should thank you.","[""sadness"", ""trust""]","[""joy""]","[""joy""]",False
+278,Did anybody ever tell you that you smell like the future?,"[""joy""]","[""disgust""]","[""disgust""]",False
+279,I don't have casual affairs.,"[""sadness"", ""surprise""]","[""sadness""]","[""sadness""]",False
+280,I think I love you.,"[""anticipation"", ""joy""]",[],"[""love""]",True
+281,You're doing pretty well.,"[""trust""]","[""joy""]","[""joy""]",False
+282,I came home because I didn't want to worry you.,"[""joy"", ""trust""]","[""sadness""]","[""sadness""]",False
+283,I'm supposed to be taking care of you.,"[""anger"", ""sadness"", ""trust""]","[""sadness""]","[""sadness""]",False
+284,Whatever.,"[""disgust""]","[""disgust""]","[""disgust""]",False
+285,Asking who I sleep with isn't personal anymore?,"[""anger""]","[""disgust""]","[""disgust""]",False
+286,So if you can just enjoy yourself with him like he's enjoying himself with you....,"[""anticipation""]","[""disgust""]","[""disgust""]",False
+287,"Meaning what, that I have no money?","[""anger"", ""fear""]","[""sadness""]","[""sadness""]",False
+288,My drinking does not interfere with my work.,"[""trust""]","[""trust""]","[""trust""]",False
+289,She's more frightened than anything.,"[""fear""]","[""fear""]","[""fear""]",False
+290,She was worried about you.,"[""sadness""]","[""fear""]","[""fear""]",False
+291,You need a good pop on the butt like I used to give your mother!,"[""anger""]","[""disgust""]","[""disgust""]",False
+292,"If I thought I made you feel like that, I'd kill myself.","[""disgust""]","[""sadness""]","[""sadness""]",False
+293,I suppose she means well.,"[""fear"", ""sadness""]","[""trust""]","[""trust""]",False
+294,We can say fate brought us together.,"[""joy"", ""trust""]","[""trust""]","[""trust""]",False
+295,I don't think you should drive.,"[""fear""]","[""disgust""]","[""disgust""]",False
+296,Doesn't it blow your mind?,"[""anticipation""]","[""surprise""]","[""surprise""]",False
+297,"So, how is it you know so little about cars?","[""surprise""]","[""disgust""]","[""disgust""]",False
+298,Why don't you put this on?,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+299,Could you send up champagne and strawberries?,"[""anticipation""]","[""joy""]","[""joy""]",False
+300,"You know, I never saw this episode.","[""joy"", ""surprise""]","[""sadness""]","[""sadness""]",False
+301,I took the liberty of ordering everything.,"[""anticipation""]","[""joy""]","[""joy""]",False
+302,I've got a little problem.,"[""anticipation"", ""fear""]","[""sadness""]","[""sadness""]",False
+303,"Intriguing young lady, Miss Vivian.","[""surprise""]","[""trust""]","[""trust""]",False
+304,You were right.,"[""trust""]","[""joy""]","[""joy""]",False
+305,Well done!,"[""joy""]","[""joy""]","[""joy""]",False
+306,Wherever did you find her?,"[""surprise""]","[""fear""]","[""fear""]",False
+307,We should be there in about 50 minutes.,"[""anticipation""]",[],"[""expectation""]",True
+308,- Let me talk to her.,"[""anticipation"", ""fear""]",[],"[""expectation""]",True
+309,You look really good.,"[""joy""]","[""joy""]","[""joy""]",False
+310,"Maybe you guys could like you know, get a house and buy some diamonds and a horse.","[""anger""]","[""disgust""]","[""disgust""]",False
+311,I've reconsidered my position on your acquisition offer.,"[""disgust""]","[""sadness""]","[""sadness""]",False
+312,You think I got potential?,"[""anticipation"", ""surprise""]","[""joy""]","[""joy""]",False
+313,What time's your bus?,"[""anticipation""]","[""fear""]","[""fear""]",False
+314,"So, what happened after he climbed up the tower and rescued her?","[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+315,What's your dream?,"[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]",False
+316,I'm handing it to you.,"[""anger""]","[""joy""]","[""joy""]",False
+317,We should be there in about 50 minutes.,"[""anticipation""]",[],"[""expectation""]",True
+318,- Let me talk to her.,"[""anticipation"", ""fear""]",[],"[""expectation""]",True
+319,"Maybe you guys could like you know, get a house and buy some diamonds and a horse.","[""anger""]","[""disgust""]","[""disgust""]",False
+320,You want to hurt me?,"[""anger"", ""disgust"", ""sadness""]","[""fear""]","[""fear""]",False
+321,This looks good.,"[""joy""]","[""joy""]","[""joy""]",False
+322,"No, Dad, we adopted.","[""sadness"", ""surprise""]","[""sadness""]","[""sadness""]",False
+323,I'm not a bimbo you can tie up and do what you want with!,"[""anger"", ""surprise""]","[""anger""]","[""anger""]",False
+324,Let him go!,"[""anger"", ""anticipation""]","[""anger""]","[""anger""]",False
+325,Hold it!,"[""surprise""]","[""fear""]","[""fear""]",False
+326,Jesus.,"[""anticipation"", ""trust""]","[""disgust""]","[""disgust""]",False
+327,"If he breaks the law and it crosses this desk, he pays for it.","[""anger""]","[""fear""]","[""fear""]",False
+328,Mike was just telling us what cojones he got.,"[""anticipation"", ""joy""]","[""disgust""]","[""disgust""]",False
+329,He hates everybody.,"[""anger"", ""disgust""]","[""anger""]","[""anger""]",False
+330,"Right, Lieutenant?","[""surprise""]","[""anger""]","[""anger""]",False
+331,"- Fellas, we gotta be alone.","[""fear""]","[""fear""]","[""fear""]",False
+332,We haven't eaten yet.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+333,"Times have changed, haven't they?","[""joy"", ""sadness""]","[""anticipation""]","[""anticipation""]",False
+334,"I guess that's for me to know and you to find out, Detective Valentin!","[""anticipation""]","[""disgust""]","[""disgust""]",False
+335,"While you two pricks are congratulating yourselves, you better realize maybe you put Brennan's neck in it.","[""anger"", ""fear""]","[""anger""]","[""anger""]",False
+336,He stepped in front of a bullet for me once caught it in his left hand and shoved it up the punk's ass.,"[""disgust"", ""surprise""]","[""disgust""]","[""disgust""]",False
+337,I'm sitting on something.,"[""trust""]","[""sadness""]","[""sadness""]",False
+338,"Flo, if I wanted anything else, I'd call Sylvester here.","[""anger""]","[""disgust""]","[""disgust""]",False
+339,"Was a nigger, was a dinge, was a coon!","[""disgust""]","[""disgust""]","[""disgust""]",False
+340,"Nancy, I don't want to leave like this.","[""sadness""]","[""sadness""]","[""sadness""]",False
+341,This fucking guy's scaring me.,"[""fear""]","[""fear""]","[""fear""]",False
+342,"The Montauk Club, 9:00 pm.","[""anticipation"", ""fear""]","[""anticipation""]","[""anticipation""]",False
+343,"- No complaints, you're reliable-","[""trust""]","[""trust""]","[""trust""]",False
+344,These two shooters you just brought up from Miami.,"[""fear""]","[""anger""]","[""anger""]",False
+345,What do you want to see me about?,"[""fear""]","[""anticipation""]","[""anticipation""]",False
+346,You think I'm gonna team up with some faggot stool-pigeon.,"[""disgust""]","[""disgust""]","[""disgust""]",False
+347,- l'm the one who can-,"[""trust""]","[""anger""]","[""anger""]",False
+348,I can't go to the grand jury without him.,"[""fear"", ""sadness""]","[""fear""]","[""fear""]",False
+349,"They're them, I'm still me.","[""trust""]","[""disgust""]","[""disgust""]",False
+350,"Y'all take care now, you hear?","[""fear"", ""trust""]","[""disgust""]","[""disgust""]",False
+351,"Poor boy who made it, ex-cop.","[""sadness""]","[""sadness""]","[""sadness""]",False
+352,That's some sign you got on the door out there.,"[""surprise""]",[],"[""excitement""]",True
+353,You look pretty good up there yourself.,"[""surprise""]","[""joy""]","[""joy""]",False
+354,"How about that whole fucking city, if you don't do what I say?","[""anger""]","[""anger""]","[""anger""]",False
+355,He might even be expecting you.,"[""anticipation"", ""fear"", ""surprise""]",[],"[""expectation""]",True
+356,He's in love.,"[""joy""]",[],"[""love""]",True
+357,It's no use anyway.,"[""disgust"", ""sadness""]","[""sadness""]","[""sadness""]",False
+358,Now I want that fucking Texador.,"[""anger"", ""joy""]","[""anger""]","[""anger""]",False
+359,Look at what you've done.,"[""anger""]","[""disgust""]","[""disgust""]",False
+360,Disappear.,"[""disgust""]","[""disgust""]","[""disgust""]",False
+361,They're all friends of mine.,"[""joy""]","[""trust""]","[""trust""]",False
+362,"I can't, and God knows the department can't.","[""sadness""]","[""sadness""]","[""sadness""]",False
+363,I'll sit by your side until you're ready.,"[""anticipation"", ""trust""]","[""trust""]","[""trust""]",False
+364,"If he breaks the law and it crosses this desk, he pays for it.","[""anger""]","[""fear""]","[""fear""]",False
+365,Mike was just telling us what cojones he got.,"[""anticipation"", ""joy""]","[""disgust""]","[""disgust""]",False
+366,He hates everybody.,"[""anger"", ""disgust""]","[""anger""]","[""anger""]",False
+367,"Right, Lieutenant?","[""surprise""]","[""anger""]","[""anger""]",False
+368,"- Fellas, we gotta be alone.","[""fear""]","[""fear""]","[""fear""]",False
+369,"Times have changed, haven't they?","[""joy"", ""sadness""]","[""anticipation""]","[""anticipation""]",False
+370,"I guess that's for me to know and you to find out, Detective Valentin!","[""anticipation""]","[""disgust""]","[""disgust""]",False
+371,"While you two pricks are congratulating yourselves, you better realize maybe you put Brennan's neck in it.","[""anger"", ""fear""]","[""anger""]","[""anger""]",False
+372,He stepped in front of a bullet for me once caught it in his left hand and shoved it up the punk's ass.,"[""disgust"", ""surprise""]","[""disgust""]","[""disgust""]",False
+373,I'm sitting on something.,"[""trust""]","[""sadness""]","[""sadness""]",False
+374,"Flo, if I wanted anything else, I'd call Sylvester here.","[""anger""]","[""disgust""]","[""disgust""]",False
+375,"Was a nigger, was a dinge, was a coon!","[""disgust""]","[""disgust""]","[""disgust""]",False
+376,That's some sign you got on the door out there.,"[""surprise""]",[],"[""excitement""]",True
+377,You look pretty good up there yourself.,"[""surprise""]","[""joy""]","[""joy""]",False
+378,"How about that whole fucking city, if you don't do what I say?","[""anger""]","[""anger""]","[""anger""]",False
+379,He might even be expecting you.,"[""anticipation"", ""fear"", ""surprise""]",[],"[""expectation""]",True
+380,It's no use anyway.,"[""disgust"", ""sadness""]","[""sadness""]","[""sadness""]",False
+381,Now I want that fucking Texador.,"[""anger"", ""joy""]","[""anger""]","[""anger""]",False
+382,They're all friends of mine.,"[""joy""]","[""trust""]","[""trust""]",False
+383,"I can't, and God knows the department can't.","[""sadness""]","[""sadness""]","[""sadness""]",False
+384,I'll sit by your side until you're ready.,"[""anticipation"", ""trust""]","[""trust""]","[""trust""]",False
+385,Sit back.,"[""anger""]","[""anticipation""]","[""anticipation""]",False
+386,"- Grimm, I'm thinking of the baby!","[""anger""]","[""joy""]","[""joy""]",False
+387,What's an angel?,"[""anger"", ""anticipation"", ""surprise""]","[""disgust""]","[""disgust""]",False
+388,"What you readin' there, Pa?","[""anticipation""]","[""disgust""]","[""disgust""]",False
+389,Don't you call my husband...,"[""disgust""]","[""disgust""]","[""disgust""]",False
+390,All that gossip!,"[""surprise""]","[""disgust""]","[""disgust""]",False
+391,But hair just keeps on sprouting.,"[""anger"", ""disgust""]","[""disgust""]","[""disgust""]",False
+392,- What do you make of that?,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+393,The war in London.,"[""sadness""]","[""disgust""]","[""disgust""]",False
+394,"God, it was bright.","[""anger""]","[""disgust""]","[""disgust""]",False
+395,Bring him to me!,"[""anger"", ""fear""]","[""anger""]","[""anger""]",False
+396,- No!,"[""sadness"", ""surprise""]","[""fear""]","[""fear""]",False
+397,What's killing the children?,"[""anger"", ""fear"", ""sadness""]","[""sadness""]","[""sadness""]",False
+398,Don't leave me!,"[""fear"", ""sadness""]","[""fear""]","[""fear""]",False
+399,You can't go!,"[""anger""]","[""fear""]","[""fear""]",False
+400,Just give me a sign.,"[""anticipation"", ""trust""]",[],"[""expectation""]",True
+401,Hi.,"[""anticipation"", ""joy"", ""sadness""]","[""joy""]","[""joy""]",False
+402,"Yeah, I knew it!","[""surprise""]","[""joy""]","[""joy""]",False
+403,I cast thee back to hell.,"[""anger""]",[],"[""angriness""]",True
+404,"Nice tits, sure,","[""disgust""]","[""disgust""]","[""disgust""]",False
+405,What a levitation move!,"[""surprise""]","[""joy""]","[""joy""]",False
+406,It's been an honor to serve with you.,"[""trust""]","[""trust""]","[""trust""]",False
+407,"Come on, I'm old enough to be your father.","[""anger""]","[""joy""]","[""joy""]",False
+408,"-No, I know how to make lemonade.","[""anger""]","[""joy""]","[""joy""]",False
+409,"I'm going down to Barranquilla, then Caracas for a few days.","[""anticipation""]","[""sadness""]","[""sadness""]",False
+410,Kiss me.,"[""anticipation"", ""trust""]",[],"[""love""]",True
+411,Environmentalists call it a disaster.,"[""anger"", ""surprise""]","[""disgust""]","[""disgust""]",False
+412,- I'll kill you bitches!,"[""anger""]","[""fear""]","[""fear""]",False
+413,We got him!,"[""joy""]","[""joy""]","[""joy""]",False
+414,Fucking cops!,"[""fear""]","[""anger""]","[""anger""]",False
+415,"Can't shoot a kid, can you, fucker?","[""anger"", ""disgust""]","[""anger""]","[""anger""]",False
+416,That'll do it.,"[""anticipation"", ""joy"", ""trust""]","[""joy""]","[""joy""]",False
+417,"Better have something to give me this time, officer.","[""anticipation"", ""disgust""]","[""anger""]","[""anger""]",False
+418,Where is Cain?,"[""anger"", ""anticipation""]","[""fear""]","[""fear""]",False
+419,"Now, I really think this is a good place to start looking.","[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+420,It's time to update the program and I would like to hear from each one of you.,"[""anticipation""]","[""anticipation""]","[""anticipation""]",False
+421,"Go fuck a refrigerator, pecker neck!","[""anger""]","[""disgust""]","[""disgust""]",False
+422,He must be going out of his mind.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+423,"Thank you, Frank.","[""joy""]","[""joy""]","[""joy""]",False
+424,I'm afraid we lost our patient.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+425,Showtime.,"[""anger"", ""anticipation""]",[],"[""excitement""]",True
+426,- Excellent.,"[""anticipation"", ""joy""]","[""joy""]","[""joy""]",False
+427,So leave us alone and anybody who wants it gets it.,"[""anger""]","[""anger""]","[""anger""]",False
+428,Don't be nostalgic.,"[""anger""]","[""disgust""]","[""disgust""]",False
+429,- What's the matter?,"[""anticipation""]","[""sadness""]","[""sadness""]",False
+430,- Christ knows.,"[""fear""]","[""disgust""]","[""disgust""]",False
+431,I gotta get back.,"[""fear""]","[""sadness""]","[""sadness""]",False
+432,Everything you've got!,"[""disgust""]","[""joy""]","[""joy""]",False
+433,Where'd you learn to talk dirty like that?,"[""anticipation""]","[""disgust""]","[""disgust""]",False
+434,I know some French talk.,"[""trust""]","[""joy""]","[""joy""]",False
+435,"Paulie, do you know what you did?","[""disgust""]","[""fear""]","[""fear""]",False
+436,Remember those commercials you did?,"[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]",False
+437,I'm not taking the heat for all this.,"[""anger""]","[""disgust""]","[""disgust""]",False
+438,This kid's taking this too good.,"[""surprise""]","[""disgust""]","[""disgust""]",False
+439,- It's called urban blight.,"[""sadness""]","[""disgust""]","[""disgust""]",False
+440,You know how it is.,"[""trust""]","[""disgust""]","[""disgust""]",False
+441,You're really gonna like the way Adrian cooks.,"[""anticipation"", ""joy""]","[""joy""]","[""joy""]",False
+442,"Tommy, anybody who's got two fists and a good heartbeat, they got a chance.","[""anticipation""]","[""joy""]","[""joy""]",False
+443,- How do you know what I want?,"[""sadness"", ""surprise""]","[""fear""]","[""fear""]",False
+444,You want you and Tommy to be tight.,"[""trust""]","[""trust""]","[""trust""]",False
+445,Tommy needed my help.,"[""anticipation""]","[""sadness""]","[""sadness""]",False
+446,"- Duke gave me my title shot, you didn't.","[""anger"", ""sadness""]","[""disgust""]","[""disgust""]",False
+447,"All those fighters you beat, you beat 'em with heart, not muscle.","[""trust""]","[""joy""]","[""joy""]",False
+448,"OK, so maybe I'll wise up someday too.","[""anticipation"", ""joy""]","[""anticipation""]","[""anticipation""]",False
+449,He ain't worth the stress.,"[""anger"", ""disgust""]","[""disgust""]","[""disgust""]",False
+450,"- Looks like he's in great shape, don't he?","[""surprise""]","[""joy""]","[""joy""]",False
+451,"He's nervous, you know?","[""trust""]","[""fear""]","[""fear""]",False
+452,One!,"[""surprise""]","[""joy""]","[""joy""]",False
+453,"You thought I was in this for the money, Tommy?","[""surprise""]","[""anger""]","[""anger""]",False
+454,Why are you doing this to yourself?,"[""anger"", ""disgust"", ""surprise""]","[""anger""]","[""anger""]",False
+455,"-Let's get rolling, man.","[""anticipation""]",[],"[""excitement""]",True
+456,"Later, you fucker!","[""anger"", ""disgust""]","[""anger""]","[""anger""]",False
+457,"-Hello, David.","[""joy""]","[""joy""]","[""joy""]",False
+458,"-Nick, that was your new partner.","[""sadness"", ""surprise""]","[""joy""]","[""joy""]",False
+459,-So that's what those things are for.,"[""surprise""]","[""disgust""]","[""disgust""]",False
+460,Guy ought to have his ass removed.,"[""anger"", ""disgust""]","[""anger""]","[""anger""]",False
+461,They aren't moving.,"[""anger""]","[""sadness""]","[""sadness""]",False
+462,Lousy bitch.,"[""anger"", ""disgust""]","[""disgust""]","[""disgust""]",False
+463,A man's gotta live up to his word.,"[""anticipation"", ""sadness"", ""trust""]","[""trust""]","[""trust""]",False
+464,"What the hell is going on out there, George?","[""fear"", ""surprise""]","[""fear""]","[""fear""]",False
+465,Good.,"[""joy""]","[""joy""]","[""joy""]",False
+466,"That's Henry park,","[""disgust""]","[""joy""]","[""joy""]",False
+467,I know what it meant to you.,"[""sadness"", ""trust""]","[""sadness""]","[""sadness""]",False
+468,If only I'd done a better job.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+469,You go ahead and let the grieving process happen.,"[""sadness""]","[""sadness""]","[""sadness""]",False
+470,"Hell, we could bring in the whole god damn New York Knicks just to make sure your trash hits the basket!","[""anger""]","[""anger""]","[""anger""]",False
+471,"Bob, Bob man.","[""trust""]","[""disgust""]","[""disgust""]",False
+472,"Yeah, yeah, I'm aware of the regulations.","[""fear"", ""trust""]","[""disgust""]","[""disgust""]",False
+473,"She was a terrific girl, Stella.","[""anticipation"", ""joy""]","[""joy""]","[""joy""]",False
+474,You made a mistake I'm not Bing Chow!,"[""fear"", ""surprise""]","[""anger""]","[""anger""]",False
+475,"A man, just like you, fated to being imprisoned","[""sadness""]","[""sadness""]","[""sadness""]",False
+476,"If I analyze military strategy, they say I'm planning a rebellion","[""anger""]","[""anger""]","[""anger""]",False
+477,Once you're out of here never come back!,"[""anger"", ""disgust"", ""fear""]","[""fear""]","[""fear""]",False
+478,A good thing my reactions are so fast,"[""surprise""]","[""joy""]","[""joy""]",False
+479,Don't joke with me,"[""fear""]","[""anger""]","[""anger""]",False
+480,I told you that swords are too dangerous!,"[""anger"", ""disgust"", ""sadness""]","[""anger""]","[""anger""]",False
+481,The bastard Hu betrayed us,"[""anger"", ""disgust"", ""fear""]","[""anger""]","[""anger""]",False
+482,If we could be like this forever it would be great,"[""sadness""]","[""joy""]","[""joy""]",False
