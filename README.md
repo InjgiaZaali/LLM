@@ -144,4 +144,3 @@ All metrics: `predictions/all_metrics_test_summary.csv` and
   single runs in fp16, PEFT used 4-bit QLoRA.
 - Only the epoch count was selected on dev. Rank, alpha and learning rate are
   defaults, and checkpoints were chosen by dev loss, not dev F1.
-- The prompt does not state that several labels may be returned.
