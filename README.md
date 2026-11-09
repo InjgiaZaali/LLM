@@ -1,159 +1,147 @@
-# Cross-Lingual Multi-Label Emotion Classification Using Large Language Models
+# Cross-Lingual Multi-Label Emotion Classification (XED, English + Spanish)
 
-COURSE PROJECT BRIEF
+Group 10. Prompting vs. parameter-efficient fine-tuning (QLoRA) on the XED
+subtitle emotion dataset, English plus Spanish (resource band 5).
+The original project brief is in `docs/project_brief.md`.
 
----
+## Overview
 
-|  |  |
-| --- | --- |
-| Course | Introduction to Large Language Models (LLMs): Course Project |
-| Groups | Three students per group |
-| Duration | Weeks 1–8 of the course |
-| Deliverables | Report, codebase, and presentation |
+- Task: multi-label classification of subtitle lines into 8 emotions
+  (anger, anticipation, disgust, fear, joy, sadness, surprise, trust).
+- Primary model: `Qwen/Qwen2.5-1.5B-Instruct`. Second model (prompting only):
+  `ibm-granite/granite-3.3-2b-instruct`.
+- Conditions: zero-shot, five-shot, English-only PEFT, Spanish-only PEFT,
+  bilingual PEFT. Seed 42 for the split and for prompting.
 
-## 1. Objective & Motivation
+## Repository layout
 
-Large Language Models are strikingly capable at language understanding and generation, but how well that extends to multi-label tasks across many languages and to domain-specific data like emotion in dialogue is still an open research question. Emotion is also expressed differently from one language and culture to the next, which makes cross-lingual emotion detection a demanding test of what these models can really do.
+    configs/            model configuration (models.json)
+    data/processed/     matched English-Spanish pairs and the train/dev/test TSVs
+    scripts/            data preparation, split script, prompting notebooks
+    src/peft/           PEFT code: formatting, training, generation, metrics
+    predictions/        prediction files (dev/test) and metric CSVs
+    run_condition.sh    SLURM job: train one PEFT condition, predict on dev
+    run_test.sh         SLURM job: predict on test for all nine adapters
+    requirements.txt    Python packages (see Environment)
+    docs/               project brief
 
-This project investigates how well LLMs classify emotions across languages using the XED multilingual emotion dataset. You will compare two adaptation approaches, **prompt engineering and parameter-efficient fine-tuning (PEFT)** and examine their cross-lingual transfer to an assigned language. You will assess where the models succeed and struggle, including prompt sensitivity, computational cost, differences in pretrained language coverage, and limitations introduced by projected annotations.
+## Data and split
 
-“Multi-label” means that a single subtitle line can express several emotions at once—for example, both surprise and fear—rather than exactly one emotion. This makes the task more complex than single-label classification and requires the multi-label evaluation metrics defined in §7.
+- `scripts/prepare_xed_dataset.py` builds the matched English-Spanish file.
+- `scripts/split_en_es_dataset.py` creates the 70/20/10 split (seed 42,
+  iterative multi-label stratification, grouped by English text so that
+  alignment IDs and identical sentences never cross partitions; assertions
+  stop the script if leakage is found).
+- Sizes (rows / unique alignment IDs): train 3,349 / 2,664, dev 954 / 772,
+  test 483 / 390. Some rows share an alignment ID, and at least 22 Spanish
+  lines have corrupted accents (found with a regex check). Scores on clean
+  lines equal the overall scores, so we treat this as a limitation.
+- Spanish labels are projected from English, not independent human labels.
 
-## 2. Dataset
+## Environment (Habrok cluster)
 
-The XED dataset ([Helsinki-NLP/XED on GitHub](https://github.com/Helsinki-NLP/XED)) provides emotion-annotated movie subtitles.
+    module purge
+    module load PyTorch/2.7.1-foss-2024a-CUDA-12.6.0
+    python -m venv --system-site-packages venv_llm
+    source venv_llm/bin/activate
+    pip install transformers peft trl bitsandbytes datasets accelerate scikit-learn "numpy<2" "pyarrow<20" "pandas<2.3" "scipy<1.15"
+    export PYTHONPATH=$PWD/venv_llm/lib/python3.12/site-packages:$PYTHONPATH
 
-- **Multilingual:** English and Finnish contain human annotations; most additional-language data were created by projecting labels to aligned subtitle lines. The projected labels should therefore be treated as projected reference labels rather than independent human judgements in each language.
-- **Multi-label:** Each subtitle line can be associated with multiple emotions from Plutchik's eight core categories: anger, anticipation, disgust, fear, joy, sadness, surprise, and trust.
-- **Sentence-level subtitles:** Each example is a subtitle line. Surrounding dialogue context is not part of the standard input and may only be introduced as a clearly documented optional extension.
+`requirements.txt` is a `pip freeze` of this environment. It also lists packages
+that come from the cluster module. Versions used: Python 3.12.3, PyTorch 2.7.1,
+transformers 5.20.1, peft 0.21.2, trl 1.16.0, bitsandbytes 0.50.2,
+scikit-learn 1.9.1. Paths in `run_condition.sh` and `run_test.sh` point to
+`/scratch/s6866301`. Edit them for another machine.
 
-The available projected-language files vary enormously in size. At the low end, Macedonian has 300 labelled lines, with Vietnamese (956), Slovak (975), and Icelandic (977) close behind. At the high end, Brazilian Portuguese has 12,295 lines and Spanish 11,303—more than a 40-fold difference. The language allocation in section 3 is designed to expose the cohort to this variation.
+## Reproducing the PEFT results
 
-## 3. Methodology & Tasks
+1. Format the data (writes `data/formatted/*.jsonl`, not committed):
 
-You will work with open-weight language models that can be run through tools such as Hugging Face Transformers. Select models with suitable multilingual coverage and a size that can be prompted and fine-tuned using the available course infrastructure.
+        python src/peft/format_data.py
+        cat data/formatted/dev_en.jsonl data/formatted/dev_es.jsonl > data/formatted/dev_bilingual.jsonl
+        mkdir -p logs predictions
 
-Language Allocation 
+2. Train three conditions x three seeds, with dev predictions:
 
-Each group works on English plus one assigned XED language. Across the cohort, assignments should cover a range of dataset sizes from a few hundred labelled lines to more than twelve thousand. The cohort may then explore whether the observed gap between fine-tuning and prompting is associated with the amount of target-language training data.
+        for s in 42 43 44; do
+          sbatch run_condition.sh english_1ep train_en $s dev_en
+          sbatch run_condition.sh spanish_1ep train_es $s dev_es
+          sbatch run_condition.sh bilingual_1ep train_bilingual $s dev_bilingual
+        done
 
-The languages below are grouped into five resource bands. The examples are illustrative rather than exhaustive.
+3. Test predictions, run once after the setup was frozen on dev:
 
-| Band | Approx. annotated lines | Example languages |
-| --- | --- | --- |
-| 1 — extreme low | under ~1,000 | Macedonian (300), Vietnamese (956), Slovak (975), Icelandic (977) |
-| 2 — very low | ~1,000–4,400 | Danish, Russian, Bosnian, Slovenian, Arabic, Norwegian |
-| 3 — mid-low | ~4,400–6,000 | Hebrew, Swedish, Dutch, German, Hungarian, Croatian |
-| 4 — mid-high | ~6,000–7,300 | Czech, Italian, Bulgarian, Polish, Portuguese, French |
-| 5 — high | ~8,000 and above | Greek, Finnish, Serbian, Turkish, Romanian, Spanish, Brazilian Portuguese |
+        sbatch run_test.sh
 
-How languages are assigned
+4. Metrics (mean and sample std over seeds; use `dev` or `test`):
 
-- Groups are distributed across the five bands so that the cohort covers the broadest feasible range.
-- At the start of Week 1, a short survey collects which of these languages, if any, someone in your group can already read.
-- Where a group has a reader for a language in its band, that preference is taken into account; the instructor confirms the final assignments and settles any overlaps between groups.
+        python src/peft/full_metrics.py test
+        python src/peft/error_analysis.py
 
-**If no one in your group reads the assigned language, that is not a problem for quantitative evaluation.** The assigned-language outputs are evaluated against XED’s projected reference labels. You may inspect aligned English lines to help interpret examples, but those lines do not independently validate translation quality, cultural appropriateness, or the emotional meaning of the assigned-language subtitle.
+## PEFT configuration
 
-Required Data-Splitting Protocol
+- QLoRA: 4-bit NF4, double quantization, bf16 compute.
+- LoRA: all linear layers, rank 16, alpha 32, dropout 0.05
+  (18,464,768 trainable parameters, 1.18%).
+- Learning rate 2e-4, cosine schedule, warmup 3% of steps, per-device batch 8,
+  gradient accumulation 2 (effective 16), max sequence length 256,
+  1 epoch, seeds 42/43/44.
+- Loss on the answer tokens only. Answers are JSON lists in fixed alphabetical
+  order. The prompt wording is the same as in the prompting experiments.
+- Epoch choice: in first runs with 3 epochs, dev loss was lowest after epoch 1
+  in all conditions (English 0.449, 0.469, 0.592; Spanish 0.483, 0.493, 0.585;
+  bilingual 0.475, 0.529, 0.729), so the final runs use 1 epoch.
+  Checkpoint rule: lowest dev loss. Dev set per condition: English,
+  Spanish, or both.
+- Decoding: greedy, max 30 new tokens.
+- Hardware: V100 or A100 on Habrok (SLURM partition gpushort, 1 GPU).
+  Three-epoch runs on a V100 took 36, 38 and 70 minutes. One-epoch runs took
+  about 5 to 7 minutes on an A100 and 16 to 22 minutes on a V100.
+- Model weights and adapters are not committed (`outputs/` is ignored).
 
-- Create one fixed 70/20/10 train/development/test split using a documented seed and a multi-label stratification procedure.
-- Split by XED alignment identifier before constructing the English and assigned-language datasets. Parallel versions of the same subtitle must remain in the same partition.
-- For the required experimental matrix, use matched English–assigned-language pairs: the English dataset should contain the English lines aligned with the assigned-language examples.
-- Detect exact duplicate lines and ensure that duplicates do not occur across partitions.
-- Use the development set for prompt selection, hyperparameter selection, checkpoint selection, and all other design decisions. Use the test set only for the final reported evaluation.
-- Draw all few-shot demonstrations from the training set only.
+## Output parser
 
-Minimum Required Experimental Matrix
+`src/peft/generate.py` parses the model output as a JSON list, lowercases and
+strips labels, removes duplicates, and treats invalid output as an empty
+prediction with a malformed flag. The parser was refactored after the runs:
+re-parsing all 42 saved prediction files (31,590 predictions) with the new
+parser gives identical predicted labels and malformed flags.
 
-Use one **primary base model** for all prompting and PEFT conditions so that the comparisons remain interpretable. Use a **second model only for the zero-shot and few-shot prompting conditions**. The following experiments are mandatory:
+## Evaluation
 
-| Condition | Model(s) | Training / Demonstrations | Evaluate on |
-| --- | --- | --- | --- |
-| Zero-shot prompting | Primary + second | None | English + assigned language |
-| Five-shot prompting | Primary + second | Five fixed, aligned training examples in the evaluation language | English + assigned language |
-| English-only PEFT | Primary | English training set | English + assigned language |
-| Target-language PEFT | Primary | Assigned-language training set | Assigned language |
-| Bilingual PEFT | Primary | English + assigned-language training sets | English + assigned language |
+Metrics are computed from the same binarized 8-label matrix in a fixed label
+order with scikit-learn 1.9.1, `zero_division=0`. Primary: micro-F1 and
+sample-averaged Jaccard. Secondary: macro-F1, micro precision and recall,
+Hamming loss (lower is better). Diagnostic: per-emotion metrics, exact match,
+malformed rate. Standard deviations use n-1 over three seeds.
 
-One PEFT method—LoRA or QLoRA—is required. A second PEFT method, additional ranks/alpha values, translated instructions, context windows, or controlled downsampling are optional extensions. Use the development set to select one final PEFT configuration; a full hyperparameter grid is not required.
+## Prompting experiments
 
-Phase 1: LLM Adaptation and Fine-tuning (Weeks 1–5)
+Zero-shot and five-shot prompting for Qwen and Granite are in
+`scripts/Qwen_Zero_Clean.ipynb`, `scripts/Qwen_FiveShot_clean.ipynb` and
+`scripts/Secondary_LLM_clean.ipynb` (Colab notebooks, fp16). Five few-shot
+examples are drawn from the training set with `random_state=42`. Their metrics
+come from the notebooks' own evaluation code, not from `src/peft`.
 
-- **Data preparation:** Format the English and assigned-language training partitions as instruction-following or conversational examples. Use exactly the eight permitted emotion names and preserve the multi-label targets.
-- **Parameter-efficient fine-tuning:** Use LoRA or QLoRA to run the three required PEFT conditions in the experimental matrix: English-only, assigned-language-only, and bilingual fine-tuning.
-  - Document the adapter targets, rank, alpha, dropout, learning rate, batch size, number of epochs, maximum sequence length, quantization settings, checkpoint-selection rule, random seed, and hardware.
-  - Use the development set—not the test set—to select the final configuration.
-- **Evaluation:** Evaluate each PEFT condition on the test partitions specified in the matrix and compare it with the prompting conditions for the same primary base model. The SVM/BERT values reported by Öhman et al. (2020) may be discussed as historical reference points, but they must not be treated as directly comparable baselines unless the data, splits, label space, and metric definition are reproduced.
-- **Qualitative analysis:** Analyze concrete test examples where fine-tuning improved or worsened predictions compared with prompting. Distinguish model errors from possible subtitle-alignment or label-projection limitations.
+## Results
 
-Phase 2: Zero-Shot and Few-Shot Prompt Engineering (Weeks 5–6)
+Test micro-F1, mean of 3 seeds for PEFT (single runs for prompting):
 
-- **Model selection:** Use the primary model selected for PEFT and one second model for prompting only. Justify both choices in terms of model size, multilingual coverage, licence, and accessibility.
-- **Prompt design:** For each model, implement one zero-shot prompt and one five-shot prompt. Both prompts must:
-  - define the eight permitted emotion labels and explain that one or several labels may be returned;
-  - require a JSON list containing only the permitted English label names;
-  - use the same English-language instruction template for English and assigned-language utterances;
-  - use the same five fixed alignment IDs throughout five-shot evaluation, presenting the English examples for English evaluation and their assigned-language counterparts for assigned-language evaluation; and
-  - report the complete prompt, decoding parameters, and demonstration-selection procedure.
-- **Output parsing:** Normalize case and whitespace, but do not map arbitrary synonyms to labels. Remove duplicate permitted labels. Treat malformed outputs or outputs containing no permitted label as an empty predicted label set; report the malformed-output rate separately.
-- **Evaluation:** Evaluate both prompt conditions on English and the assigned language using section 7. Compare models, languages, and prompt conditions, and analyse sensitivity to prompt wording on the development set. Do not redesign the prompt after inspecting test results.
+    Condition             English   Spanish
+    Qwen zero-shot        0.336     0.310
+    Qwen five-shot        0.343     0.293
+    Granite five-shot     0.359     0.307
+    English-only PEFT     0.464     0.412
+    Spanish-only PEFT     0.419     0.382
+    Bilingual PEFT        0.474     0.406
 
-## 4. Project Timeline & Syllabus Alignment
+All metrics: `predictions/all_metrics_test_summary.csv` and
+`predictions/all_metrics_dev_summary.csv`.
 
-How the two project phases line up against the course's weekly lecture content.
+## Known limitations
 
-| Week | Lecture Topic | Project Activity |
-| --- | --- | --- |
-| 1 | Introduction to LLMs | Phase 1 kickoff: group formation, language-band assignment (§3), dataset exploration, data prep begins. |
-| 2 | Architectures & Scaling Laws | Phase 1 continues: environment setup, baseline model selection. |
-| 3 | Training LLMs | Phase 1: fine-tuning experiments begin (SFT concepts now covered). |
-| 4 | Efficiency in LLMs (LoRA/PEFT/QLoRA) | Phase 1 core work: implement the required English-only, target-language, and bilingual PEFT conditions. |
-| 5 | Prompt Engineering | Phase 1 wraps up (evaluation) — Phase 2 begins (prompt design). |
-| 6 | Knowledge and Reasoning | Phase 2: cross-lingual prompt transfer evaluation and analysis. |
-| 7 | Multimodal LLMs & Future Directions | Course report, codebase finalization, presentation prep, submission. |
-
-## 5. Expected Outcomes / Deliverables
-
-Each group produces three deliverables, all due at the end of Week 7:
-
-- **Technical report (8–12 pages):** a written account of the methods, results, and analysis. See §6 for the required structure.
-- **Reproducible codebase:** well-structured, documented, and runnable code for data preparation, prompting, PEFT, parsing, and evaluation, hosted on GitHub. It must include a README, environment or dependency file, configuration files, fixed seeds, and commands for reproducing the principal results. Do not commit model weights, access tokens, or unnecessary copies of the dataset.
-- **Project presentation:** a concise presentation summarising the methodology, key findings, limitations, and conclusions.
-
-## 6. Report Structure
-
-The technical report should be 8–12 pages, excluding references and appendices, and cover the elements below. Treat this as a scaffold rather than a fixed form: you may merge or reorder sections where this makes your argument clearer, as long as a reader can find each element. The page figures are rough guidance for the 8–12-page budget, not hard limits.
-
-| Section | ~Pages | What it covers |
-| --- | --- | --- |
-| 1. Introduction & Motivation | ~1 | The problem, why multilingual and multi-label emotion detection is hard, your objectives, and your group’s assigned language and band. |
-| 2. Background | ~1 | A short account of XED and the approaches you use (PEFT, prompting). Keep it brief — depth belongs in later sections. |
-| 3. Data & Task Setup | ~1 | The XED data for your language, projected-label status, label space, leakage controls, train/development/test split, and data formatting. |
-| 4. Methodology | ~2 | The models and selection rationale; PEFT setup and training conditions; prompt templates and demonstrations; decoding settings; and output parser. |
-| 5. Evaluation Protocol | ~0.5–1 | The metrics in section 7, random seeds, evaluation script, malformed-output policy, and controlled comparisons. Published XED values may be included separately as historical reference points. |
-| 6. Results | ~2 | Your quantitative findings in clear tables and charts, using the multi-label metrics. |
-| 7. Analysis & Discussion | ~2 | Error analysis with concrete examples; cross-lingual transfer, prompt sensitivity, and the PEFT-versus-prompting trade-off; malformed outputs; projected-label limitations; and other biases or limitations. Do not attribute cross-language differences to culture without direct evidence. |
-| 8. Conclusion & Future Work | ~0.5 | What you conclude, and what you would do with more time. |
-| 9. References (+ optional Appendix) | — | Full references (any length). An appendix may hold the prompts you used, extra tables, and similar material. |
-
-## 7. Evaluation Metrics
-
-- **Primary:** micro-averaged F1 and sample-averaged Jaccard index.
-- **Secondary:** macro-averaged F1, micro-averaged precision and recall, and Hamming loss. Remember that lower Hamming loss is better.
-- **Diagnostic:** per-emotion precision, recall, F1, and support; exact-match ratio; and malformed-output rate for prompted models.
-
-Compute every metric from the same binarized eight-label predictions. Use a fixed label order and report the software implementation and version. When a metric is undefined because a class has no positive examples or predictions, use a documented zero-division policy consistently. Report the random seed for every run; if conditions are repeated, report the mean and standard deviation.
-
-Absolute performance is not graded directly. Assessment should reward methodological correctness, reproducibility, interpretation, and critical analysis. See the companion grading rubric for how these map to report, codebase, and presentation scores.
-
-## 8. Tools & Technologies (Recommended)
-
-- Programming Language: Python
-- Libraries:
-  - Hugging Face Transformers: for accessing and working with LLMs.
-  - Hugging Face PEFT: for Parameter-Efficient Fine-Tuning (LoRA, QLoRA).
-  - scikit-learn: for evaluation metrics.
-  - pandas and NumPy: for data handling.
-  - Matplotlib and seaborn: for visualisation.
-  - Hugging Face Datasets: for data loading and processing.
+- Prompting and PEFT metrics come from different code. Prompting results are
+  single runs in fp16, PEFT used 4-bit QLoRA.
+- Only the epoch count was selected on dev. Rank, alpha and learning rate are
+  defaults, and checkpoints were chosen by dev loss, not dev F1.
+- The prompt does not state that several labels may be returned.
